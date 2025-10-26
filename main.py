@@ -1,8 +1,8 @@
 import tkinter as tk
-from forms.form_master import VentanaPrincipal
+from forms.form_login import VentanaLogin
 
 if __name__ == "__main__":
     root = tk.Tk()
-    app = VentanaPrincipal(root)
+    app = VentanaLogin(root)
     root.mainloop()
 
