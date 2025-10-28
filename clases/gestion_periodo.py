@@ -2,7 +2,7 @@ import json
 from datetime import datetime
 
 class GestionPeriodo:
-    ARCHIVO = "data/periodos.json"
+    ARCHIVO = "periodos.json"
 
     def __init__(self):
         self.periodos = self.cargar_periodos()
