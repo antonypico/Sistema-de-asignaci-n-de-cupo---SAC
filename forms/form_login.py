@@ -27,23 +27,21 @@ class VentanaLogin:
     # Métodos de los frames
 
 
-    def _crear_interfaz(self):
-        """Crea los frames y widgets del login"""
+    def _crear_interfaz(self): 
+        #Crea los frames y widgets del login
         self._crear_frame_logo()
         self._crear_frame_formulario()
 
     def _crear_frame_logo(self):
-        """Frame izquierdo con el logo"""
-        frame_logo = tk.Frame(
-            self.root, bd=0, width=300, relief=tk.SOLID, padx=10, pady=10, bg="#EBEBEB"
-        )
+        #Frame izquierdo con el logo
+        frame_logo = tk.Frame(self.root, bd=0, width=300, relief=tk.SOLID, padx=10, pady=10, bg="#EBEBEB")
         frame_logo.pack(side="left", expand=tk.NO, fill=tk.BOTH)
 
         label_logo = tk.Label(frame_logo, image=self.logo, bg="#EBEBEB")
         label_logo.pack(fill=tk.BOTH, expand=True)
 
     def _crear_frame_formulario(self):
-        """Frame derecho con los campos de login"""
+        #Frame derecho con los campos de login
         frame_form = tk.Frame(self.root, bd=0, relief=tk.SOLID, bg="#fcfcfc")
         frame_form.pack(side="right", expand=tk.YES, fill=tk.BOTH)
 
@@ -99,17 +97,17 @@ class VentanaLogin:
     # Métodos de lógica
 
     def verificar_usuario(self):
-        """Verifica si el usuario y contraseña son correctos"""
+        #Verifica si el usuario y contraseña son correctos
         usuario = self.usuario.get().strip()
         contraseña = self.contraseña.get().strip()
 
         if self._credenciales_validas(usuario, contraseña):
             self._abrir_ventana_bienvenida()
         else:
-            messagebox.showerror("Error", "Usuario o contraseña incorrectos 😅")
+            messagebox.showerror("Error", "Usuario o contraseña incorrectos")
 
     def _credenciales_validas(self, usuario, contraseña):
-        """Comprueba las credenciales (se puede mejorar con BD después)"""
+        #Comprueba las credenciales (se puede mejorar con BD después)
         usuarios_validos = {
             "Admin": "12345",
             "Admin_2": "Administrador_2"
@@ -117,7 +115,7 @@ class VentanaLogin:
         return usuarios_validos.get(usuario) == contraseña
 
     def _abrir_ventana_bienvenida(self):
-        """Abre la ventana principal después del login"""
+        #Abre la ventana principal después del login
         self.root.destroy()
         root = tk.Tk()
         VentanaBienvenida(root)
