@@ -147,3 +147,4 @@ class ListarPeriodosView(VentanaBase):
 
         except ValueError as e:
             messagebox.showwarning("Advertencia", str(e))
+            
