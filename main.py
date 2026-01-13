@@ -1,7 +1,9 @@
 import tkinter as tk
-from IU.form_login import VentanaLogin
+from iu.login.form_login import LoginView
+
 
 if __name__ == "__main__":
     root = tk.Tk()
-    app = VentanaLogin(root)
+    root.withdraw()  # Oculta ventana raíz
+    LoginView(root)
     root.mainloop()

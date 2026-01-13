@@ -1,17 +1,29 @@
-# domain/periodo.py
+from datetime import date
+
 
 class Periodo:
-    def __init__(self,
-        id_periodo,
-        nombre,
-        activo=False):
-        
-        self.id_periodo = id_periodo
+    def __init__(self, nombre, fecha_inicio, fecha_fin, activo=True):
         self.nombre = nombre
+        self.fecha_inicio = fecha_inicio
+        self.fecha_fin = fecha_fin
         self.activo = activo
 
-    def activar(self):
-        self.activo = True
-
-    def cerrar(self):
+    def finalizar(self):
         self.activo = False
+
+    def a_diccionario(self):
+        return {
+            "nombre": self.nombre,
+            "fecha_inicio": self.fecha_inicio.isoformat(),
+            "fecha_fin": self.fecha_fin.isoformat(),
+            "activo": self.activo
+        }
+
+    @staticmethod
+    def desde_diccionario(data):
+        return Periodo(
+            nombre=data["nombre"],
+            fecha_inicio=date.fromisoformat(data["fecha_inicio"]),
+            fecha_fin=date.fromisoformat(data["fecha_fin"]),
+            activo=data["activo"]
+        )
