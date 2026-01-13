@@ -1,1 +1,57 @@
 
+import tkinter as tk
+from tkinter import ttk, messagebox
+
+class FormVerResultados(tk.Toplevel):
+    def __init__(self, master=None):
+        super().__init__(master)
+        self.title("Ver Resultados")
+        self.geometry("600x400")
+        self.resizable(False, False)
+
+        self.crear_widgets()
+
+    def crear_widgets(self):
+        # Título
+        lbl_titulo = tk.Label(
+            self,
+            text="Resultados de Asignación de Cupos",
+            font=("Arial", 14, "bold")
+        )
+        lbl_titulo.pack(pady=10)
+
+        # Tabla de resultados
+        columnas = ("estudiante", "carrera", "cupo")
+        self.tabla = ttk.Treeview(self, columns=columnas, show="headings")
+
+        self.tabla.heading("estudiante", text="Estudiante")
+        self.tabla.heading("carrera", text="Carrera Asignada")
+        self.tabla.heading("cupo", text="Estado del Cupo")
+
+        self.tabla.column("estudiante", width=200)
+        self.tabla.column("carrera", width=200)
+        self.tabla.column("cupo", width=150)
+
+        self.tabla.pack(expand=True, fill="both", padx=10, pady=10)
+
+        # Datos de ejemplo (luego se reemplazan por BD)
+        resultados_ejemplo = [
+            ("Juan Pérez", "Ingeniería Software", "Asignado"),
+            ("Ana Gómez", "Medicina", "No Asignado"),
+            ("Luis Torres", "Derecho", "Asignado"),
+        ]
+
+        for r in resultados_ejemplo:
+            self.tabla.insert("", "end", values=r)
+
+        # Botón cerrar
+        btn_cerrar = tk.Button(self, text="Cerrar", command=self.destroy)
+        btn_cerrar.pack(pady=10)
+
+
+# Prueba independiente
+if __name__ == "__main__":
+    root = tk.Tk()
+    root.withdraw()
+    FormVerResultados(root)
+    root.mainloop()
