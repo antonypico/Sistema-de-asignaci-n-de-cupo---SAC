@@ -24,13 +24,20 @@ class SegmentoMeritoAcademico(SegmentoAsignacionStrategy):
 
         for estudiante in merito:
             asignado = False
+
             for opcion in estudiante.opciones_carrera:
+                opcion_normalizada = opcion.strip().lower()
+
                 oferta = next(
-                    (o for o in ofertas if o.carrera.nombre == opcion),
+                    (
+                        o for o in ofertas
+                        if o.nombre_carrera.strip().lower() == opcion_normalizada
+                        and o.tiene_cupos()
+                    ),
                     None
                 )
 
-                if oferta and oferta.tiene_cupos():
+                if oferta:
                     oferta.consumir_cupo()
                     estudiante.marcar_asignado(oferta)
                     asignados.append(estudiante)
@@ -41,7 +48,7 @@ class SegmentoMeritoAcademico(SegmentoAsignacionStrategy):
                 no_asignados.append(estudiante)
 
         for e in estudiantes:
-            if e not in merito:
+            if e not in merito and not e.esta_asignado():
                 no_asignados.append(e)
 
         print(f"Estrategia ejecutada: {self.nombre_segmento}")

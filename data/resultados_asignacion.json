@@ -1,0 +1,7502 @@
+[
+    {
+        "id_postulante": "P0001",
+        "nombre_completo": "Pedro Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0002",
+        "nombre_completo": "Lucia Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0003",
+        "nombre_completo": "Juan Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0004",
+        "nombre_completo": "Miguel Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0005",
+        "nombre_completo": "Lucia Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0006",
+        "nombre_completo": "Carlos Castro",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0007",
+        "nombre_completo": "Carlos Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0008",
+        "nombre_completo": "Maria Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0009",
+        "nombre_completo": "Ana Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0010",
+        "nombre_completo": "Juan Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0011",
+        "nombre_completo": "Miguel Mendoza",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0012",
+        "nombre_completo": "Miguel Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0013",
+        "nombre_completo": "Pedro Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0014",
+        "nombre_completo": "Miguel Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0015",
+        "nombre_completo": "Lucia Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0016",
+        "nombre_completo": "Pedro Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0017",
+        "nombre_completo": "Juan Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0018",
+        "nombre_completo": "Lucia Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0019",
+        "nombre_completo": "Rosa Gomez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0020",
+        "nombre_completo": "Maria Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0021",
+        "nombre_completo": "Pedro Mendoza",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0022",
+        "nombre_completo": "Lucia Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0023",
+        "nombre_completo": "Maria Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0024",
+        "nombre_completo": "Rosa Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0025",
+        "nombre_completo": "Rosa Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0026",
+        "nombre_completo": "Miguel Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0027",
+        "nombre_completo": "Miguel Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0028",
+        "nombre_completo": "Juan Castro",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0029",
+        "nombre_completo": "Juan Lopez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0030",
+        "nombre_completo": "Juan Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0031",
+        "nombre_completo": "Ana Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0032",
+        "nombre_completo": "Juan Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0033",
+        "nombre_completo": "Ana Mendoza",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0034",
+        "nombre_completo": "Sofia Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0035",
+        "nombre_completo": "Ana Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0036",
+        "nombre_completo": "Miguel Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0037",
+        "nombre_completo": "Miguel Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0038",
+        "nombre_completo": "Lucia Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0039",
+        "nombre_completo": "Juan Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0040",
+        "nombre_completo": "Luis Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0041",
+        "nombre_completo": "Juan Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0042",
+        "nombre_completo": "Carlos Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0043",
+        "nombre_completo": "Miguel Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0044",
+        "nombre_completo": "Ana Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0045",
+        "nombre_completo": "Luis Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0046",
+        "nombre_completo": "Rosa Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0047",
+        "nombre_completo": "Pedro Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0048",
+        "nombre_completo": "Luis Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0049",
+        "nombre_completo": "Lucia Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0050",
+        "nombre_completo": "Rosa Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0051",
+        "nombre_completo": "Pedro Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0052",
+        "nombre_completo": "Pedro Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0053",
+        "nombre_completo": "Pedro Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0054",
+        "nombre_completo": "Pedro Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0055",
+        "nombre_completo": "Maria Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0056",
+        "nombre_completo": "Carlos Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0057",
+        "nombre_completo": "Pedro Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0058",
+        "nombre_completo": "Sofia Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0059",
+        "nombre_completo": "Pedro Zambrano",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0060",
+        "nombre_completo": "Miguel Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0061",
+        "nombre_completo": "Miguel Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0062",
+        "nombre_completo": "Miguel Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0063",
+        "nombre_completo": "Juan Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0064",
+        "nombre_completo": "Juan Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0065",
+        "nombre_completo": "Luis Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0066",
+        "nombre_completo": "Juan Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0067",
+        "nombre_completo": "Lucia Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0068",
+        "nombre_completo": "Luis Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0069",
+        "nombre_completo": "Lucia Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0070",
+        "nombre_completo": "Miguel Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0071",
+        "nombre_completo": "Miguel Mendoza",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0072",
+        "nombre_completo": "Ana Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0073",
+        "nombre_completo": "Lucia Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0074",
+        "nombre_completo": "Juan Zambrano",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0075",
+        "nombre_completo": "Lucia Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0076",
+        "nombre_completo": "Carlos Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0077",
+        "nombre_completo": "Juan Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0078",
+        "nombre_completo": "Juan Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0079",
+        "nombre_completo": "Maria Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0080",
+        "nombre_completo": "Sofia Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0081",
+        "nombre_completo": "Luis Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0082",
+        "nombre_completo": "Miguel Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0083",
+        "nombre_completo": "Pedro Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0084",
+        "nombre_completo": "Juan Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0085",
+        "nombre_completo": "Lucia Castro",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0086",
+        "nombre_completo": "Sofia Castro",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0087",
+        "nombre_completo": "Lucia Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0088",
+        "nombre_completo": "Pedro Torres",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0089",
+        "nombre_completo": "Luis Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0090",
+        "nombre_completo": "Miguel Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0091",
+        "nombre_completo": "Rosa Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0092",
+        "nombre_completo": "Ana Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0093",
+        "nombre_completo": "Lucia Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0094",
+        "nombre_completo": "Maria Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0095",
+        "nombre_completo": "Maria Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0096",
+        "nombre_completo": "Ana Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0097",
+        "nombre_completo": "Carlos Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0098",
+        "nombre_completo": "Luis Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0099",
+        "nombre_completo": "Luis Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0100",
+        "nombre_completo": "Sofia Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0101",
+        "nombre_completo": "Sofia Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0102",
+        "nombre_completo": "Maria Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0103",
+        "nombre_completo": "Lucia Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0104",
+        "nombre_completo": "Rosa Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0105",
+        "nombre_completo": "Ana Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0106",
+        "nombre_completo": "Lucia Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0107",
+        "nombre_completo": "Miguel Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0108",
+        "nombre_completo": "Miguel Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0109",
+        "nombre_completo": "Ana Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0110",
+        "nombre_completo": "Maria Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0111",
+        "nombre_completo": "Pedro Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0112",
+        "nombre_completo": "Ana Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0113",
+        "nombre_completo": "Miguel Perez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0114",
+        "nombre_completo": "Rosa Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0115",
+        "nombre_completo": "Carlos Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0116",
+        "nombre_completo": "Carlos Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0117",
+        "nombre_completo": "Carlos Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0118",
+        "nombre_completo": "Ana Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0119",
+        "nombre_completo": "Luis Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0120",
+        "nombre_completo": "Juan Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0121",
+        "nombre_completo": "Rosa Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0122",
+        "nombre_completo": "Juan Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0123",
+        "nombre_completo": "Lucia Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0124",
+        "nombre_completo": "Sofia Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0125",
+        "nombre_completo": "Pedro Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0126",
+        "nombre_completo": "Luis Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0127",
+        "nombre_completo": "Miguel Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0128",
+        "nombre_completo": "Carlos Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0129",
+        "nombre_completo": "Ana Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0130",
+        "nombre_completo": "Carlos Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0131",
+        "nombre_completo": "Rosa Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0132",
+        "nombre_completo": "Luis Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0133",
+        "nombre_completo": "Maria Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0134",
+        "nombre_completo": "Luis Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0135",
+        "nombre_completo": "Miguel Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0136",
+        "nombre_completo": "Sofia Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0137",
+        "nombre_completo": "Pedro Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0138",
+        "nombre_completo": "Sofia Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0139",
+        "nombre_completo": "Miguel Torres",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0140",
+        "nombre_completo": "Pedro Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0141",
+        "nombre_completo": "Carlos Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0142",
+        "nombre_completo": "Ana Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0143",
+        "nombre_completo": "Juan Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0144",
+        "nombre_completo": "Luis Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0145",
+        "nombre_completo": "Pedro Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0146",
+        "nombre_completo": "Ana Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0147",
+        "nombre_completo": "Lucia Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0148",
+        "nombre_completo": "Ana Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0149",
+        "nombre_completo": "Pedro Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0150",
+        "nombre_completo": "Juan Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0151",
+        "nombre_completo": "Ana Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0152",
+        "nombre_completo": "Lucia Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0153",
+        "nombre_completo": "Maria Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0154",
+        "nombre_completo": "Maria Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0155",
+        "nombre_completo": "Rosa Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0156",
+        "nombre_completo": "Maria Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0157",
+        "nombre_completo": "Rosa Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0158",
+        "nombre_completo": "Carlos Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0159",
+        "nombre_completo": "Juan Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0160",
+        "nombre_completo": "Pedro Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0161",
+        "nombre_completo": "Luis Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0162",
+        "nombre_completo": "Maria Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0163",
+        "nombre_completo": "Miguel Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0164",
+        "nombre_completo": "Sofia Garcia",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0165",
+        "nombre_completo": "Carlos Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0166",
+        "nombre_completo": "Rosa Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0167",
+        "nombre_completo": "Carlos Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0168",
+        "nombre_completo": "Miguel Gomez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0169",
+        "nombre_completo": "Miguel Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0170",
+        "nombre_completo": "Lucia Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0171",
+        "nombre_completo": "Pedro Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0172",
+        "nombre_completo": "Miguel Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0173",
+        "nombre_completo": "Miguel Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0174",
+        "nombre_completo": "Miguel Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0175",
+        "nombre_completo": "Juan Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0176",
+        "nombre_completo": "Sofia Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0177",
+        "nombre_completo": "Luis Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0178",
+        "nombre_completo": "Lucia Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0179",
+        "nombre_completo": "Lucia Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0180",
+        "nombre_completo": "Miguel Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0181",
+        "nombre_completo": "Pedro Mendoza",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0182",
+        "nombre_completo": "Pedro Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0183",
+        "nombre_completo": "Maria Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0184",
+        "nombre_completo": "Pedro Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0185",
+        "nombre_completo": "Miguel Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0186",
+        "nombre_completo": "Luis Mendoza",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0187",
+        "nombre_completo": "Juan Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0188",
+        "nombre_completo": "Miguel Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0189",
+        "nombre_completo": "Lucia Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0190",
+        "nombre_completo": "Carlos Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0191",
+        "nombre_completo": "Maria Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0192",
+        "nombre_completo": "Ana Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0193",
+        "nombre_completo": "Maria Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0194",
+        "nombre_completo": "Lucia Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0195",
+        "nombre_completo": "Ana Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0196",
+        "nombre_completo": "Rosa Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0197",
+        "nombre_completo": "Ana Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0198",
+        "nombre_completo": "Pedro Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0199",
+        "nombre_completo": "Carlos Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0200",
+        "nombre_completo": "Pedro Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0201",
+        "nombre_completo": "Carlos Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0202",
+        "nombre_completo": "Juan Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0203",
+        "nombre_completo": "Maria Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0204",
+        "nombre_completo": "Ana Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0205",
+        "nombre_completo": "Ana Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0206",
+        "nombre_completo": "Lucia Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0207",
+        "nombre_completo": "Carlos Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0208",
+        "nombre_completo": "Luis Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0209",
+        "nombre_completo": "Ana Castro",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0210",
+        "nombre_completo": "Luis Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0211",
+        "nombre_completo": "Luis Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0212",
+        "nombre_completo": "Carlos Mendoza",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0213",
+        "nombre_completo": "Lucia Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0214",
+        "nombre_completo": "Maria Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0215",
+        "nombre_completo": "Ana Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0216",
+        "nombre_completo": "Carlos Gomez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0217",
+        "nombre_completo": "Juan Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0218",
+        "nombre_completo": "Maria Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0219",
+        "nombre_completo": "Carlos Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0220",
+        "nombre_completo": "Maria Castro",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0221",
+        "nombre_completo": "Ana Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0222",
+        "nombre_completo": "Lucia Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0223",
+        "nombre_completo": "Luis Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0224",
+        "nombre_completo": "Luis Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0225",
+        "nombre_completo": "Pedro Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0226",
+        "nombre_completo": "Pedro Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0227",
+        "nombre_completo": "Sofia Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0228",
+        "nombre_completo": "Juan Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0229",
+        "nombre_completo": "Rosa Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0230",
+        "nombre_completo": "Luis Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0231",
+        "nombre_completo": "Sofia Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0232",
+        "nombre_completo": "Maria Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0233",
+        "nombre_completo": "Juan Lopez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0234",
+        "nombre_completo": "Carlos Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0235",
+        "nombre_completo": "Rosa Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0236",
+        "nombre_completo": "Maria Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0237",
+        "nombre_completo": "Sofia Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0238",
+        "nombre_completo": "Juan Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0239",
+        "nombre_completo": "Rosa Garcia",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0240",
+        "nombre_completo": "Sofia Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0241",
+        "nombre_completo": "Maria Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0242",
+        "nombre_completo": "Sofia Cedeño",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0243",
+        "nombre_completo": "Pedro Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0244",
+        "nombre_completo": "Pedro Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0245",
+        "nombre_completo": "Ana Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0246",
+        "nombre_completo": "Rosa Vera",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0247",
+        "nombre_completo": "Maria Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0248",
+        "nombre_completo": "Luis Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0249",
+        "nombre_completo": "Sofia Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0250",
+        "nombre_completo": "Carlos Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0251",
+        "nombre_completo": "Luis Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0252",
+        "nombre_completo": "Lucia Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0253",
+        "nombre_completo": "Rosa Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0254",
+        "nombre_completo": "Carlos Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0255",
+        "nombre_completo": "Maria Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0256",
+        "nombre_completo": "Juan Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0257",
+        "nombre_completo": "Carlos Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0258",
+        "nombre_completo": "Sofia Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0259",
+        "nombre_completo": "Rosa Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0260",
+        "nombre_completo": "Maria Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0261",
+        "nombre_completo": "Sofia Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0262",
+        "nombre_completo": "Miguel Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0263",
+        "nombre_completo": "Luis Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0264",
+        "nombre_completo": "Rosa Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0265",
+        "nombre_completo": "Maria Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0266",
+        "nombre_completo": "Carlos Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0267",
+        "nombre_completo": "Rosa Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0268",
+        "nombre_completo": "Lucia Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0269",
+        "nombre_completo": "Ana Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0270",
+        "nombre_completo": "Ana Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0271",
+        "nombre_completo": "Miguel Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0272",
+        "nombre_completo": "Ana Gomez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0273",
+        "nombre_completo": "Sofia Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0274",
+        "nombre_completo": "Pedro Castro",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0275",
+        "nombre_completo": "Miguel Castro",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0276",
+        "nombre_completo": "Miguel Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0277",
+        "nombre_completo": "Ana Zambrano",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0278",
+        "nombre_completo": "Carlos Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0279",
+        "nombre_completo": "Pedro Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0280",
+        "nombre_completo": "Maria Torres",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0281",
+        "nombre_completo": "Lucia Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0282",
+        "nombre_completo": "Lucia Vera",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0283",
+        "nombre_completo": "Carlos Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0284",
+        "nombre_completo": "Maria Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0285",
+        "nombre_completo": "Carlos Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0286",
+        "nombre_completo": "Miguel Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0287",
+        "nombre_completo": "Carlos Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0288",
+        "nombre_completo": "Carlos Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0289",
+        "nombre_completo": "Juan Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0290",
+        "nombre_completo": "Luis Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0291",
+        "nombre_completo": "Maria Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0292",
+        "nombre_completo": "Rosa Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0293",
+        "nombre_completo": "Rosa Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0294",
+        "nombre_completo": "Rosa Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0295",
+        "nombre_completo": "Miguel Zambrano",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0296",
+        "nombre_completo": "Rosa Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0297",
+        "nombre_completo": "Lucia Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0298",
+        "nombre_completo": "Miguel Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0299",
+        "nombre_completo": "Luis Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0300",
+        "nombre_completo": "Luis Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0301",
+        "nombre_completo": "Pedro Zambrano",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0302",
+        "nombre_completo": "Ana Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0303",
+        "nombre_completo": "Luis Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0304",
+        "nombre_completo": "Carlos Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0305",
+        "nombre_completo": "Luis Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0306",
+        "nombre_completo": "Maria Vera",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0307",
+        "nombre_completo": "Miguel Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0308",
+        "nombre_completo": "Pedro Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0309",
+        "nombre_completo": "Maria Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0310",
+        "nombre_completo": "Carlos Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0311",
+        "nombre_completo": "Carlos Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0312",
+        "nombre_completo": "Sofia Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0313",
+        "nombre_completo": "Luis Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0314",
+        "nombre_completo": "Juan Lopez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0315",
+        "nombre_completo": "Miguel Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0316",
+        "nombre_completo": "Lucia Cedeño",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0317",
+        "nombre_completo": "Pedro Vera",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0318",
+        "nombre_completo": "Pedro Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0319",
+        "nombre_completo": "Lucia Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0320",
+        "nombre_completo": "Carlos Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0321",
+        "nombre_completo": "Miguel Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0322",
+        "nombre_completo": "Miguel Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0323",
+        "nombre_completo": "Luis Castro",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0324",
+        "nombre_completo": "Maria Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0325",
+        "nombre_completo": "Sofia Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0326",
+        "nombre_completo": "Maria Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0327",
+        "nombre_completo": "Miguel Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0328",
+        "nombre_completo": "Carlos Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0329",
+        "nombre_completo": "Juan Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0330",
+        "nombre_completo": "Luis Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0331",
+        "nombre_completo": "Luis Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0332",
+        "nombre_completo": "Luis Vera",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0333",
+        "nombre_completo": "Luis Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0334",
+        "nombre_completo": "Ana Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0335",
+        "nombre_completo": "Luis Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0336",
+        "nombre_completo": "Miguel Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0337",
+        "nombre_completo": "Carlos Mendoza",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0338",
+        "nombre_completo": "Miguel Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0339",
+        "nombre_completo": "Juan Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0340",
+        "nombre_completo": "Lucia Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0341",
+        "nombre_completo": "Miguel Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0342",
+        "nombre_completo": "Ana Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0343",
+        "nombre_completo": "Maria Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0344",
+        "nombre_completo": "Rosa Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0345",
+        "nombre_completo": "Lucia Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0346",
+        "nombre_completo": "Pedro Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0347",
+        "nombre_completo": "Lucia Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0348",
+        "nombre_completo": "Rosa Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0349",
+        "nombre_completo": "Juan Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0350",
+        "nombre_completo": "Pedro Castro",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0351",
+        "nombre_completo": "Lucia Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0352",
+        "nombre_completo": "Maria Zambrano",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0353",
+        "nombre_completo": "Sofia Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0354",
+        "nombre_completo": "Miguel Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0355",
+        "nombre_completo": "Pedro Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0356",
+        "nombre_completo": "Pedro Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0357",
+        "nombre_completo": "Luis Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0358",
+        "nombre_completo": "Maria Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0359",
+        "nombre_completo": "Luis Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0360",
+        "nombre_completo": "Pedro Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0361",
+        "nombre_completo": "Ana Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0362",
+        "nombre_completo": "Miguel Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0363",
+        "nombre_completo": "Ana Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0364",
+        "nombre_completo": "Juan Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0365",
+        "nombre_completo": "Lucia Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0366",
+        "nombre_completo": "Carlos Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0367",
+        "nombre_completo": "Maria Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0368",
+        "nombre_completo": "Rosa Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0369",
+        "nombre_completo": "Maria Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0370",
+        "nombre_completo": "Luis Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0371",
+        "nombre_completo": "Miguel Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0372",
+        "nombre_completo": "Ana Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0373",
+        "nombre_completo": "Carlos Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0374",
+        "nombre_completo": "Lucia Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0375",
+        "nombre_completo": "Rosa Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0376",
+        "nombre_completo": "Carlos Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0377",
+        "nombre_completo": "Rosa Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0378",
+        "nombre_completo": "Ana Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0379",
+        "nombre_completo": "Maria Vera",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0380",
+        "nombre_completo": "Luis Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0381",
+        "nombre_completo": "Rosa Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0382",
+        "nombre_completo": "Ana Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0383",
+        "nombre_completo": "Carlos Castro",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0384",
+        "nombre_completo": "Carlos Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0385",
+        "nombre_completo": "Sofia Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0386",
+        "nombre_completo": "Maria Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0387",
+        "nombre_completo": "Juan Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0388",
+        "nombre_completo": "Rosa Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0389",
+        "nombre_completo": "Carlos Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0390",
+        "nombre_completo": "Rosa Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0391",
+        "nombre_completo": "Lucia Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0392",
+        "nombre_completo": "Ana Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0393",
+        "nombre_completo": "Lucia Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0394",
+        "nombre_completo": "Sofia Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0395",
+        "nombre_completo": "Pedro Torres",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0396",
+        "nombre_completo": "Pedro Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0397",
+        "nombre_completo": "Rosa Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0398",
+        "nombre_completo": "Pedro Garcia",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0399",
+        "nombre_completo": "Luis Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0400",
+        "nombre_completo": "Luis Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0401",
+        "nombre_completo": "Rosa Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0402",
+        "nombre_completo": "Luis Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0403",
+        "nombre_completo": "Juan Perez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0404",
+        "nombre_completo": "Juan Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0405",
+        "nombre_completo": "Sofia Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0406",
+        "nombre_completo": "Lucia Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0407",
+        "nombre_completo": "Ana Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0408",
+        "nombre_completo": "Lucia Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0409",
+        "nombre_completo": "Maria Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0410",
+        "nombre_completo": "Rosa Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0411",
+        "nombre_completo": "Sofia Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0412",
+        "nombre_completo": "Lucia Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0413",
+        "nombre_completo": "Ana Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0414",
+        "nombre_completo": "Lucia Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0415",
+        "nombre_completo": "Lucia Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0416",
+        "nombre_completo": "Juan Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0417",
+        "nombre_completo": "Rosa Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0418",
+        "nombre_completo": "Maria Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0419",
+        "nombre_completo": "Ana Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0420",
+        "nombre_completo": "Pedro Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0421",
+        "nombre_completo": "Maria Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0422",
+        "nombre_completo": "Maria Gomez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0423",
+        "nombre_completo": "Sofia Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0424",
+        "nombre_completo": "Luis Castro",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0425",
+        "nombre_completo": "Pedro Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0426",
+        "nombre_completo": "Rosa Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0427",
+        "nombre_completo": "Rosa Vera",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0428",
+        "nombre_completo": "Juan Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0429",
+        "nombre_completo": "Maria Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0430",
+        "nombre_completo": "Miguel Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0431",
+        "nombre_completo": "Juan Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0432",
+        "nombre_completo": "Maria Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0433",
+        "nombre_completo": "Maria Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0434",
+        "nombre_completo": "Carlos Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0435",
+        "nombre_completo": "Juan Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0436",
+        "nombre_completo": "Ana Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0437",
+        "nombre_completo": "Sofia Mendoza",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0438",
+        "nombre_completo": "Juan Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0439",
+        "nombre_completo": "Rosa Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0440",
+        "nombre_completo": "Miguel Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0441",
+        "nombre_completo": "Juan Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0442",
+        "nombre_completo": "Lucia Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0443",
+        "nombre_completo": "Carlos Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0444",
+        "nombre_completo": "Luis Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0445",
+        "nombre_completo": "Miguel Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0446",
+        "nombre_completo": "Lucia Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0447",
+        "nombre_completo": "Miguel Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0448",
+        "nombre_completo": "Maria Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0449",
+        "nombre_completo": "Miguel Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0450",
+        "nombre_completo": "Sofia Gomez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0451",
+        "nombre_completo": "Maria Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0452",
+        "nombre_completo": "Luis Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0453",
+        "nombre_completo": "Ana Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0454",
+        "nombre_completo": "Ana Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0455",
+        "nombre_completo": "Rosa Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0456",
+        "nombre_completo": "Carlos Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0457",
+        "nombre_completo": "Carlos Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0458",
+        "nombre_completo": "Pedro Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0459",
+        "nombre_completo": "Pedro Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0460",
+        "nombre_completo": "Maria Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0461",
+        "nombre_completo": "Pedro Cedeño",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0462",
+        "nombre_completo": "Carlos Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0463",
+        "nombre_completo": "Maria Castro",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0464",
+        "nombre_completo": "Lucia Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0465",
+        "nombre_completo": "Carlos Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0466",
+        "nombre_completo": "Carlos Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0467",
+        "nombre_completo": "Carlos Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0468",
+        "nombre_completo": "Ana Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0469",
+        "nombre_completo": "Miguel Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0470",
+        "nombre_completo": "Luis Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0471",
+        "nombre_completo": "Sofia Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0472",
+        "nombre_completo": "Rosa Castro",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0473",
+        "nombre_completo": "Rosa Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0474",
+        "nombre_completo": "Lucia Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0475",
+        "nombre_completo": "Luis Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0476",
+        "nombre_completo": "Miguel Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0477",
+        "nombre_completo": "Lucia Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0478",
+        "nombre_completo": "Pedro Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0479",
+        "nombre_completo": "Carlos Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0480",
+        "nombre_completo": "Carlos Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0481",
+        "nombre_completo": "Sofia Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0482",
+        "nombre_completo": "Maria Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0483",
+        "nombre_completo": "Maria Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0484",
+        "nombre_completo": "Luis Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0485",
+        "nombre_completo": "Juan Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0486",
+        "nombre_completo": "Luis Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0487",
+        "nombre_completo": "Carlos Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0488",
+        "nombre_completo": "Luis Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0489",
+        "nombre_completo": "Juan Mendoza",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0490",
+        "nombre_completo": "Sofia Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0491",
+        "nombre_completo": "Juan Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0492",
+        "nombre_completo": "Lucia Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0493",
+        "nombre_completo": "Sofia Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0494",
+        "nombre_completo": "Juan Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0495",
+        "nombre_completo": "Carlos Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0496",
+        "nombre_completo": "Maria Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0497",
+        "nombre_completo": "Juan Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0498",
+        "nombre_completo": "Sofia Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0499",
+        "nombre_completo": "Carlos Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0500",
+        "nombre_completo": "Miguel Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0501",
+        "nombre_completo": "Carlos Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0502",
+        "nombre_completo": "Maria Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0503",
+        "nombre_completo": "Miguel Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0504",
+        "nombre_completo": "Maria Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0505",
+        "nombre_completo": "Ana Perez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0506",
+        "nombre_completo": "Carlos Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0507",
+        "nombre_completo": "Lucia Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0508",
+        "nombre_completo": "Miguel Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0509",
+        "nombre_completo": "Maria Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0510",
+        "nombre_completo": "Juan Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0511",
+        "nombre_completo": "Pedro Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0512",
+        "nombre_completo": "Carlos Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0513",
+        "nombre_completo": "Juan Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0514",
+        "nombre_completo": "Miguel Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0515",
+        "nombre_completo": "Lucia Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0516",
+        "nombre_completo": "Rosa Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0517",
+        "nombre_completo": "Luis Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0518",
+        "nombre_completo": "Ana Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0519",
+        "nombre_completo": "Sofia Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0520",
+        "nombre_completo": "Rosa Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0521",
+        "nombre_completo": "Rosa Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0522",
+        "nombre_completo": "Lucia Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0523",
+        "nombre_completo": "Sofia Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0524",
+        "nombre_completo": "Miguel Castro",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0525",
+        "nombre_completo": "Miguel Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0526",
+        "nombre_completo": "Carlos Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0527",
+        "nombre_completo": "Carlos Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0528",
+        "nombre_completo": "Ana Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0529",
+        "nombre_completo": "Pedro Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0530",
+        "nombre_completo": "Sofia Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0531",
+        "nombre_completo": "Maria Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0532",
+        "nombre_completo": "Carlos Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0533",
+        "nombre_completo": "Lucia Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0534",
+        "nombre_completo": "Maria Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0535",
+        "nombre_completo": "Maria Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0536",
+        "nombre_completo": "Sofia Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0537",
+        "nombre_completo": "Rosa Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0538",
+        "nombre_completo": "Rosa Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0539",
+        "nombre_completo": "Lucia Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0540",
+        "nombre_completo": "Carlos Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0541",
+        "nombre_completo": "Maria Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0542",
+        "nombre_completo": "Luis Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0543",
+        "nombre_completo": "Miguel Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0544",
+        "nombre_completo": "Juan Cedeño",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0545",
+        "nombre_completo": "Ana Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0546",
+        "nombre_completo": "Lucia Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0547",
+        "nombre_completo": "Sofia Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0548",
+        "nombre_completo": "Miguel Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0549",
+        "nombre_completo": "Juan Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0550",
+        "nombre_completo": "Pedro Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0551",
+        "nombre_completo": "Ana Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0552",
+        "nombre_completo": "Miguel Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0553",
+        "nombre_completo": "Ana Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0554",
+        "nombre_completo": "Ana Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0555",
+        "nombre_completo": "Juan Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0556",
+        "nombre_completo": "Rosa Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0557",
+        "nombre_completo": "Juan Garcia",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0558",
+        "nombre_completo": "Rosa Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0559",
+        "nombre_completo": "Lucia Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0560",
+        "nombre_completo": "Lucia Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0561",
+        "nombre_completo": "Miguel Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0562",
+        "nombre_completo": "Maria Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0563",
+        "nombre_completo": "Sofia Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0564",
+        "nombre_completo": "Carlos Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0565",
+        "nombre_completo": "Pedro Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0566",
+        "nombre_completo": "Ana Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0567",
+        "nombre_completo": "Ana Vera",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0568",
+        "nombre_completo": "Rosa Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0569",
+        "nombre_completo": "Maria Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0570",
+        "nombre_completo": "Juan Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0571",
+        "nombre_completo": "Pedro Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0572",
+        "nombre_completo": "Lucia Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0573",
+        "nombre_completo": "Miguel Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0574",
+        "nombre_completo": "Pedro Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0575",
+        "nombre_completo": "Ana Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0576",
+        "nombre_completo": "Maria Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0577",
+        "nombre_completo": "Sofia Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0578",
+        "nombre_completo": "Rosa Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0579",
+        "nombre_completo": "Rosa Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0580",
+        "nombre_completo": "Rosa Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0581",
+        "nombre_completo": "Miguel Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0582",
+        "nombre_completo": "Rosa Vera",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0583",
+        "nombre_completo": "Pedro Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0584",
+        "nombre_completo": "Maria Lopez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0585",
+        "nombre_completo": "Luis Cedeño",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0586",
+        "nombre_completo": "Luis Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0587",
+        "nombre_completo": "Maria Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0588",
+        "nombre_completo": "Miguel Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0589",
+        "nombre_completo": "Carlos Cedeño",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0590",
+        "nombre_completo": "Maria Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0591",
+        "nombre_completo": "Pedro Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0592",
+        "nombre_completo": "Luis Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0593",
+        "nombre_completo": "Rosa Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0594",
+        "nombre_completo": "Pedro Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0595",
+        "nombre_completo": "Lucia Lopez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0596",
+        "nombre_completo": "Carlos Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0597",
+        "nombre_completo": "Rosa Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0598",
+        "nombre_completo": "Pedro Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0599",
+        "nombre_completo": "Luis Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0600",
+        "nombre_completo": "Rosa Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0601",
+        "nombre_completo": "Luis Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0602",
+        "nombre_completo": "Pedro Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0603",
+        "nombre_completo": "Miguel Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0604",
+        "nombre_completo": "Ana Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0605",
+        "nombre_completo": "Sofia Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0606",
+        "nombre_completo": "Maria Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0607",
+        "nombre_completo": "Carlos Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0608",
+        "nombre_completo": "Juan Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0609",
+        "nombre_completo": "Lucia Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0610",
+        "nombre_completo": "Ana Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0611",
+        "nombre_completo": "Lucia Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0612",
+        "nombre_completo": "Pedro Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0613",
+        "nombre_completo": "Luis Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0614",
+        "nombre_completo": "Ana Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0615",
+        "nombre_completo": "Carlos Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0616",
+        "nombre_completo": "Maria Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0617",
+        "nombre_completo": "Rosa Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0618",
+        "nombre_completo": "Sofia Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0619",
+        "nombre_completo": "Lucia Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0620",
+        "nombre_completo": "Rosa Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0621",
+        "nombre_completo": "Rosa Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0622",
+        "nombre_completo": "Miguel Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0623",
+        "nombre_completo": "Maria Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0624",
+        "nombre_completo": "Luis Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0625",
+        "nombre_completo": "Miguel Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0626",
+        "nombre_completo": "Carlos Perez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0627",
+        "nombre_completo": "Carlos Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0628",
+        "nombre_completo": "Ana Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0629",
+        "nombre_completo": "Luis Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0630",
+        "nombre_completo": "Carlos Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0631",
+        "nombre_completo": "Ana Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0632",
+        "nombre_completo": "Pedro Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0633",
+        "nombre_completo": "Pedro Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0634",
+        "nombre_completo": "Juan Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0635",
+        "nombre_completo": "Ana Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0636",
+        "nombre_completo": "Rosa Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0637",
+        "nombre_completo": "Luis Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0638",
+        "nombre_completo": "Sofia Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0639",
+        "nombre_completo": "Miguel Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0640",
+        "nombre_completo": "Rosa Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0641",
+        "nombre_completo": "Juan Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0642",
+        "nombre_completo": "Sofia Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0643",
+        "nombre_completo": "Ana Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0644",
+        "nombre_completo": "Sofia Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0645",
+        "nombre_completo": "Juan Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0646",
+        "nombre_completo": "Juan Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0647",
+        "nombre_completo": "Rosa Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0648",
+        "nombre_completo": "Sofia Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0649",
+        "nombre_completo": "Juan Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0650",
+        "nombre_completo": "Ana Cedeño",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0651",
+        "nombre_completo": "Sofia Gomez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0652",
+        "nombre_completo": "Pedro Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0653",
+        "nombre_completo": "Maria Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0654",
+        "nombre_completo": "Luis Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0655",
+        "nombre_completo": "Pedro Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0656",
+        "nombre_completo": "Juan Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0657",
+        "nombre_completo": "Miguel Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0658",
+        "nombre_completo": "Sofia Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0659",
+        "nombre_completo": "Pedro Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0660",
+        "nombre_completo": "Miguel Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0661",
+        "nombre_completo": "Luis Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0662",
+        "nombre_completo": "Sofia Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0663",
+        "nombre_completo": "Luis Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0664",
+        "nombre_completo": "Carlos Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0665",
+        "nombre_completo": "Sofia Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0666",
+        "nombre_completo": "Sofia Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0667",
+        "nombre_completo": "Miguel Mendoza",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0668",
+        "nombre_completo": "Maria Gomez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0669",
+        "nombre_completo": "Carlos Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0670",
+        "nombre_completo": "Maria Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0671",
+        "nombre_completo": "Lucia Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0672",
+        "nombre_completo": "Lucia Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0673",
+        "nombre_completo": "Sofia Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0674",
+        "nombre_completo": "Maria Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0675",
+        "nombre_completo": "Pedro Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0676",
+        "nombre_completo": "Miguel Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0677",
+        "nombre_completo": "Luis Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0678",
+        "nombre_completo": "Sofia Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0679",
+        "nombre_completo": "Sofia Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0680",
+        "nombre_completo": "Luis Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0681",
+        "nombre_completo": "Ana Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0682",
+        "nombre_completo": "Carlos Torres",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0683",
+        "nombre_completo": "Lucia Garcia",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0684",
+        "nombre_completo": "Carlos Garcia",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0685",
+        "nombre_completo": "Juan Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0686",
+        "nombre_completo": "Miguel Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0687",
+        "nombre_completo": "Luis Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0688",
+        "nombre_completo": "Maria Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0689",
+        "nombre_completo": "Sofia Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0690",
+        "nombre_completo": "Sofia Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0691",
+        "nombre_completo": "Lucia Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0692",
+        "nombre_completo": "Miguel Zambrano",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0693",
+        "nombre_completo": "Ana Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0694",
+        "nombre_completo": "Lucia Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0695",
+        "nombre_completo": "Rosa Castro",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0696",
+        "nombre_completo": "Ana Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0697",
+        "nombre_completo": "Sofia Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0698",
+        "nombre_completo": "Miguel Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0699",
+        "nombre_completo": "Lucia Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0700",
+        "nombre_completo": "Pedro Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0701",
+        "nombre_completo": "Luis Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0702",
+        "nombre_completo": "Maria Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0703",
+        "nombre_completo": "Juan Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0704",
+        "nombre_completo": "Maria Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0705",
+        "nombre_completo": "Carlos Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0706",
+        "nombre_completo": "Sofia Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0707",
+        "nombre_completo": "Lucia Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0708",
+        "nombre_completo": "Rosa Lopez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0709",
+        "nombre_completo": "Rosa Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0710",
+        "nombre_completo": "Luis Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0711",
+        "nombre_completo": "Miguel Vera",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0712",
+        "nombre_completo": "Juan Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0713",
+        "nombre_completo": "Sofia Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0714",
+        "nombre_completo": "Lucia Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0715",
+        "nombre_completo": "Rosa Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0716",
+        "nombre_completo": "Ana Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0717",
+        "nombre_completo": "Lucia Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0718",
+        "nombre_completo": "Ana Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0719",
+        "nombre_completo": "Sofia Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0720",
+        "nombre_completo": "Carlos Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0721",
+        "nombre_completo": "Miguel Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0722",
+        "nombre_completo": "Luis Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0723",
+        "nombre_completo": "Miguel Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0724",
+        "nombre_completo": "Luis Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0725",
+        "nombre_completo": "Lucia Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0726",
+        "nombre_completo": "Ana Zambrano",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0727",
+        "nombre_completo": "Ana Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0728",
+        "nombre_completo": "Juan Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0729",
+        "nombre_completo": "Carlos Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0730",
+        "nombre_completo": "Maria Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0731",
+        "nombre_completo": "Pedro Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0732",
+        "nombre_completo": "Sofia Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0733",
+        "nombre_completo": "Maria Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0734",
+        "nombre_completo": "Miguel Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0735",
+        "nombre_completo": "Lucia Lopez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0736",
+        "nombre_completo": "Sofia Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0737",
+        "nombre_completo": "Sofia Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0738",
+        "nombre_completo": "Juan Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0739",
+        "nombre_completo": "Lucia Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0740",
+        "nombre_completo": "Lucia Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0741",
+        "nombre_completo": "Carlos Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0742",
+        "nombre_completo": "Juan Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0743",
+        "nombre_completo": "Pedro Perez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0744",
+        "nombre_completo": "Pedro Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0745",
+        "nombre_completo": "Juan Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0746",
+        "nombre_completo": "Pedro Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0747",
+        "nombre_completo": "Sofia Cedeño",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0748",
+        "nombre_completo": "Juan Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0749",
+        "nombre_completo": "Miguel Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0750",
+        "nombre_completo": "Sofia Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0751",
+        "nombre_completo": "Pedro Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0752",
+        "nombre_completo": "Pedro Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0753",
+        "nombre_completo": "Carlos Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0754",
+        "nombre_completo": "Carlos Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0755",
+        "nombre_completo": "Luis Zambrano",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0756",
+        "nombre_completo": "Carlos Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0757",
+        "nombre_completo": "Juan Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0758",
+        "nombre_completo": "Luis Cedeño",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0759",
+        "nombre_completo": "Rosa Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0760",
+        "nombre_completo": "Miguel Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0761",
+        "nombre_completo": "Lucia Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0762",
+        "nombre_completo": "Rosa Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0763",
+        "nombre_completo": "Lucia Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0764",
+        "nombre_completo": "Lucia Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0765",
+        "nombre_completo": "Maria Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0766",
+        "nombre_completo": "Maria Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0767",
+        "nombre_completo": "Juan Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0768",
+        "nombre_completo": "Pedro Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0769",
+        "nombre_completo": "Pedro Perez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0770",
+        "nombre_completo": "Juan Perez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0771",
+        "nombre_completo": "Carlos Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0772",
+        "nombre_completo": "Juan Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0773",
+        "nombre_completo": "Lucia Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0774",
+        "nombre_completo": "Sofia Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0775",
+        "nombre_completo": "Juan Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0776",
+        "nombre_completo": "Rosa Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0777",
+        "nombre_completo": "Luis Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0778",
+        "nombre_completo": "Luis Cedeño",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0779",
+        "nombre_completo": "Sofia Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0780",
+        "nombre_completo": "Juan Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0781",
+        "nombre_completo": "Sofia Zambrano",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0782",
+        "nombre_completo": "Sofia Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0783",
+        "nombre_completo": "Maria Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0784",
+        "nombre_completo": "Sofia Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0785",
+        "nombre_completo": "Miguel Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0786",
+        "nombre_completo": "Carlos Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0787",
+        "nombre_completo": "Miguel Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0788",
+        "nombre_completo": "Pedro Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0789",
+        "nombre_completo": "Pedro Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0790",
+        "nombre_completo": "Sofia Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0791",
+        "nombre_completo": "Maria Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0792",
+        "nombre_completo": "Sofia Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0793",
+        "nombre_completo": "Ana Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0794",
+        "nombre_completo": "Miguel Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0795",
+        "nombre_completo": "Carlos Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0796",
+        "nombre_completo": "Luis Lopez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0797",
+        "nombre_completo": "Maria Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0798",
+        "nombre_completo": "Miguel Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0799",
+        "nombre_completo": "Juan Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0800",
+        "nombre_completo": "Luis Gomez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0801",
+        "nombre_completo": "Sofia Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0802",
+        "nombre_completo": "Juan Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0803",
+        "nombre_completo": "Luis Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0804",
+        "nombre_completo": "Lucia Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0805",
+        "nombre_completo": "Ana Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0806",
+        "nombre_completo": "Rosa Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0807",
+        "nombre_completo": "Pedro Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0808",
+        "nombre_completo": "Lucia Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0809",
+        "nombre_completo": "Pedro Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0810",
+        "nombre_completo": "Sofia Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0811",
+        "nombre_completo": "Ana Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0812",
+        "nombre_completo": "Miguel Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0813",
+        "nombre_completo": "Carlos Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0814",
+        "nombre_completo": "Ana Zambrano",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0815",
+        "nombre_completo": "Miguel Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0816",
+        "nombre_completo": "Rosa Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0817",
+        "nombre_completo": "Maria Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0818",
+        "nombre_completo": "Sofia Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0819",
+        "nombre_completo": "Miguel Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0820",
+        "nombre_completo": "Ana Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0821",
+        "nombre_completo": "Sofia Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0822",
+        "nombre_completo": "Ana Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0823",
+        "nombre_completo": "Pedro Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0824",
+        "nombre_completo": "Luis Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0825",
+        "nombre_completo": "Luis Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0826",
+        "nombre_completo": "Maria Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0827",
+        "nombre_completo": "Luis Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0828",
+        "nombre_completo": "Ana Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0829",
+        "nombre_completo": "Lucia Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0830",
+        "nombre_completo": "Carlos Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0831",
+        "nombre_completo": "Sofia Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0832",
+        "nombre_completo": "Miguel Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0833",
+        "nombre_completo": "Lucia Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0834",
+        "nombre_completo": "Lucia Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0835",
+        "nombre_completo": "Rosa Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0836",
+        "nombre_completo": "Pedro Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0837",
+        "nombre_completo": "Juan Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0838",
+        "nombre_completo": "Juan Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0839",
+        "nombre_completo": "Maria Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0840",
+        "nombre_completo": "Pedro Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0841",
+        "nombre_completo": "Luis Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0842",
+        "nombre_completo": "Carlos Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0843",
+        "nombre_completo": "Luis Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0844",
+        "nombre_completo": "Lucia Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0845",
+        "nombre_completo": "Luis Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0846",
+        "nombre_completo": "Luis Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0847",
+        "nombre_completo": "Juan Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0848",
+        "nombre_completo": "Maria Vera",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0849",
+        "nombre_completo": "Lucia Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0850",
+        "nombre_completo": "Pedro Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0851",
+        "nombre_completo": "Miguel Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0852",
+        "nombre_completo": "Ana Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0853",
+        "nombre_completo": "Juan Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0854",
+        "nombre_completo": "Juan Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0855",
+        "nombre_completo": "Maria Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0856",
+        "nombre_completo": "Ana Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0857",
+        "nombre_completo": "Pedro Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0858",
+        "nombre_completo": "Juan Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0859",
+        "nombre_completo": "Luis Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0860",
+        "nombre_completo": "Carlos Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0861",
+        "nombre_completo": "Pedro Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0862",
+        "nombre_completo": "Rosa Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0863",
+        "nombre_completo": "Juan Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0864",
+        "nombre_completo": "Rosa Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0865",
+        "nombre_completo": "Pedro Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0866",
+        "nombre_completo": "Pedro Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0867",
+        "nombre_completo": "Lucia Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0868",
+        "nombre_completo": "Carlos Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0869",
+        "nombre_completo": "Rosa Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0870",
+        "nombre_completo": "Lucia Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0871",
+        "nombre_completo": "Sofia Gomez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0872",
+        "nombre_completo": "Carlos Mendoza",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0873",
+        "nombre_completo": "Pedro Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0874",
+        "nombre_completo": "Pedro Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0875",
+        "nombre_completo": "Juan Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0876",
+        "nombre_completo": "Lucia Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0877",
+        "nombre_completo": "Maria Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0878",
+        "nombre_completo": "Maria Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0879",
+        "nombre_completo": "Ana Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0880",
+        "nombre_completo": "Pedro Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0881",
+        "nombre_completo": "Rosa Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0882",
+        "nombre_completo": "Lucia Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0883",
+        "nombre_completo": "Miguel Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0884",
+        "nombre_completo": "Pedro Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0885",
+        "nombre_completo": "Sofia Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0886",
+        "nombre_completo": "Sofia Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0887",
+        "nombre_completo": "Pedro Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0888",
+        "nombre_completo": "Lucia Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0889",
+        "nombre_completo": "Miguel Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0890",
+        "nombre_completo": "Maria Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0891",
+        "nombre_completo": "Pedro Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0892",
+        "nombre_completo": "Sofia Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0893",
+        "nombre_completo": "Maria Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0894",
+        "nombre_completo": "Luis Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0895",
+        "nombre_completo": "Carlos Garcia",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0896",
+        "nombre_completo": "Rosa Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0897",
+        "nombre_completo": "Juan Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0898",
+        "nombre_completo": "Juan Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0899",
+        "nombre_completo": "Miguel Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0900",
+        "nombre_completo": "Sofia Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0901",
+        "nombre_completo": "Pedro Perez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0902",
+        "nombre_completo": "Sofia Torres",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0903",
+        "nombre_completo": "Sofia Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0904",
+        "nombre_completo": "Pedro Mendoza",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0905",
+        "nombre_completo": "Pedro Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0906",
+        "nombre_completo": "Rosa Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0907",
+        "nombre_completo": "Miguel Vera",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0908",
+        "nombre_completo": "Miguel Garcia",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0909",
+        "nombre_completo": "Juan Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0910",
+        "nombre_completo": "Juan Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0911",
+        "nombre_completo": "Lucia Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0912",
+        "nombre_completo": "Luis Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0913",
+        "nombre_completo": "Sofia Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0914",
+        "nombre_completo": "Pedro Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0915",
+        "nombre_completo": "Rosa Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0916",
+        "nombre_completo": "Pedro Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0917",
+        "nombre_completo": "Lucia Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0918",
+        "nombre_completo": "Luis Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0919",
+        "nombre_completo": "Lucia Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0920",
+        "nombre_completo": "Carlos Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0921",
+        "nombre_completo": "Ana Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0922",
+        "nombre_completo": "Carlos Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0923",
+        "nombre_completo": "Sofia Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0924",
+        "nombre_completo": "Miguel Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0925",
+        "nombre_completo": "Luis Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0926",
+        "nombre_completo": "Luis Vera",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0927",
+        "nombre_completo": "Maria Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0928",
+        "nombre_completo": "Miguel Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0929",
+        "nombre_completo": "Carlos Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0930",
+        "nombre_completo": "Miguel Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0931",
+        "nombre_completo": "Lucia Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0932",
+        "nombre_completo": "Carlos Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0933",
+        "nombre_completo": "Rosa Garcia",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0934",
+        "nombre_completo": "Maria Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0935",
+        "nombre_completo": "Sofia Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0936",
+        "nombre_completo": "Rosa Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0937",
+        "nombre_completo": "Carlos Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0938",
+        "nombre_completo": "Rosa Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0939",
+        "nombre_completo": "Maria Mendoza",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0940",
+        "nombre_completo": "Ana Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0941",
+        "nombre_completo": "Juan Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0942",
+        "nombre_completo": "Maria Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0943",
+        "nombre_completo": "Luis Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0944",
+        "nombre_completo": "Ana Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0945",
+        "nombre_completo": "Maria Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0946",
+        "nombre_completo": "Carlos Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0947",
+        "nombre_completo": "Luis Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0948",
+        "nombre_completo": "Juan Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0949",
+        "nombre_completo": "Sofia Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0950",
+        "nombre_completo": "Luis Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0951",
+        "nombre_completo": "Rosa Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0952",
+        "nombre_completo": "Miguel Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0953",
+        "nombre_completo": "Ana Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0954",
+        "nombre_completo": "Carlos Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0955",
+        "nombre_completo": "Maria Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0956",
+        "nombre_completo": "Rosa Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0957",
+        "nombre_completo": "Juan Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0958",
+        "nombre_completo": "Rosa Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0959",
+        "nombre_completo": "Ana Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0960",
+        "nombre_completo": "Pedro Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0961",
+        "nombre_completo": "Miguel Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0962",
+        "nombre_completo": "Miguel Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0963",
+        "nombre_completo": "Maria Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0964",
+        "nombre_completo": "Carlos Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0965",
+        "nombre_completo": "Juan Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0966",
+        "nombre_completo": "Juan Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0967",
+        "nombre_completo": "Pedro Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0968",
+        "nombre_completo": "Sofia Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0969",
+        "nombre_completo": "Luis Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0970",
+        "nombre_completo": "Carlos Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0971",
+        "nombre_completo": "Sofia Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0972",
+        "nombre_completo": "Sofia Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0973",
+        "nombre_completo": "Lucia Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0974",
+        "nombre_completo": "Lucia Gomez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0975",
+        "nombre_completo": "Luis Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0976",
+        "nombre_completo": "Carlos Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0977",
+        "nombre_completo": "Rosa Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0978",
+        "nombre_completo": "Juan Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0979",
+        "nombre_completo": "Ana Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0980",
+        "nombre_completo": "Ana Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0981",
+        "nombre_completo": "Carlos Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0982",
+        "nombre_completo": "Pedro Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0983",
+        "nombre_completo": "Maria Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0984",
+        "nombre_completo": "Sofia Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0985",
+        "nombre_completo": "Lucia Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0986",
+        "nombre_completo": "Pedro Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0987",
+        "nombre_completo": "Pedro Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0988",
+        "nombre_completo": "Carlos Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0989",
+        "nombre_completo": "Maria Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0990",
+        "nombre_completo": "Luis Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0991",
+        "nombre_completo": "Pedro Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0992",
+        "nombre_completo": "Miguel Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0993",
+        "nombre_completo": "Pedro Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0994",
+        "nombre_completo": "Lucia Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0995",
+        "nombre_completo": "Carlos Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0996",
+        "nombre_completo": "Ana Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0997",
+        "nombre_completo": "Carlos Lopez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P0998",
+        "nombre_completo": "Carlos Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P0999",
+        "nombre_completo": "Maria Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1000",
+        "nombre_completo": "Maria Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1001",
+        "nombre_completo": "Ana Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1002",
+        "nombre_completo": "Maria Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1003",
+        "nombre_completo": "Sofia Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1004",
+        "nombre_completo": "Lucia Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1005",
+        "nombre_completo": "Lucia Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1006",
+        "nombre_completo": "Rosa Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1007",
+        "nombre_completo": "Carlos Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1008",
+        "nombre_completo": "Miguel Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1009",
+        "nombre_completo": "Carlos Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1010",
+        "nombre_completo": "Sofia Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1011",
+        "nombre_completo": "Juan Garcia",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1012",
+        "nombre_completo": "Luis Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1013",
+        "nombre_completo": "Luis Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1014",
+        "nombre_completo": "Pedro Lopez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1015",
+        "nombre_completo": "Miguel Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1016",
+        "nombre_completo": "Sofia Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1017",
+        "nombre_completo": "Carlos Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1018",
+        "nombre_completo": "Lucia Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1019",
+        "nombre_completo": "Ana Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1020",
+        "nombre_completo": "Carlos Vera",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1021",
+        "nombre_completo": "Ana Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1022",
+        "nombre_completo": "Ana Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1023",
+        "nombre_completo": "Sofia Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1024",
+        "nombre_completo": "Miguel Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1025",
+        "nombre_completo": "Pedro Mendoza",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1026",
+        "nombre_completo": "Pedro Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1027",
+        "nombre_completo": "Luis Lopez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1028",
+        "nombre_completo": "Lucia Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1029",
+        "nombre_completo": "Maria Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1030",
+        "nombre_completo": "Luis Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1031",
+        "nombre_completo": "Maria Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1032",
+        "nombre_completo": "Lucia Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1033",
+        "nombre_completo": "Maria Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1034",
+        "nombre_completo": "Luis Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1035",
+        "nombre_completo": "Pedro Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1036",
+        "nombre_completo": "Juan Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1037",
+        "nombre_completo": "Lucia Vera",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1038",
+        "nombre_completo": "Sofia Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1039",
+        "nombre_completo": "Lucia Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1040",
+        "nombre_completo": "Luis Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1041",
+        "nombre_completo": "Juan Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1042",
+        "nombre_completo": "Sofia Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1043",
+        "nombre_completo": "Miguel Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1044",
+        "nombre_completo": "Miguel Torres",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1045",
+        "nombre_completo": "Miguel Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1046",
+        "nombre_completo": "Rosa Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1047",
+        "nombre_completo": "Lucia Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1048",
+        "nombre_completo": "Carlos Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1049",
+        "nombre_completo": "Juan Zambrano",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1050",
+        "nombre_completo": "Pedro Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1051",
+        "nombre_completo": "Luis Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1052",
+        "nombre_completo": "Maria Lopez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1053",
+        "nombre_completo": "Lucia Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1054",
+        "nombre_completo": "Rosa Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1055",
+        "nombre_completo": "Lucia Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1056",
+        "nombre_completo": "Pedro Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1057",
+        "nombre_completo": "Ana Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1058",
+        "nombre_completo": "Juan Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1059",
+        "nombre_completo": "Miguel Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1060",
+        "nombre_completo": "Rosa Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1061",
+        "nombre_completo": "Luis Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1062",
+        "nombre_completo": "Carlos Torres",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1063",
+        "nombre_completo": "Carlos Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1064",
+        "nombre_completo": "Miguel Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1065",
+        "nombre_completo": "Miguel Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1066",
+        "nombre_completo": "Sofia Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1067",
+        "nombre_completo": "Carlos Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1068",
+        "nombre_completo": "Rosa Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1069",
+        "nombre_completo": "Luis Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1070",
+        "nombre_completo": "Rosa Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1071",
+        "nombre_completo": "Rosa Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1072",
+        "nombre_completo": "Sofia Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1073",
+        "nombre_completo": "Luis Zambrano",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1074",
+        "nombre_completo": "Pedro Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1075",
+        "nombre_completo": "Lucia Mendoza",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1076",
+        "nombre_completo": "Carlos Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1077",
+        "nombre_completo": "Miguel Gomez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1078",
+        "nombre_completo": "Maria Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1079",
+        "nombre_completo": "Pedro Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1080",
+        "nombre_completo": "Juan Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1081",
+        "nombre_completo": "Carlos Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1082",
+        "nombre_completo": "Ana Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1083",
+        "nombre_completo": "Sofia Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1084",
+        "nombre_completo": "Miguel Garcia",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1085",
+        "nombre_completo": "Juan Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1086",
+        "nombre_completo": "Maria Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1087",
+        "nombre_completo": "Rosa Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1088",
+        "nombre_completo": "Luis Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1089",
+        "nombre_completo": "Ana Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1090",
+        "nombre_completo": "Pedro Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1091",
+        "nombre_completo": "Luis Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1092",
+        "nombre_completo": "Rosa Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1093",
+        "nombre_completo": "Ana Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1094",
+        "nombre_completo": "Sofia Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1095",
+        "nombre_completo": "Rosa Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1096",
+        "nombre_completo": "Lucia Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1097",
+        "nombre_completo": "Juan Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1098",
+        "nombre_completo": "Miguel Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1099",
+        "nombre_completo": "Lucia Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1100",
+        "nombre_completo": "Sofia Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1101",
+        "nombre_completo": "Maria Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1102",
+        "nombre_completo": "Maria Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1103",
+        "nombre_completo": "Ana Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1104",
+        "nombre_completo": "Ana Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1105",
+        "nombre_completo": "Rosa Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1106",
+        "nombre_completo": "Pedro Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1107",
+        "nombre_completo": "Sofia Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1108",
+        "nombre_completo": "Carlos Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1109",
+        "nombre_completo": "Lucia Garcia",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1110",
+        "nombre_completo": "Maria Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1111",
+        "nombre_completo": "Miguel Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1112",
+        "nombre_completo": "Lucia Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1113",
+        "nombre_completo": "Luis Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1114",
+        "nombre_completo": "Ana Lopez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1115",
+        "nombre_completo": "Juan Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1116",
+        "nombre_completo": "Miguel Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1117",
+        "nombre_completo": "Maria Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1118",
+        "nombre_completo": "Pedro Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1119",
+        "nombre_completo": "Luis Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1120",
+        "nombre_completo": "Carlos Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1121",
+        "nombre_completo": "Sofia Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1122",
+        "nombre_completo": "Sofia Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1123",
+        "nombre_completo": "Pedro Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1124",
+        "nombre_completo": "Pedro Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1125",
+        "nombre_completo": "Juan Gomez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1126",
+        "nombre_completo": "Rosa Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1127",
+        "nombre_completo": "Rosa Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1128",
+        "nombre_completo": "Lucia Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1129",
+        "nombre_completo": "Ana Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1130",
+        "nombre_completo": "Carlos Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1131",
+        "nombre_completo": "Juan Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1132",
+        "nombre_completo": "Sofia Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1133",
+        "nombre_completo": "Juan Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1134",
+        "nombre_completo": "Pedro Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1135",
+        "nombre_completo": "Lucia Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1136",
+        "nombre_completo": "Sofia Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1137",
+        "nombre_completo": "Pedro Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1138",
+        "nombre_completo": "Juan Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1139",
+        "nombre_completo": "Maria Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1140",
+        "nombre_completo": "Sofia Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1141",
+        "nombre_completo": "Pedro Mendoza",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1142",
+        "nombre_completo": "Lucia Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1143",
+        "nombre_completo": "Carlos Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1144",
+        "nombre_completo": "Pedro Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1145",
+        "nombre_completo": "Carlos Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1146",
+        "nombre_completo": "Luis Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1147",
+        "nombre_completo": "Juan Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1148",
+        "nombre_completo": "Maria Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1149",
+        "nombre_completo": "Lucia Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1150",
+        "nombre_completo": "Lucia Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1151",
+        "nombre_completo": "Maria Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1152",
+        "nombre_completo": "Ana Mendoza",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1153",
+        "nombre_completo": "Miguel Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1154",
+        "nombre_completo": "Luis Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1155",
+        "nombre_completo": "Juan Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1156",
+        "nombre_completo": "Miguel Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1157",
+        "nombre_completo": "Juan Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1158",
+        "nombre_completo": "Sofia Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1159",
+        "nombre_completo": "Maria Lopez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1160",
+        "nombre_completo": "Luis Perez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1161",
+        "nombre_completo": "Rosa Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1162",
+        "nombre_completo": "Juan Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1163",
+        "nombre_completo": "Sofia Torres",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1164",
+        "nombre_completo": "Miguel Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1165",
+        "nombre_completo": "Ana Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1166",
+        "nombre_completo": "Miguel Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1167",
+        "nombre_completo": "Miguel Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1168",
+        "nombre_completo": "Carlos Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1169",
+        "nombre_completo": "Lucia Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1170",
+        "nombre_completo": "Maria Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1171",
+        "nombre_completo": "Luis Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1172",
+        "nombre_completo": "Rosa Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1173",
+        "nombre_completo": "Pedro Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1174",
+        "nombre_completo": "Miguel Cedeño",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1175",
+        "nombre_completo": "Sofia Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1176",
+        "nombre_completo": "Luis Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1177",
+        "nombre_completo": "Sofia Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1178",
+        "nombre_completo": "Maria Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1179",
+        "nombre_completo": "Carlos Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1180",
+        "nombre_completo": "Carlos Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1181",
+        "nombre_completo": "Carlos Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1182",
+        "nombre_completo": "Miguel Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1183",
+        "nombre_completo": "Juan Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1184",
+        "nombre_completo": "Miguel Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1185",
+        "nombre_completo": "Luis Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1186",
+        "nombre_completo": "Pedro Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1187",
+        "nombre_completo": "Rosa Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1188",
+        "nombre_completo": "Pedro Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1189",
+        "nombre_completo": "Ana Garcia",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1190",
+        "nombre_completo": "Juan Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1191",
+        "nombre_completo": "Carlos Gomez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1192",
+        "nombre_completo": "Luis Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1193",
+        "nombre_completo": "Juan Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1194",
+        "nombre_completo": "Lucia Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1195",
+        "nombre_completo": "Lucia Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1196",
+        "nombre_completo": "Pedro Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1197",
+        "nombre_completo": "Sofia Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1198",
+        "nombre_completo": "Rosa Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1199",
+        "nombre_completo": "Maria Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1200",
+        "nombre_completo": "Rosa Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1201",
+        "nombre_completo": "Pedro Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1202",
+        "nombre_completo": "Lucia Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1203",
+        "nombre_completo": "Carlos Perez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1204",
+        "nombre_completo": "Rosa Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1205",
+        "nombre_completo": "Luis Vera",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1206",
+        "nombre_completo": "Sofia Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1207",
+        "nombre_completo": "Lucia Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1208",
+        "nombre_completo": "Ana Gomez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1209",
+        "nombre_completo": "Luis Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1210",
+        "nombre_completo": "Maria Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1211",
+        "nombre_completo": "Maria Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1212",
+        "nombre_completo": "Rosa Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1213",
+        "nombre_completo": "Carlos Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1214",
+        "nombre_completo": "Lucia Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1215",
+        "nombre_completo": "Pedro Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1216",
+        "nombre_completo": "Luis Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1217",
+        "nombre_completo": "Maria Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1218",
+        "nombre_completo": "Pedro Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1219",
+        "nombre_completo": "Pedro Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1220",
+        "nombre_completo": "Miguel Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1221",
+        "nombre_completo": "Lucia Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1222",
+        "nombre_completo": "Pedro Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1223",
+        "nombre_completo": "Rosa Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1224",
+        "nombre_completo": "Juan Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1225",
+        "nombre_completo": "Luis Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1226",
+        "nombre_completo": "Pedro Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1227",
+        "nombre_completo": "Miguel Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1228",
+        "nombre_completo": "Sofia Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1229",
+        "nombre_completo": "Luis Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1230",
+        "nombre_completo": "Sofia Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1231",
+        "nombre_completo": "Lucia Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1232",
+        "nombre_completo": "Rosa Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1233",
+        "nombre_completo": "Sofia Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1234",
+        "nombre_completo": "Carlos Garcia",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1235",
+        "nombre_completo": "Ana Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1236",
+        "nombre_completo": "Carlos Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1237",
+        "nombre_completo": "Pedro Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1238",
+        "nombre_completo": "Juan Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1239",
+        "nombre_completo": "Sofia Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1240",
+        "nombre_completo": "Lucia Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1241",
+        "nombre_completo": "Ana Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1242",
+        "nombre_completo": "Sofia Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1243",
+        "nombre_completo": "Lucia Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1244",
+        "nombre_completo": "Carlos Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1245",
+        "nombre_completo": "Luis Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1246",
+        "nombre_completo": "Ana Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1247",
+        "nombre_completo": "Maria Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1248",
+        "nombre_completo": "Lucia Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1249",
+        "nombre_completo": "Maria Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1250",
+        "nombre_completo": "Lucia Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1251",
+        "nombre_completo": "Maria Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1252",
+        "nombre_completo": "Miguel Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1253",
+        "nombre_completo": "Sofia Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1254",
+        "nombre_completo": "Luis Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1255",
+        "nombre_completo": "Juan Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1256",
+        "nombre_completo": "Carlos Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1257",
+        "nombre_completo": "Pedro Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1258",
+        "nombre_completo": "Luis Vera",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1259",
+        "nombre_completo": "Rosa Torres",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1260",
+        "nombre_completo": "Lucia Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1261",
+        "nombre_completo": "Lucia Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1262",
+        "nombre_completo": "Ana Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1263",
+        "nombre_completo": "Juan Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1264",
+        "nombre_completo": "Juan Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1265",
+        "nombre_completo": "Rosa Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1266",
+        "nombre_completo": "Rosa Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1267",
+        "nombre_completo": "Carlos Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1268",
+        "nombre_completo": "Maria Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1269",
+        "nombre_completo": "Lucia Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1270",
+        "nombre_completo": "Rosa Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1271",
+        "nombre_completo": "Maria Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1272",
+        "nombre_completo": "Pedro Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1273",
+        "nombre_completo": "Maria Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1274",
+        "nombre_completo": "Juan Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1275",
+        "nombre_completo": "Juan Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1276",
+        "nombre_completo": "Carlos Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1277",
+        "nombre_completo": "Luis Castro",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1278",
+        "nombre_completo": "Rosa Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1279",
+        "nombre_completo": "Maria Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1280",
+        "nombre_completo": "Ana Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1281",
+        "nombre_completo": "Ana Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1282",
+        "nombre_completo": "Pedro Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1283",
+        "nombre_completo": "Lucia Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1284",
+        "nombre_completo": "Pedro Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1285",
+        "nombre_completo": "Miguel Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1286",
+        "nombre_completo": "Pedro Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1287",
+        "nombre_completo": "Carlos Vera",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1288",
+        "nombre_completo": "Sofia Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1289",
+        "nombre_completo": "Juan Perez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1290",
+        "nombre_completo": "Pedro Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1291",
+        "nombre_completo": "Luis Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1292",
+        "nombre_completo": "Carlos Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1293",
+        "nombre_completo": "Pedro Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1294",
+        "nombre_completo": "Juan Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1295",
+        "nombre_completo": "Luis Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1296",
+        "nombre_completo": "Rosa Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1297",
+        "nombre_completo": "Sofia Gomez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1298",
+        "nombre_completo": "Luis Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1299",
+        "nombre_completo": "Luis Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1300",
+        "nombre_completo": "Rosa Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1301",
+        "nombre_completo": "Carlos Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1302",
+        "nombre_completo": "Sofia Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1303",
+        "nombre_completo": "Miguel Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1304",
+        "nombre_completo": "Pedro Castro",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1305",
+        "nombre_completo": "Luis Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1306",
+        "nombre_completo": "Maria Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1307",
+        "nombre_completo": "Carlos Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1308",
+        "nombre_completo": "Rosa Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1309",
+        "nombre_completo": "Luis Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1310",
+        "nombre_completo": "Lucia Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1311",
+        "nombre_completo": "Carlos Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1312",
+        "nombre_completo": "Juan Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1313",
+        "nombre_completo": "Sofia Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1314",
+        "nombre_completo": "Carlos Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1315",
+        "nombre_completo": "Miguel Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1316",
+        "nombre_completo": "Miguel Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1317",
+        "nombre_completo": "Miguel Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1318",
+        "nombre_completo": "Juan Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1319",
+        "nombre_completo": "Luis Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1320",
+        "nombre_completo": "Rosa Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1321",
+        "nombre_completo": "Ana Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1322",
+        "nombre_completo": "Rosa Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1323",
+        "nombre_completo": "Lucia Cedeño",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1324",
+        "nombre_completo": "Ana Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1325",
+        "nombre_completo": "Maria Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1326",
+        "nombre_completo": "Carlos Torres",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1327",
+        "nombre_completo": "Ana Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1328",
+        "nombre_completo": "Juan Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1329",
+        "nombre_completo": "Pedro Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1330",
+        "nombre_completo": "Juan Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1331",
+        "nombre_completo": "Juan Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1332",
+        "nombre_completo": "Maria Mendoza",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1333",
+        "nombre_completo": "Pedro Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1334",
+        "nombre_completo": "Rosa Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1335",
+        "nombre_completo": "Ana Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1336",
+        "nombre_completo": "Sofia Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1337",
+        "nombre_completo": "Luis Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1338",
+        "nombre_completo": "Juan Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1339",
+        "nombre_completo": "Lucia Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1340",
+        "nombre_completo": "Miguel Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1341",
+        "nombre_completo": "Miguel Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1342",
+        "nombre_completo": "Miguel Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1343",
+        "nombre_completo": "Rosa Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1344",
+        "nombre_completo": "Miguel Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1345",
+        "nombre_completo": "Juan Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1346",
+        "nombre_completo": "Pedro Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1347",
+        "nombre_completo": "Carlos Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1348",
+        "nombre_completo": "Carlos Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1349",
+        "nombre_completo": "Rosa Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1350",
+        "nombre_completo": "Luis Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1351",
+        "nombre_completo": "Miguel Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1352",
+        "nombre_completo": "Luis Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1353",
+        "nombre_completo": "Sofia Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1354",
+        "nombre_completo": "Miguel Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1355",
+        "nombre_completo": "Ana Torres",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1356",
+        "nombre_completo": "Juan Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1357",
+        "nombre_completo": "Miguel Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1358",
+        "nombre_completo": "Ana Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1359",
+        "nombre_completo": "Rosa Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1360",
+        "nombre_completo": "Pedro Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1361",
+        "nombre_completo": "Sofia Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1362",
+        "nombre_completo": "Carlos Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1363",
+        "nombre_completo": "Luis Gomez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1364",
+        "nombre_completo": "Sofia Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1365",
+        "nombre_completo": "Lucia Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1366",
+        "nombre_completo": "Carlos Cedeño",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1367",
+        "nombre_completo": "Pedro Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1368",
+        "nombre_completo": "Luis Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1369",
+        "nombre_completo": "Lucia Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1370",
+        "nombre_completo": "Luis Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1371",
+        "nombre_completo": "Pedro Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1372",
+        "nombre_completo": "Lucia Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1373",
+        "nombre_completo": "Ana Perez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1374",
+        "nombre_completo": "Luis Castro",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1375",
+        "nombre_completo": "Rosa Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1376",
+        "nombre_completo": "Luis Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1377",
+        "nombre_completo": "Lucia Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1378",
+        "nombre_completo": "Luis Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1379",
+        "nombre_completo": "Ana Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1380",
+        "nombre_completo": "Pedro Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1381",
+        "nombre_completo": "Pedro Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1382",
+        "nombre_completo": "Sofia Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1383",
+        "nombre_completo": "Carlos Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1384",
+        "nombre_completo": "Carlos Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1385",
+        "nombre_completo": "Maria Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1386",
+        "nombre_completo": "Maria Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1387",
+        "nombre_completo": "Lucia Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1388",
+        "nombre_completo": "Lucia Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1389",
+        "nombre_completo": "Pedro Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1390",
+        "nombre_completo": "Juan Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1391",
+        "nombre_completo": "Sofia Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1392",
+        "nombre_completo": "Luis Garcia",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1393",
+        "nombre_completo": "Miguel Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1394",
+        "nombre_completo": "Juan Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1395",
+        "nombre_completo": "Luis Vera",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1396",
+        "nombre_completo": "Ana Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1397",
+        "nombre_completo": "Rosa Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1398",
+        "nombre_completo": "Ana Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1399",
+        "nombre_completo": "Pedro Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1400",
+        "nombre_completo": "Ana Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1401",
+        "nombre_completo": "Carlos Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1402",
+        "nombre_completo": "Luis Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1403",
+        "nombre_completo": "Maria Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1404",
+        "nombre_completo": "Miguel Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1405",
+        "nombre_completo": "Juan Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1406",
+        "nombre_completo": "Miguel Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1407",
+        "nombre_completo": "Maria Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1408",
+        "nombre_completo": "Sofia Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1409",
+        "nombre_completo": "Rosa Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1410",
+        "nombre_completo": "Pedro Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1411",
+        "nombre_completo": "Luis Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1412",
+        "nombre_completo": "Sofia Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1413",
+        "nombre_completo": "Sofia Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1414",
+        "nombre_completo": "Ana Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1415",
+        "nombre_completo": "Luis Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1416",
+        "nombre_completo": "Lucia Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1417",
+        "nombre_completo": "Lucia Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1418",
+        "nombre_completo": "Rosa Lopez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1419",
+        "nombre_completo": "Carlos Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1420",
+        "nombre_completo": "Luis Mendoza",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1421",
+        "nombre_completo": "Sofia Gomez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1422",
+        "nombre_completo": "Lucia Castro",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1423",
+        "nombre_completo": "Juan Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1424",
+        "nombre_completo": "Sofia Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1425",
+        "nombre_completo": "Pedro Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1426",
+        "nombre_completo": "Pedro Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1427",
+        "nombre_completo": "Pedro Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1428",
+        "nombre_completo": "Maria Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1429",
+        "nombre_completo": "Miguel Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1430",
+        "nombre_completo": "Juan Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1431",
+        "nombre_completo": "Carlos Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1432",
+        "nombre_completo": "Carlos Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1433",
+        "nombre_completo": "Luis Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1434",
+        "nombre_completo": "Carlos Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1435",
+        "nombre_completo": "Juan Zambrano",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1436",
+        "nombre_completo": "Carlos Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1437",
+        "nombre_completo": "Lucia Vera",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1438",
+        "nombre_completo": "Luis Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1439",
+        "nombre_completo": "Pedro Lopez",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1440",
+        "nombre_completo": "Ana Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1441",
+        "nombre_completo": "Rosa Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1442",
+        "nombre_completo": "Carlos Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1443",
+        "nombre_completo": "Lucia Torres",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1444",
+        "nombre_completo": "Pedro Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1445",
+        "nombre_completo": "Carlos Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1446",
+        "nombre_completo": "Maria Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1447",
+        "nombre_completo": "Lucia Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1448",
+        "nombre_completo": "Maria Castro",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1449",
+        "nombre_completo": "Pedro Zambrano",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1450",
+        "nombre_completo": "Sofia Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1451",
+        "nombre_completo": "Sofia Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1452",
+        "nombre_completo": "Juan Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1453",
+        "nombre_completo": "Luis Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1454",
+        "nombre_completo": "Pedro Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1455",
+        "nombre_completo": "Pedro Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1456",
+        "nombre_completo": "Luis Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1457",
+        "nombre_completo": "Juan Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1458",
+        "nombre_completo": "Ana Castro",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1459",
+        "nombre_completo": "Ana Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1460",
+        "nombre_completo": "Juan Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1461",
+        "nombre_completo": "Carlos Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1462",
+        "nombre_completo": "Miguel Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1463",
+        "nombre_completo": "Carlos Vera",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1464",
+        "nombre_completo": "Ana Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1465",
+        "nombre_completo": "Rosa Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1466",
+        "nombre_completo": "Sofia Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1467",
+        "nombre_completo": "Miguel Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1468",
+        "nombre_completo": "Pedro Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1469",
+        "nombre_completo": "Miguel Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1470",
+        "nombre_completo": "Pedro Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1471",
+        "nombre_completo": "Juan Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1472",
+        "nombre_completo": "Miguel Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1473",
+        "nombre_completo": "Lucia Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1474",
+        "nombre_completo": "Maria Cedeño",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1475",
+        "nombre_completo": "Ana Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1476",
+        "nombre_completo": "Maria Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1477",
+        "nombre_completo": "Carlos Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1478",
+        "nombre_completo": "Carlos Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1479",
+        "nombre_completo": "Ana Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1480",
+        "nombre_completo": "Carlos Castro",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1481",
+        "nombre_completo": "Maria Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1482",
+        "nombre_completo": "Maria Torres",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1483",
+        "nombre_completo": "Carlos Garcia",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1484",
+        "nombre_completo": "Luis Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1485",
+        "nombre_completo": "Rosa Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1486",
+        "nombre_completo": "Miguel Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1487",
+        "nombre_completo": "Juan Cedeño",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1488",
+        "nombre_completo": "Ana Mendoza",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1489",
+        "nombre_completo": "Miguel Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1490",
+        "nombre_completo": "Sofia Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1491",
+        "nombre_completo": "Miguel Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1492",
+        "nombre_completo": "Juan Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1493",
+        "nombre_completo": "Pedro Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1494",
+        "nombre_completo": "Maria Cedeño",
+        "resultado": "ASIGNADO"
+    },
+    {
+        "id_postulante": "P1495",
+        "nombre_completo": "Lucia Perez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1496",
+        "nombre_completo": "Ana Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1497",
+        "nombre_completo": "Carlos Gomez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1498",
+        "nombre_completo": "Rosa Lopez",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1499",
+        "nombre_completo": "Pedro Zambrano",
+        "resultado": "NO ASIGNADO"
+    },
+    {
+        "id_postulante": "P1500",
+        "nombre_completo": "Juan Mendoza",
+        "resultado": "NO ASIGNADO"
+    }
+]

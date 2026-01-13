@@ -15,35 +15,54 @@ class Estudiante:
         titulo_superior=False,
         otro_merito=False
     ):
+        # IDENTIFICACIÓN
         self.id_postulante = id_postulante
         self.correo = correo
         self.num_telefono = num_telefono
         self.nombres = nombres
         self.apellidos = apellidos
+
+        # MÉRITO ACADÉMICO
         self.nota_postulacion = float(nota_postulacion)
+
+        # OPCIONES DE CARRERA
         self.opciones_carrera = [opcion_1]
 
-        # SEGMENTOS
-        self.es_politica_cuotas = politica_cuotas
-        self.es_vulnerable = vulnerable
-        self.es_cuadro_honor = cuadro_honor
-        self.es_pueblo_nacionalidad = pueblo_nacionalidad
-        self.tiene_titulo_superior = titulo_superior
-        self.tiene_otro_merito = otro_merito
+        # SEGMENTOS / PRIORIDADES
+        self.es_politica_cuotas = bool(politica_cuotas)
+        self.es_vulnerable = bool(vulnerable)
+        self.es_cuadro_honor = bool(cuadro_honor)
+        self.es_pueblo_nacionalidad = bool(pueblo_nacionalidad)
+        self.tiene_titulo_superior = bool(titulo_superior)
+        self.tiene_otro_merito = bool(otro_merito)
 
-        # ASIGNACIÓN
+        # RESULTADO DE ASIGNACIÓN
         self.oferta_asignada = None
-    # ESTADO
+
+    # -------------------------
+    # ESTADO DE ASIGNACIÓN
+    # -------------------------
+
     def esta_asignado(self):
         return self.oferta_asignada is not None
 
     def marcar_asignado(self, oferta):
         self.oferta_asignada = oferta
 
+    # -------------------------
+    # CONSULTAS ÚTILES
+    # -------------------------
+
     def nombre_completo(self):
         return f"{self.nombres} {self.apellidos}"
 
+    def carrera_postulada(self):
+        """Retorna la primera opción de carrera"""
+        return self.opciones_carrera[0]
+
+    # -------------------------
     # PERSISTENCIA
+    # -------------------------
 
     def a_diccionario(self):
         return {
