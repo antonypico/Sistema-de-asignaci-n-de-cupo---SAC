@@ -16,9 +16,9 @@ class AsignacionService:
         self.postulante_service = PostulanteService()
         self.oferta_service = OfertaAcademicaService()
 
-    # -------------------------
-    # PROCESO PRINCIPAL
-    # -------------------------
+   
+    #PROCESO PRINCIPAL
+    
 
     def ejecutar_asignacion(self):
         postulantes = self._leer_postulantes()
@@ -35,9 +35,8 @@ class AsignacionService:
 
         self._guardar_resultados(resultados)
 
-    # -------------------------
-    # LECTURA DE DATOS
-    # -------------------------
+    #LECTURA DE DATOS
+   
 
     def _leer_postulantes(self):
         """
@@ -53,9 +52,9 @@ class AsignacionService:
         """
         return self.oferta_service._leer_ofertas()
 
-    # -------------------------
-    # GUARDAR RESULTADOS
-    # -------------------------
+    
+    #GUARDAR RESULTADOS
+    
 
     def _guardar_resultados(self, resultados):
         data = []

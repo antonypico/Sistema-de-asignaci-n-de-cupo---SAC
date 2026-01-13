@@ -17,9 +17,9 @@ class OfertaAcademicaService:
 
         self.periodo_service = PeriodoService()
 
-    # ---------------------
+   
     # Persistencia
-    # ---------------------
+   
 
     def _leer_ofertas(self):
         try:
@@ -41,9 +41,9 @@ class OfertaAcademicaService:
                 ensure_ascii=False
             )
 
-    # ---------------------
+   
     # Carga desde CSV
-    # ---------------------
+   
 
     def cargar_desde_csv(self, ruta_csv):
         periodo = self.periodo_service.obtener_periodo_activo()

@@ -1,4 +1,4 @@
-# tests/datos_estudiantes_prueba.py
+
 
 from domain.estudiante import Estudiante
 

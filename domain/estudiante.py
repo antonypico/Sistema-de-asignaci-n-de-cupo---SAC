@@ -33,11 +33,7 @@ class Estudiante:
 
         # ASIGNACIÓN
         self.oferta_asignada = None
-
-    # -------------------------
     # ESTADO
-    # -------------------------
-
     def esta_asignado(self):
         return self.oferta_asignada is not None
 
@@ -47,9 +43,7 @@ class Estudiante:
     def nombre_completo(self):
         return f"{self.nombres} {self.apellidos}"
 
-    # -------------------------
     # PERSISTENCIA
-    # -------------------------
 
     def a_diccionario(self):
         return {
