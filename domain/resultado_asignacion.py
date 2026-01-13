@@ -1,4 +1,3 @@
-# domain/resultado_asignacion.py
 
 class ResultadoAsignacion:
     def __init__(self, estudiante):

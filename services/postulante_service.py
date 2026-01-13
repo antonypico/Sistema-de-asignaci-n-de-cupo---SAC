@@ -14,9 +14,9 @@ class PostulanteService:
             with open(self.ARCHIVO, "w", encoding="utf-8") as f:
                 json.dump([], f)
 
-    # ------------------
+   
     # Persistencia
-    # ------------------
+    
 
     def _guardar_postulantes(self, postulantes):
         with open(self.ARCHIVO, "w", encoding="utf-8") as f:
@@ -27,9 +27,9 @@ class PostulanteService:
                 ensure_ascii=False
             )
 
-    # ------------------
+   
     # Carga desde CSV
-    # ------------------
+  
 
     def cargar_desde_csv(self, ruta_csv):
         postulantes = []

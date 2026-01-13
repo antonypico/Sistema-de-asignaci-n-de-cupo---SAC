@@ -1,4 +1,3 @@
-# patterns/strategy/segmento_asignacion_strategy.py
 
 from abc import ABC, abstractmethod
 

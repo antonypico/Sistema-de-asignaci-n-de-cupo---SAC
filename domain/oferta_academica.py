@@ -36,12 +36,12 @@ class OfertaAcademica:
         self.cupos_disponibles = total_cupos
         self.periodo = periodo
 
-        # 🔑 ADAPTADOR PARA LOS STRATEGY
+        #ADAPTADOR PARA LOS STRATEGY
         self.carrera = Carrera(nombre_carrera)
 
-    # -------------------------
-    # LÓGICA DE CUPOS
-    # -------------------------
+   
+    #LÓGICA DE CUPOS
+   
 
     def tiene_cupos(self):
         return self.cupos_disponibles > 0
@@ -50,9 +50,9 @@ class OfertaAcademica:
         if self.cupos_disponibles > 0:
             self.cupos_disponibles -= 1
 
-    # -------------------------
-    # PERSISTENCIA
-    # -------------------------
+    
+    #PERSISTENCIA
+   
 
     def a_diccionario(self):
         return {

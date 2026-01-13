@@ -15,9 +15,9 @@ class PeriodoService:
             with open(self.ARCHIVO, "w", encoding="utf-8") as f:
                 json.dump([], f)
 
-    # ------------------------
+    
     # Persistencia
-    # ------------------------
+   
 
     def _leer_periodos(self):
         try:
@@ -39,9 +39,9 @@ class PeriodoService:
                 ensure_ascii=False
             )
 
-    # ------------------------
+   
     # Reglas de negocio
-    # ------------------------
+   
 
     def validar_formato_nombre(self, nombre):
         return re.match(self.FORMATO_REGEX, nombre) is not None
