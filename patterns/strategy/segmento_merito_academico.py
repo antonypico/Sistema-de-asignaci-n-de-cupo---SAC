@@ -19,38 +19,21 @@ class SegmentoMeritoAcademico(SegmentoAsignacionStrategy):
             if e.es_cuadro_honor and not e.esta_asignado()
         ]
 
-        # Meritocracia dentro del segmento
         merito.sort(key=lambda e: e.nota_postulacion, reverse=True)
 
         for estudiante in merito:
-            asignado = False
-
             for opcion in estudiante.opciones_carrera:
-                opcion_normalizada = opcion.strip().lower()
-
                 oferta = next(
-                    (
-                        o for o in ofertas
-                        if o.nombre_carrera.strip().lower() == opcion_normalizada
-                        and o.tiene_cupos()
-                    ),
+                    (o for o in ofertas if o.codigo_carrera == opcion and o.tiene_cupos()),
                     None
                 )
-
                 if oferta:
                     oferta.consumir_cupo()
                     estudiante.marcar_asignado(oferta)
                     asignados.append(estudiante)
-                    asignado = True
                     break
-
-            if not asignado:
+            else:
                 no_asignados.append(estudiante)
 
-        for e in estudiantes:
-            if e not in merito and not e.esta_asignado():
-                no_asignados.append(e)
-
         print(f"Estrategia ejecutada: {self.nombre_segmento}")
-
         return asignados, no_asignados, cupos_no_usados
