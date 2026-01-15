@@ -24,21 +24,19 @@ class AsignadorCupos:
             SegmentoOtrosMeritos(),
             SegmentoBachillerPN(),
             SegmentoBachillerGeneral(),
-            SegmentoPoblacionGeneral(),  # ← ya entra en el mismo flujo
+            SegmentoPoblacionGeneral(),
         ]
 
     def ejecutar(self):
-        estudiantes_restantes = self.estudiantes[:]
-
-        # Ejecutar TODOS los segmentos en orden
+        """
+        Ejecuta todos los segmentos sobre la MISMA lista de estudiantes.
+        Cada segmento asigna cupos solo a estudiantes NO asignados.
+        """
         for segmento in self.segmentos:
-            asignados, no_asignados, _ = segmento.asignar(
-                estudiantes_restantes,
+            segmento.asignar(
+                self.estudiantes,
                 self.ofertas
             )
-
-            # Los no asignados pasan al siguiente segmento
-            estudiantes_restantes = no_asignados
 
         return self._generar_resultados()
 
@@ -47,4 +45,3 @@ class AsignadorCupos:
         for estudiante in self.estudiantes:
             resultados.append(ResultadoAsignacion(estudiante))
         return resultados
-

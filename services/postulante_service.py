@@ -14,9 +14,9 @@ class PostulanteService:
             with open(self.ARCHIVO, "w", encoding="utf-8") as f:
                 json.dump([], f)
 
-   
+    # ---------------------
     # Persistencia
-    
+    # ---------------------
 
     def _guardar_postulantes(self, postulantes):
         with open(self.ARCHIVO, "w", encoding="utf-8") as f:
@@ -27,9 +27,9 @@ class PostulanteService:
                 ensure_ascii=False
             )
 
-   
+    # ---------------------
     # Carga desde CSV
-  
+    # ---------------------
 
     def cargar_desde_csv(self, ruta_csv):
         postulantes = []
@@ -63,13 +63,14 @@ class PostulanteService:
                     nombres=fila["nombres"],
                     apellidos=fila["apellidos"],
                     nota_postulacion=fila["nota_postulacion"],
-                    opcion_carrera=fila["opcion_1"],
-                    es_politica_cuotas=fila["politica_cuotas"] == "SI",
-                    es_vulnerable=fila["vulnerable"] == "SI",
-                    es_cuadro_honor=fila["cuadro_honor"] == "SI",
-                    es_pueblo_nacionalidad=fila["pueblo_nacionalidad"] == "SI",
-                    tiene_titulo_superior=fila["titulo_superior"] == "SI"
+                    opcion_1=fila["opcion_1"],  # ✅ CORRECTO
+                    politica_cuotas=fila["politica_cuotas"].strip().upper() == "SI",
+                    vulnerable=fila["vulnerable"].strip().upper() == "SI",
+                    cuadro_honor=fila["cuadro_honor"].strip().upper() == "SI",
+                    pueblo_nacionalidad=fila["pueblo_nacionalidad"].strip().upper() == "SI",
+                    titulo_superior=fila["titulo_superior"].strip().upper() == "SI"
                 )
+
                 postulantes.append(estudiante)
 
         self._guardar_postulantes(postulantes)

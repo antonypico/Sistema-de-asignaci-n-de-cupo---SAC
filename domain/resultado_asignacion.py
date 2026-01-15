@@ -1,10 +1,16 @@
-
 class ResultadoAsignacion:
     def __init__(self, estudiante):
-        self.id_estudiante = estudiante.id_estudiante
+        # Referencia al estudiante
+        self.estudiante = estudiante
+
+        # Identificación
+        self.id_postulante = estudiante.id_postulante
         self.nombre = estudiante.nombre_completo()
-        self.carrera_asignada = (
-            estudiante.oferta_asignada.carrera.nombre
-            if estudiante.oferta_asignada
-            else "NO ASIGNADO"
-        )
+
+        # Resultado de asignación
+        if estudiante.oferta_asignada:
+            self.carrera_asignada = estudiante.oferta_asignada.carrera.nombre
+            self.resultado = "ASIGNADO"
+        else:
+            self.carrera_asignada = "NO ASIGNADO"
+            self.resultado = "NO ASIGNADO"
