@@ -14,50 +14,44 @@ class CrearPeriodoView(VentanaBase):
             ancho=450,
             alto=350
         )
-
+        
         self.periodo_service = PeriodoService()
         self._crear_widgets()
 
     def _crear_widgets(self):
         contenedor = ttk.Frame(self)
-        contenedor.pack(expand=True, padx=20, pady=20)
-
+        contenedor.pack(expand=True, padx=20,pady=20)
+        
         ttk.Label(
             contenedor,
             text="Nuevo Período Académico",
             font=("Arial", 16, "bold")
         ).pack(pady=15)
-
-        # Nombre del período
+        
+        #Nombre del periodo
         ttk.Label(contenedor, text="Período: (0000-00-00)").pack(anchor="w")
         self.entry_nombre = ttk.Entry(contenedor, width=30)
         self.entry_nombre.pack(pady=5)
-
-        # Fecha inicio
+        
+        #Fecha inicio
         ttk.Label(contenedor, text="Fecha inicio: (0000-00-00)").pack(anchor="w")
         self.entry_inicio = ttk.Entry(contenedor, width=30)
         self.entry_inicio.pack(pady=5)
 
-        # Fecha fin
+        #Fecha fin
         ttk.Label(contenedor, text="Fecha fin: (0000-00-00)").pack(anchor="w")
         self.entry_fin = ttk.Entry(contenedor, width=30)
         self.entry_fin.pack(pady=5)
-
+        
         frame_botones = ttk.Frame(contenedor)
         frame_botones.pack(pady=20)
-
-        ttk.Button(
-            frame_botones,
-            text="Guardar",
-            command=self._guardar_periodo
-        ).pack(side="left", padx=10)
 
         ttk.Button(
             frame_botones,
             text="Cancelar",
             command=self.destroy
         ).pack(side="left", padx=10)
-
+        
     def _guardar_periodo(self):
         nombre = self.entry_nombre.get().strip()
         inicio_txt = self.entry_inicio.get().strip()
@@ -105,3 +99,5 @@ class CrearPeriodoView(VentanaBase):
                 "Advertencia",
                 str(e)
             )
+            return
+        
