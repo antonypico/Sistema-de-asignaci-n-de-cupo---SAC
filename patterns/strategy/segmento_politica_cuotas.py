@@ -29,6 +29,7 @@ class SegmentoPoliticaCuotas(SegmentoAsignacionStrategy):
                 )
                 if oferta:
                     oferta.consumir_cupo()
+                    print("Cupos disponibles:", oferta.cupos_disponibles)
                     estudiante.marcar_asignado(oferta)
                     asignados.append(estudiante)
                     break
@@ -37,3 +38,6 @@ class SegmentoPoliticaCuotas(SegmentoAsignacionStrategy):
 
         print(f"Estrategia ejecutada: {self.nombre_segmento}")
         return asignados, no_asignados, cupos_no_usados
+
+
+

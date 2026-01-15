@@ -14,8 +14,8 @@ class VerResultadosView(VentanaBase):
         super().__init__(
             master,
             titulo="Resultados de la Asignación de Cupos",
-            ancho=700,
-            alto=500
+            ancho=750,
+            alto=550
         )
 
         self._crear_widgets()
@@ -27,15 +27,14 @@ class VerResultadosView(VentanaBase):
 
         ttk.Label(
             contenedor,
-            text="Resultados de la Asignación",
+            text="Resultados de la Asignación de Cupos",
             font=("Arial", 14, "bold")
         ).pack(pady=10)
 
-        # Área de texto con scroll
         frame_texto = ttk.Frame(contenedor)
         frame_texto.pack(expand=True, fill="both")
 
-        self.texto = tk.Text(frame_texto, wrap="none")
+        self.texto = tk.Text(frame_texto, wrap="word")
         self.texto.pack(side="left", expand=True, fill="both")
 
         scroll = ttk.Scrollbar(frame_texto, orient="vertical", command=self.texto.yview)
@@ -69,9 +68,16 @@ class VerResultadosView(VentanaBase):
         else:
             for r in data:
                 linea = (
-                    f"{r['id_postulante']} | "
-                    f"{r['nombre_completo']} | "
-                    f"{r['resultado']}\n"
+                    f"ID Estudiante: {r['id_estudiante']}\n"
+                    f"Nombres: {r['nombres']} {r['apellidos']}\n"
+                    f"Correo: {r['correo']}\n"
+                    f"Carrera: {r['carrera']}\n"
+                    f"Jornada: {r['jornada']}\n"
+                    f"Modalidad: {r['modalidad']}\n"
+                    f"Nota de postulación: {r['nota_postulacion']}\n"
+                    f"Grupo: {r['grupo']}\n"
+                    f"Estado de asignación: {r['estado_asignacion']}\n"
+                    f"{'-'*70}\n"
                 )
                 self.texto.insert(tk.END, linea)
 
