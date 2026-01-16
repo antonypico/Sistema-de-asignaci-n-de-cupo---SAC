@@ -1,66 +1,51 @@
 import json
 import os
 
-from domain.estudiante import Estudiante
 from services.postulante_service import PostulanteService
 from services.oferta_academica_service import OfertaAcademicaService
+from services.periodo_service import PeriodoService
 from services.asignador_cupos import AsignadorCupos
 
 
 class AsignacionService:
 
-    ARCHIVO_RESULTADOS = "data/resultados_asignacion.json"
-
     def __init__(self):
-        os.makedirs("data", exist_ok=True)
+        self.periodo_service = PeriodoService()
         self.postulante_service = PostulanteService()
         self.oferta_service = OfertaAcademicaService()
 
     # -------------------------------------------------
-    # PROCESO PRINCIPAL DE ASIGNACIÓN
+    # PROCESO PRINCIPAL
     # -------------------------------------------------
 
     def ejecutar_asignacion(self):
-        estudiantes = self._leer_postulantes()
-        ofertas = self._leer_ofertas()
+        # 👇 SOLO se leen postulantes desde el service
+        postulantes = self.postulante_service.leer_postulantes()
+        ofertas = self.oferta_service.leer_ofertas()
 
-        if not estudiantes:
-            raise ValueError("No existen postulantes cargados")
+        if not postulantes:
+            raise ValueError("No existen postulantes cargados para el período activo")
 
         if not ofertas:
-            raise ValueError("No existe oferta académica cargada")
+            raise ValueError("No existe oferta académica cargada para el período activo")
 
-        # Ejecutar asignación
-        asignador = AsignadorCupos(estudiantes, ofertas)
+        asignador = AsignadorCupos(postulantes, ofertas)
         resultados = asignador.ejecutar()
 
-        # Guardar resultados de asignación
-        self._guardar_resultados(resultados)
-
-        # 🔥 CLAVE: guardar ofertas con cupos ya consumidos
+        # Guardar cupos actualizados
         self.oferta_service.guardar_ofertas(ofertas)
 
-    # -------------------------------------------------
-    # LECTURA DE POSTULANTES
-    # -------------------------------------------------
-
-    def _leer_postulantes(self):
-        with open("data/postulantes.json", "r", encoding="utf-8") as f:
-            data = json.load(f)
-            return [Estudiante.desde_diccionario(p) for p in data]
+        # Guardar resultados
+        self._guardar_resultados(resultados)
 
     # -------------------------------------------------
-    # LECTURA DE OFERTA ACADÉMICA
-    # -------------------------------------------------
-
-    def _leer_ofertas(self):
-        return self.oferta_service.leer_ofertas()
-
-    # -------------------------------------------------
-    # GUARDAR RESULTADOS
+    # GUARDAR RESULTADOS (PERIODO ACTIVO)
     # -------------------------------------------------
 
     def _guardar_resultados(self, resultados):
+        ruta = self.periodo_service.obtener_ruta_periodo_activo()
+        archivo = f"{ruta}/resultados_asignacion.json"
+
         data = []
 
         for r in resultados:
@@ -76,8 +61,12 @@ class AsignacionService:
                 "carrera": oferta.nombre_carrera if oferta else None,
                 "jornada": oferta.jornada if oferta else None,
                 "modalidad": oferta.modalidad if oferta else None,
-                "estado_asignacion": "ASIGNADO" if estudiante.esta_asignado() else "NO ASIGNADO"
+                "estado_asignacion": "ASIGNADO" if oferta else "NO ASIGNADO"
             })
 
-        with open(self.ARCHIVO_RESULTADOS, "w", encoding="utf-8") as f:
+        os.makedirs(ruta, exist_ok=True)
+
+        with open(archivo, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=4, ensure_ascii=False)
+
+

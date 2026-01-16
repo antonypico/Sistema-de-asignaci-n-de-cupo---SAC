@@ -1,34 +1,123 @@
 import json
 import os
-import re
+from datetime import date
 
-from domain.periodo import Periodo
+
+class Periodo:
+    def __init__(self, nombre, fecha_inicio=None, fecha_fin=None, activo=False):
+        self.nombre = nombre
+        self.fecha_inicio = fecha_inicio
+        self.fecha_fin = fecha_fin
+        self.activo = activo
+
+    # -----------------------------
+    # SERIALIZACIÓN CORRECTA
+    # -----------------------------
+
+    def a_diccionario(self):
+        return {
+            "nombre": self.nombre,
+            "fecha_inicio": self.fecha_inicio.isoformat() if self.fecha_inicio else None,
+            "fecha_fin": self.fecha_fin.isoformat() if self.fecha_fin else None,
+            "activo": self.activo
+        }
+
+    @staticmethod
+    def desde_diccionario(data):
+        return Periodo(
+            nombre=data["nombre"],
+            fecha_inicio=date.fromisoformat(data["fecha_inicio"])
+            if data.get("fecha_inicio") else None,
+            fecha_fin=date.fromisoformat(data["fecha_fin"])
+            if data.get("fecha_fin") else None,
+            activo=data.get("activo", False)
+        )
 
 
 class PeriodoService:
+
     ARCHIVO = "data/periodos.json"
-    FORMATO_REGEX = r"^\d{4}-[12]$"
 
     def __init__(self):
         os.makedirs("data", exist_ok=True)
+        os.makedirs("data/periodos", exist_ok=True)
+
         if not os.path.exists(self.ARCHIVO):
             with open(self.ARCHIVO, "w", encoding="utf-8") as f:
                 json.dump([], f)
 
-    
-    # Persistencia
-   
+    # -------------------------------------------------
+    # UTILIDAD CLAVE: RUTA DEL PERIODO ACTIVO
+    # -------------------------------------------------
+
+    def obtener_ruta_periodo_activo(self):
+        periodo = self.obtener_periodo_activo()
+        if not periodo:
+            raise ValueError("No existe un período activo")
+
+        ruta = f"data/periodos/{periodo.nombre}"
+        os.makedirs(ruta, exist_ok=True)
+        return ruta
+
+    # -------------------------------------------------
+    # CRUD DE PERIODOS
+    # -------------------------------------------------
+
+    def crear_periodo(self, nombre, fecha_inicio=None, fecha_fin=None):
+        periodos = self._leer_periodos()
+
+        # Desactivar todos
+        for p in periodos:
+            p.activo = False
+
+        nuevo = Periodo(
+            nombre=nombre,
+            fecha_inicio=fecha_inicio,
+            fecha_fin=fecha_fin,
+            activo=True
+        )
+
+        periodos.append(nuevo)
+        self._guardar_periodos(periodos)
+
+        # Crear carpeta del período
+        os.makedirs(f"data/periodos/{nombre}", exist_ok=True)
+
+    def listar_periodos(self):
+        return self._leer_periodos()
+
+    def obtener_periodo_activo(self):
+        periodos = self._leer_periodos()
+        for p in periodos:
+            if p.activo:
+                return p
+        return None
+
+    def activar_periodo(self, nombre):
+        periodos = self._leer_periodos()
+        encontrado = False
+
+        for p in periodos:
+            if p.nombre == nombre:
+                p.activo = True
+                encontrado = True
+            else:
+                p.activo = False
+
+        if not encontrado:
+            raise ValueError("Período no encontrado")
+
+        self._guardar_periodos(periodos)
+        os.makedirs(f"data/periodos/{nombre}", exist_ok=True)
+
+    # -------------------------------------------------
+    # PERSISTENCIA
+    # -------------------------------------------------
 
     def _leer_periodos(self):
-        try:
-            with open(self.ARCHIVO, "r", encoding="utf-8") as f:
-                contenido = f.read().strip()
-                if not contenido:
-                    return []
-                data = json.loads(contenido)
-                return [Periodo.desde_diccionario(p) for p in data]
-        except (json.JSONDecodeError, FileNotFoundError):
-            return []
+        with open(self.ARCHIVO, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        return [Periodo.desde_diccionario(p) for p in data]
 
     def _guardar_periodos(self, periodos):
         with open(self.ARCHIVO, "w", encoding="utf-8") as f:
@@ -39,60 +128,54 @@ class PeriodoService:
                 ensure_ascii=False
             )
 
-   
-    # Reglas de negocio
-   
 
-    def validar_formato_nombre(self, nombre):
-        return re.match(self.FORMATO_REGEX, nombre) is not None
-
-    def listar_periodos(self):
-        return self._leer_periodos()
-
-    def obtener_periodo_activo(self):
-        for p in self._leer_periodos():
-            if p.activo:
-                return p
-        return None
-
-    def crear_periodo(self, nombre, fecha_inicio, fecha_fin):
-        if not self.validar_formato_nombre(nombre):
-            raise ValueError("El formato del período debe ser YYYY-1 o YYYY-2")
-
-        periodos = self._leer_periodos()
-
-        if any(p.nombre == nombre for p in periodos):
-            raise ValueError("Ya existe un período con ese nombre")
-
-        if any(p.activo for p in periodos):
-            raise ValueError("Ya existe un período activo. Debe finalizarlo o eliminarlo")
-
-        nuevo = Periodo(nombre, fecha_inicio, fecha_fin, activo=True)
-        periodos.append(nuevo)
-        self._guardar_periodos(periodos)
-
-        return nuevo
+    # -------------------------------------------------
+    # FINALIZAR PERIODO ACTIVO
+    # -------------------------------------------------
 
     def finalizar_periodo_activo(self):
         periodos = self._leer_periodos()
+        periodo_finalizado = None
 
         for p in periodos:
             if p.activo:
-                p.finalizar()
-                self._guardar_periodos(periodos)
-                return p
+                p.activo = False
+                periodo_finalizado = p
+                break
 
-        raise ValueError("No existe un período activo")
+        if not periodo_finalizado:
+            raise ValueError("No existe un período activo para finalizar")
 
-    def eliminar_periodo(self, nombre_periodo):
+        self._guardar_periodos(periodos)
+        return periodo_finalizado
+
+
+    # -------------------------------------------------
+    # ELIMINAR PERIODO
+    # -------------------------------------------------
+
+    def eliminar_periodo(self, nombre):
         periodos = self._leer_periodos()
+        periodo_a_eliminar = None
 
-        periodo = next((p for p in periodos if p.nombre == nombre_periodo), None)
+        for p in periodos:
+            if p.nombre == nombre:
+                periodo_a_eliminar = p
+                break
 
-        if not periodo:
+        if not periodo_a_eliminar:
             raise ValueError("El período no existe")
 
-        periodos.remove(periodo)
+        if periodo_a_eliminar.activo:
+            raise ValueError("No se puede eliminar un período activo")
+
+        # Eliminar del listado
+        periodos = [p for p in periodos if p.nombre != nombre]
         self._guardar_periodos(periodos)
 
-        return periodo
+        # Eliminar carpeta del período (si existe)
+        ruta = f"data/periodos/{nombre}"
+        if os.path.exists(ruta):
+            for archivo in os.listdir(ruta):
+                os.remove(os.path.join(ruta, archivo))
+            os.rmdir(ruta)

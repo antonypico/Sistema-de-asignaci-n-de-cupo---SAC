@@ -36,7 +36,6 @@ class SegmentoPoliticaCuotas(SegmentoAsignacionStrategy):
             else:
                 no_asignados.append(estudiante)
 
-        print(f"Estrategia ejecutada: {self.nombre_segmento}")
         return asignados, no_asignados, cupos_no_usados
 
 

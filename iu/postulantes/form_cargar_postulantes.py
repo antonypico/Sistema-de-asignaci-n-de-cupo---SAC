@@ -3,6 +3,7 @@ from tkinter import ttk, filedialog, messagebox
 
 from iu.base.ventana_base import VentanaBase
 from services.postulante_service import PostulanteService
+from services.periodo_service import PeriodoService
 
 
 class CargarPostulantesView(VentanaBase):
@@ -10,29 +11,38 @@ class CargarPostulantesView(VentanaBase):
     def __init__(self, master=None):
         super().__init__(
             master,
-            titulo="Cargar ficha de postulantes",
-            ancho=500,
+            titulo="Cargar Ficha de Postulantes",
+            ancho=450,
             alto=300
         )
 
-        self.service = PostulanteService()
+        self.postulante_service = PostulanteService()
+        self.periodo_service = PeriodoService()
+
         self._crear_widgets()
 
     def _crear_widgets(self):
         contenedor = ttk.Frame(self)
         contenedor.pack(expand=True, padx=20, pady=20)
 
+        periodo = self.periodo_service.obtener_periodo_activo()
+
         ttk.Label(
             contenedor,
-            text="Cargar ficha de postulantes (CSV)",
+            text="Cargar ficha de postulantes",
             font=("Arial", 14, "bold")
-        ).pack(pady=15)
+        ).pack(pady=10)
+
+        ttk.Label(
+            contenedor,
+            text=f"Período activo: {periodo.nombre if periodo else 'Ninguno'}"
+        ).pack(pady=5)
 
         ttk.Button(
             contenedor,
             text="Seleccionar archivo CSV",
             width=30,
-            command=self._cargar_archivo
+            command=self._cargar_csv
         ).pack(pady=15)
 
         ttk.Button(
@@ -40,9 +50,9 @@ class CargarPostulantesView(VentanaBase):
             text="Cerrar",
             width=20,
             command=self.destroy
-        ).pack(pady=10)
+        ).pack(pady=5)
 
-    def _cargar_archivo(self):
+    def _cargar_csv(self):
         ruta = filedialog.askopenfilename(
             filetypes=[("Archivos CSV", "*.csv")]
         )
@@ -51,10 +61,10 @@ class CargarPostulantesView(VentanaBase):
             return
 
         try:
-            self.service.cargar_desde_csv(ruta)
+            self.postulante_service.cargar_desde_csv(ruta)
             messagebox.showinfo(
                 "Éxito",
-                "La ficha de postulantes se cargó correctamente"
+                "Postulantes cargados correctamente"
             )
             self.destroy()
         except Exception as e:

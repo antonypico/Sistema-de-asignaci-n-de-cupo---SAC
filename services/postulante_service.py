@@ -1,25 +1,47 @@
-import csv
 import json
 import os
+import csv
 
 from domain.estudiante import Estudiante
+from services.periodo_service import PeriodoService
 
 
 class PostulanteService:
-    ARCHIVO = "data/postulantes.json"
 
     def __init__(self):
-        os.makedirs("data", exist_ok=True)
-        if not os.path.exists(self.ARCHIVO):
-            with open(self.ARCHIVO, "w", encoding="utf-8") as f:
-                json.dump([], f)
+        self.periodo_service = PeriodoService()
 
-    # ---------------------
-    # Persistencia
-    # ---------------------
+    # -------------------------------------------------
+    # UTILIDAD: ARCHIVO DEL PERIODO ACTIVO
+    # -------------------------------------------------
 
-    def _guardar_postulantes(self, postulantes):
-        with open(self.ARCHIVO, "w", encoding="utf-8") as f:
+    def _archivo_postulantes(self):
+        ruta = self.periodo_service.obtener_ruta_periodo_activo()
+        return f"{ruta}/postulantes.json"
+
+    # -------------------------------------------------
+    # LEER POSTULANTES
+    # -------------------------------------------------
+
+    def leer_postulantes(self):
+        archivo = self._archivo_postulantes()
+
+        if not os.path.exists(archivo):
+            return []
+
+        with open(archivo, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        return [Estudiante.desde_diccionario(p) for p in data]
+
+    # -------------------------------------------------
+    # GUARDAR POSTULANTES
+    # -------------------------------------------------
+
+    def guardar_postulantes(self, postulantes):
+        archivo = self._archivo_postulantes()
+
+        with open(archivo, "w", encoding="utf-8") as f:
             json.dump(
                 [p.a_diccionario() for p in postulantes],
                 f,
@@ -27,33 +49,15 @@ class PostulanteService:
                 ensure_ascii=False
             )
 
-    # ---------------------
-    # Carga desde CSV
-    # ---------------------
+    # -------------------------------------------------
+    # CARGAR POSTULANTES DESDE CSV
+    # -------------------------------------------------
 
     def cargar_desde_csv(self, ruta_csv):
         postulantes = []
 
         with open(ruta_csv, newline="", encoding="utf-8") as archivo:
             lector = csv.DictReader(archivo)
-
-            columnas_requeridas = [
-                "id_postulante",
-                "correo",
-                "num_telefono",
-                "nombres",
-                "apellidos",
-                "nota_postulacion",
-                "opcion_1",
-                "politica_cuotas",
-                "vulnerable",
-                "cuadro_honor",
-                "pueblo_nacionalidad",
-                "titulo_superior"
-            ]
-
-            if not all(col in lector.fieldnames for col in columnas_requeridas):
-                raise ValueError("El archivo CSV no tiene el formato correcto")
 
             for fila in lector:
                 estudiante = Estudiante(
@@ -63,14 +67,14 @@ class PostulanteService:
                     nombres=fila["nombres"],
                     apellidos=fila["apellidos"],
                     nota_postulacion=fila["nota_postulacion"],
-                    opcion_1=fila["opcion_1"],  # ✅ CORRECTO
-                    politica_cuotas=fila["politica_cuotas"].strip().upper() == "SI",
-                    vulnerable=fila["vulnerable"].strip().upper() == "SI",
-                    cuadro_honor=fila["cuadro_honor"].strip().upper() == "SI",
-                    pueblo_nacionalidad=fila["pueblo_nacionalidad"].strip().upper() == "SI",
-                    titulo_superior=fila["titulo_superior"].strip().upper() == "SI"
+                    opcion_1=fila["opcion_1"],
+                    politica_cuotas=bool(int(fila["politica_cuotas"])),
+                    vulnerable=bool(int(fila["vulnerable"])),
+                    cuadro_honor=bool(int(fila["cuadro_honor"])),
+                    pueblo_nacionalidad=bool(int(fila["pueblo_nacionalidad"])),
+                    titulo_superior=bool(int(fila["titulo_superior"])),
+                    otro_merito=bool(int(fila["otro_merito"]))
                 )
-
                 postulantes.append(estudiante)
 
-        self._guardar_postulantes(postulantes)
+        self.guardar_postulantes(postulantes)

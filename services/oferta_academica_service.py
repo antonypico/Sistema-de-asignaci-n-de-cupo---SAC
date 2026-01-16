@@ -7,37 +7,41 @@ from services.periodo_service import PeriodoService
 
 
 class OfertaAcademicaService:
-    ARCHIVO = "data/ofertas_academicas.json"
 
     def __init__(self):
-        os.makedirs("data", exist_ok=True)
-        if not os.path.exists(self.ARCHIVO):
-            with open(self.ARCHIVO, "w", encoding="utf-8") as f:
-                json.dump([], f)
-
         self.periodo_service = PeriodoService()
 
     # -------------------------------------------------
-    # LECTURA DE OFERTAS
+    # UTILIDAD: ARCHIVO DEL PERIODO ACTIVO
+    # -------------------------------------------------
+
+    def _archivo_ofertas(self):
+        ruta = self.periodo_service.obtener_ruta_periodo_activo()
+        return f"{ruta}/ofertas_academicas.json"
+
+    # -------------------------------------------------
+    # LEER OFERTAS
     # -------------------------------------------------
 
     def leer_ofertas(self):
-        try:
-            with open(self.ARCHIVO, "r", encoding="utf-8") as f:
-                contenido = f.read().strip()
-                if not contenido:
-                    return []
-                data = json.loads(contenido)
-                return [OfertaAcademica.desde_diccionario(o) for o in data]
-        except:
+        archivo = self._archivo_ofertas()
+
+        if not os.path.exists(archivo):
             return []
 
+        with open(archivo, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        return [OfertaAcademica.desde_diccionario(o) for o in data]
+
     # -------------------------------------------------
-    # GUARDAR OFERTAS (PÚBLICO)
+    # GUARDAR OFERTAS
     # -------------------------------------------------
 
     def guardar_ofertas(self, ofertas):
-        with open(self.ARCHIVO, "w", encoding="utf-8") as f:
+        archivo = self._archivo_ofertas()
+
+        with open(archivo, "w", encoding="utf-8") as f:
             json.dump(
                 [o.a_diccionario() for o in ofertas],
                 f,
@@ -46,7 +50,7 @@ class OfertaAcademicaService:
             )
 
     # -------------------------------------------------
-    # CARGA DESDE CSV (INICIAL)
+    # CARGAR DESDE CSV (PERIODO ACTIVO)
     # -------------------------------------------------
 
     def cargar_desde_csv(self, ruta_csv):
@@ -76,6 +80,6 @@ class OfertaAcademicaService:
                 )
                 ofertas.append(oferta)
 
-       
         self.guardar_ofertas(ofertas)
+
         

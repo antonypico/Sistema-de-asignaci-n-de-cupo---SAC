@@ -4,19 +4,20 @@ import json
 import os
 
 from iu.base.ventana_base import VentanaBase
+from services.periodo_service import PeriodoService
 
 
 class VerResultadosView(VentanaBase):
-
-    ARCHIVO = "data/resultados_asignacion.json"
 
     def __init__(self, master=None):
         super().__init__(
             master,
             titulo="Resultados de la Asignación de Cupos",
-            ancho=900,
-            alto=550
+            ancho=800,
+            alto=500
         )
+
+        self.periodo_service = PeriodoService()
 
         self._crear_widgets()
         self._cargar_resultados()
@@ -34,14 +35,10 @@ class VerResultadosView(VentanaBase):
         frame_texto = ttk.Frame(contenedor)
         frame_texto.pack(expand=True, fill="both")
 
-        self.texto = tk.Text(frame_texto, wrap="word")
+        self.texto = tk.Text(frame_texto, wrap="none")
         self.texto.pack(side="left", expand=True, fill="both")
 
-        scroll = ttk.Scrollbar(
-            frame_texto,
-            orient="vertical",
-            command=self.texto.yview
-        )
+        scroll = ttk.Scrollbar(frame_texto, orient="vertical", command=self.texto.yview)
         scroll.pack(side="right", fill="y")
 
         self.texto.configure(yscrollcommand=scroll.set, state="disabled")
@@ -54,14 +51,17 @@ class VerResultadosView(VentanaBase):
         ).pack(pady=10)
 
     def _cargar_resultados(self):
-        if not os.path.exists(self.ARCHIVO):
+        ruta_periodo = self.periodo_service.obtener_ruta_periodo_activo()
+        archivo = f"{ruta_periodo}/resultados_asignacion.json"
+
+        if not os.path.exists(archivo):
             messagebox.showwarning(
                 "Sin resultados",
-                "Aún no se ha ejecutado la asignación de cupos"
+                "Aún no se ha ejecutado la asignación de cupos para el período activo"
             )
             return
 
-        with open(self.ARCHIVO, "r", encoding="utf-8") as f:
+        with open(archivo, "r", encoding="utf-8") as f:
             data = json.load(f)
 
         self.texto.configure(state="normal")
@@ -71,17 +71,17 @@ class VerResultadosView(VentanaBase):
             self.texto.insert(tk.END, "No existen resultados registrados.\n")
         else:
             for r in data:
-                self.texto.insert(
-                    tk.END,
-                    f"ID: {r['id_estudiante']}\n"
-                    f"Nombre: {r['nombres']} {r['apellidos']}\n"
-                    f"Correo: {r['correo']}\n"
-                    f"Nota de postulación: {r['nota_postulacion']}\n"
-                    f"Carrera: {r['carrera']}\n"
-                    f"Jornada: {r['jornada']}\n"
-                    f"Modalidad: {r['modalidad']}\n"
-                    f"Estado: {r['estado_asignacion']}\n"
-                    "---------------------------------------------\n"
+                linea = (
+                    f"{r['id_estudiante']} | "
+                    f"{r['nombres']} {r['apellidos']} | "
+                    f"{r['correo']} | "
+                    f"{r['carrera']} | "
+                    f"{r['modalidad']} | "
+                    f"{r['jornada']} | "
+                    f"{r['nota_postulacion']} | "
+                    f"{r['estado_asignacion']}\n"
                 )
+                self.texto.insert(tk.END, linea)
 
         self.texto.configure(state="disabled")
+

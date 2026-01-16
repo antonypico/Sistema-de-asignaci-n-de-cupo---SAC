@@ -1,19 +1,21 @@
-
-from abc import ABC, abstractmethod
-
-
-class SegmentoAsignacionStrategy(ABC):
-
+class SegmentoAsignacionStrategy:
     def __init__(self, nombre_segmento, porcentaje_cupos):
         self.nombre_segmento = nombre_segmento
         self.porcentaje_cupos = porcentaje_cupos
 
-    def calcular_cupos(self, total_cupos):
+    def _buscar_oferta(self, opcion, ofertas):
         """
-        Calcula los cupos del segmento según el porcentaje definido
+        Busca una oferta académica por:
+        - código de carrera (IS1)
+        - nombre de carrera (Ingeniería en Sistemas)
         """
-        return int(total_cupos * self.porcentaje_cupos)
+        opcion_normalizada = opcion.strip().lower()
 
-    @abstractmethod
-    def asignar(self, estudiantes, ofertas):
-        pass
+        for oferta in ofertas:
+            if (
+                opcion_normalizada == oferta.codigo_carrera.strip().lower()
+                or opcion_normalizada == oferta.nombre_carrera.strip().lower()
+            ) and oferta.tiene_cupos():
+                return oferta
+
+        return None
