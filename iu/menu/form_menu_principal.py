@@ -10,6 +10,7 @@ from iu.postulantes.form_cargar_postulantes import CargarPostulantesView
 from iu.resultados.form_ejecutar_asignacion import EjecutarAsignacionView
 from iu.resultados.form_ver_resultados import VerResultadosView
 from iu.resultados.form_exportar_resultados import ExportarResultadosView
+from iu.estadisticas.form_ver_estadisticas import VerEstadisticasView
 
 
 class MenuPrincipalView(VentanaBase):
@@ -89,6 +90,14 @@ class MenuPrincipalView(VentanaBase):
             width=35,
             command=lambda: ExportarResultadosView(self)
         ).pack(pady=6)
+
+        ttk.Button(
+            contenedor,
+            text="Ver estadísticas",
+            width=35,
+            command=lambda: VerEstadisticasView(self)
+        ).pack(pady=6)
+
 
         ttk.Button(
             contenedor,
