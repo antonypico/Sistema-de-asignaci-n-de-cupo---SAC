@@ -14,7 +14,7 @@ class VerResultadosView(VentanaBase):
         super().__init__(
             master,
             titulo="Resultados de la Asignación de Cupos",
-            ancho=750,
+            ancho=900,
             alto=550
         )
 
@@ -37,7 +37,11 @@ class VerResultadosView(VentanaBase):
         self.texto = tk.Text(frame_texto, wrap="word")
         self.texto.pack(side="left", expand=True, fill="both")
 
-        scroll = ttk.Scrollbar(frame_texto, orient="vertical", command=self.texto.yview)
+        scroll = ttk.Scrollbar(
+            frame_texto,
+            orient="vertical",
+            command=self.texto.yview
+        )
         scroll.pack(side="right", fill="y")
 
         self.texto.configure(yscrollcommand=scroll.set, state="disabled")
@@ -67,18 +71,17 @@ class VerResultadosView(VentanaBase):
             self.texto.insert(tk.END, "No existen resultados registrados.\n")
         else:
             for r in data:
-                linea = (
-                    f"ID Estudiante: {r['id_estudiante']}\n"
-                    f"Nombres: {r['nombres']} {r['apellidos']}\n"
+                self.texto.insert(
+                    tk.END,
+                    f"ID: {r['id_estudiante']}\n"
+                    f"Nombre: {r['nombres']} {r['apellidos']}\n"
                     f"Correo: {r['correo']}\n"
+                    f"Nota de postulación: {r['nota_postulacion']}\n"
                     f"Carrera: {r['carrera']}\n"
                     f"Jornada: {r['jornada']}\n"
                     f"Modalidad: {r['modalidad']}\n"
-                    f"Nota de postulación: {r['nota_postulacion']}\n"
-                    f"Grupo: {r['grupo']}\n"
-                    f"Estado de asignación: {r['estado_asignacion']}\n"
-                    f"{'-'*70}\n"
+                    f"Estado: {r['estado_asignacion']}\n"
+                    "---------------------------------------------\n"
                 )
-                self.texto.insert(tk.END, linea)
 
         self.texto.configure(state="disabled")

@@ -60,7 +60,9 @@ class VerOfertaAcademicaView(VentanaBase):
             messagebox.showwarning("Advertencia", "No existe un período activo")
             return
 
-        ofertas = self.oferta_service._leer_ofertas()
+        
+        ofertas = self.oferta_service.leer_ofertas()
+
         ofertas_periodo = [
             o for o in ofertas if o.periodo == periodo.nombre
         ]

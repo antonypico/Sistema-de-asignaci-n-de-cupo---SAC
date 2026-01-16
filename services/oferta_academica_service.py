@@ -17,11 +17,11 @@ class OfertaAcademicaService:
 
         self.periodo_service = PeriodoService()
 
-   
-    # Persistencia
-   
+    # -------------------------------------------------
+    # LECTURA DE OFERTAS
+    # -------------------------------------------------
 
-    def _leer_ofertas(self):
+    def leer_ofertas(self):
         try:
             with open(self.ARCHIVO, "r", encoding="utf-8") as f:
                 contenido = f.read().strip()
@@ -32,7 +32,11 @@ class OfertaAcademicaService:
         except:
             return []
 
-    def _guardar_ofertas(self, ofertas):
+    # -------------------------------------------------
+    # GUARDAR OFERTAS (PÚBLICO)
+    # -------------------------------------------------
+
+    def guardar_ofertas(self, ofertas):
         with open(self.ARCHIVO, "w", encoding="utf-8") as f:
             json.dump(
                 [o.a_diccionario() for o in ofertas],
@@ -41,16 +45,16 @@ class OfertaAcademicaService:
                 ensure_ascii=False
             )
 
-   
-    # Carga desde CSV
-   
+    # -------------------------------------------------
+    # CARGA DESDE CSV (INICIAL)
+    # -------------------------------------------------
 
     def cargar_desde_csv(self, ruta_csv):
         periodo = self.periodo_service.obtener_periodo_activo()
         if not periodo:
             raise ValueError("No existe un período activo")
 
-        ofertas = self._leer_ofertas()
+        ofertas = []
 
         with open(ruta_csv, newline="", encoding="utf-8") as archivo:
             lector = csv.DictReader(archivo)
@@ -72,4 +76,6 @@ class OfertaAcademicaService:
                 )
                 ofertas.append(oferta)
 
-        self._guardar_ofertas(ofertas)
+       
+        self.guardar_ofertas(ofertas)
+        
