@@ -25,14 +25,7 @@ class SegmentoPoblacionGeneral(SegmentoAsignacionStrategy):
 
         for estudiante in postulantes:
             for opcion in estudiante.opciones_carrera:
-                oferta = next(
-                    (
-                        o for o in ofertas
-                        if o.codigo_carrera == opcion and o.tiene_cupos()
-                    ),
-                    None
-                )
-
+                oferta = self._buscar_oferta(opcion, ofertas)
                 if oferta:
                     oferta.consumir_cupo()
                     estudiante.marcar_asignado(oferta)

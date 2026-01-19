@@ -1,0 +1,90 @@
+[
+    {
+        "id_estudiante": "1",
+        "nombres": "Ana",
+        "apellidos": "Cuotas",
+        "correo": "ana@correo.com",
+        "nota_postulacion": 950.0,
+        "carrera": "Ingenieria en Sistemas",
+        "jornada": "Matutina",
+        "modalidad": "Presencial",
+        "estado_asignacion": "ASIGNADO"
+    },
+    {
+        "id_estudiante": "2",
+        "nombres": "Luis",
+        "apellidos": "Vulnerable",
+        "correo": "luis@correo.com",
+        "nota_postulacion": 920.0,
+        "carrera": "Ingenieria en Sistemas",
+        "jornada": "Matutina",
+        "modalidad": "Presencial",
+        "estado_asignacion": "ASIGNADO"
+    },
+    {
+        "id_estudiante": "3",
+        "nombres": "Maria",
+        "apellidos": "Honor",
+        "correo": "maria@correo.com",
+        "nota_postulacion": 980.0,
+        "carrera": "Ingenieria en Sistemas",
+        "jornada": "Matutina",
+        "modalidad": "Presencial",
+        "estado_asignacion": "ASIGNADO"
+    },
+    {
+        "id_estudiante": "4",
+        "nombres": "Pedro",
+        "apellidos": "Deportista",
+        "correo": "pedro@correo.com",
+        "nota_postulacion": 910.0,
+        "carrera": "Administracion de Empresas",
+        "jornada": "Vespertina",
+        "modalidad": "Presencial",
+        "estado_asignacion": "ASIGNADO"
+    },
+    {
+        "id_estudiante": "5",
+        "nombres": "Rosa",
+        "apellidos": "PN",
+        "correo": "rosa@correo.com",
+        "nota_postulacion": 900.0,
+        "carrera": "Ingenieria en Sistemas",
+        "jornada": "Matutina",
+        "modalidad": "Presencial",
+        "estado_asignacion": "ASIGNADO"
+    },
+    {
+        "id_estudiante": "6",
+        "nombres": "Juan",
+        "apellidos": "Bachiller",
+        "correo": "juan@correo.com",
+        "nota_postulacion": 880.0,
+        "carrera": "Administracion de Empresas",
+        "jornada": "Vespertina",
+        "modalidad": "Presencial",
+        "estado_asignacion": "ASIGNADO"
+    },
+    {
+        "id_estudiante": "7",
+        "nombres": "Carlos",
+        "apellidos": "TituloPrevio",
+        "correo": "carlos@correo.com",
+        "nota_postulacion": 970.0,
+        "carrera": "Ingenieria en Sistemas",
+        "jornada": "Matutina",
+        "modalidad": "Presencial",
+        "estado_asignacion": "ASIGNADO"
+    },
+    {
+        "id_estudiante": "8",
+        "nombres": "Lucia",
+        "apellidos": "General",
+        "correo": "lucia@correo.com",
+        "nota_postulacion": 860.0,
+        "carrera": "Ingenieria en Sistemas",
+        "jornada": "Matutina",
+        "modalidad": "Presencial",
+        "estado_asignacion": "ASIGNADO"
+    }
+]
