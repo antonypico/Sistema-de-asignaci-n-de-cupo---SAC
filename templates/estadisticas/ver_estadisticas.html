@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+
+{% block title %}Estadísticas - SAC{% endblock %}
+
+{% block content %}
+<div style="max-width: 1000px; margin: 0 auto;">
+    <h1 style="color: var(--dark); margin-bottom: 2rem;">Estadísticas de Asignación</h1>
+
+    <div class="grid grid-2" style="margin-bottom: 2rem;">
+        <div class="card">
+            <h3 style="color: var(--primary); margin-bottom: 1rem;">Total Postulantes</h3>
+            <div style="font-size: 2.5rem; color: var(--primary); font-weight: bold;" id="total-stat">0</div>
+        </div>
+
+        <div class="card">
+            <h3 style="color: var(--success); margin-bottom: 1rem;">Asignados</h3>
+            <div style="font-size: 2.5rem; color: var(--success); font-weight: bold;" id="asignados-stat">0</div>
+        </div>
+
+        <div class="card">
+            <h3 style="color: var(--warning); margin-bottom: 1rem;">No Asignados</h3>
+            <div style="font-size: 2.5rem; color: var(--warning); font-weight: bold;" id="no-asignados-stat">0</div>
+        </div>
+
+        <div class="card">
+            <h3 style="color: var(--info); margin-bottom: 1rem;">Tasa Asignación</h3>
+            <div style="font-size: 2.5rem; color: var(--info); font-weight: bold;" id="porcentaje-stat">0%</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Resumen por Carrera</h2>
+        <table style="margin-top: 1.5rem;">
+            <thead>
+                <tr>
+                    <th>Carrera</th>
+                    <th>Asignados</th>
+                </tr>
+            </thead>
+            <tbody id="estadisticas-body">
+                <tr>
+                    <td colspan="2" style="text-align: center; color: #718096;">Cargando estadísticas...</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        cargarEstadisticas();
+    });
+
+    function cargarEstadisticas() {
+        fetch('{{ url_for("api_get_estadisticas") }}')
+            .then(response => response.json())
+            .then(data => {
+                // Actualizar números
+                document.getElementById('total-stat').textContent = data.total;
+                document.getElementById('asignados-stat').textContent = data.asignados;
+                document.getElementById('no-asignados-stat').textContent = data.no_asignados;
+                document.getElementById('porcentaje-stat').textContent = data.porcentaje + '%';
+
+                // Actualizar tabla
+                const tbody = document.getElementById('estadisticas-body');
+                tbody.innerHTML = '';
+                
+                if (Object.keys(data.por_carrera).length === 0) {
+                    tbody.innerHTML = '<tr><td colspan="2" style="text-align: center; color: #718096;">No hay datos de asignación disponibles</td></tr>';
+                    return;
+                }
+
+                Object.entries(data.por_carrera).forEach(([carrera, cantidad]) => {
+                    const row = `
+                        <tr>
+                            <td><strong>${carrera}</strong></td>
+                            <td>${cantidad}</td>
+                        </tr>
+                    `;
+                    tbody.insertAdjacentHTML('beforeend', row);
+                });
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                document.getElementById('estadisticas-body').innerHTML = '<tr><td colspan="2" style="text-align: center; color: #f56565;">Error al cargar estadísticas</td></tr>';
+            });
+    }
+</script>
+{% endblock %}

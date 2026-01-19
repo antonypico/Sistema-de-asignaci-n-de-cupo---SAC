@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+
+{% block title %}Ver Resultados - SAC{% endblock %}
+
+{% block content %}
+<div style="max-width: 1000px; margin: 0 auto;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+        <h1 style="color: var(--dark);">Resultados de Asignación</h1>
+        <a href="{{ url_for('exportar_resultados') }}" class="btn btn-info">📥 Exportar</a>
+    </div>
+
+    <div class="card">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID Postulante</th>
+                    <th>Estudiante</th>
+                    <th>Carrera Asignada</th>
+                    <th>Estado</th>
+                </tr>
+            </thead>
+            <tbody id="resultados-body">
+                <tr>
+                    <td colspan="4" style="text-align: center; color: #718096;">Cargando resultados...</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        cargarResultados();
+    });
+
+    function cargarResultados() {
+        fetch('{{ url_for("api_get_resultados") }}')
+            .then(response => response.json())
+            .then(data => {
+                const tbody = document.getElementById('resultados-body');
+                tbody.innerHTML = '';
+                
+                if (data.length === 0) {
+                    tbody.innerHTML = '<tr><td colspan="4" style="text-align: center; color: #718096;">No hay resultados disponibles. Ejecuta una asignación primero.</td></tr>';
+                    return;
+                }
+
+                data.forEach(resultado => {
+                    const estado = resultado.estado_asignacion === 'ASIGNADO' ? 
+                        '<span style="color: var(--success); font-weight: bold;">✓ Asignado</span>' : 
+                        '<span style="color: var(--warning);">⚠ No asignado</span>';
+                    const carrera = resultado.carrera || '-';
+                    const nombreCompleto = `${resultado.nombres} ${resultado.apellidos}`;
+                    const row = `
+                        <tr>
+                            <td>${resultado.id_estudiante}</td>
+                            <td>${nombreCompleto}</td>
+                            <td><strong>${carrera}</strong></td>
+                            <td>${estado}</td>
+                        </tr>
+                    `;
+                    tbody.insertAdjacentHTML('beforeend', row);
+                });
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                document.getElementById('resultados-body').innerHTML = '<tr><td colspan="4" style="text-align: center; color: #f56565;">Error al cargar resultados</td></tr>';
+            });
+    }
+</script>
+{% endblock %}

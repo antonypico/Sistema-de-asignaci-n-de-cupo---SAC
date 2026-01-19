@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}SAC - Sistema de Asignación de Cupos{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    {% block extra_css %}{% endblock %}
+</head>
+<body>
+    {% if session.get('usuario') %}
+    <nav>
+        <div class="container">
+            <div class="navbar-brand">SAC</div>
+            <ul class="navbar-menu">
+                <li><a href="{{ url_for('menu') }}" class="{% if request.endpoint == 'menu' %}active{% endif %}">Menú</a></li>
+                <li><a href="{{ url_for('listar_periodos') }}" class="{% if request.endpoint == 'listar_periodos' %}active{% endif %}">Períodos</a></li>
+                <li><a href="{{ url_for('configurar_carrera') }}" class="{% if request.endpoint == 'configurar_carrera' %}active{% endif %}">Carreras</a></li>
+                <li><a href="{{ url_for('ver_ofertas') }}" class="{% if request.endpoint == 'ver_ofertas' %}active{% endif %}">Ofertas</a></li>
+                <li><a href="{{ url_for('cargar_postulantes') }}" class="{% if request.endpoint == 'cargar_postulantes' %}active{% endif %}">Postulantes</a></li>
+                <li><a href="{{ url_for('ejecutar_asignacion') }}" class="{% if request.endpoint == 'ejecutar_asignacion' %}active{% endif %}">Asignación</a></li>
+                <li><a href="{{ url_for('ver_resultados') }}" class="{% if request.endpoint == 'ver_resultados' %}active{% endif %}">Resultados</a></li>
+                <li><a href="{{ url_for('ver_estadisticas') }}" class="{% if request.endpoint == 'ver_estadisticas' %}active{% endif %}">Estadísticas</a></li>
+                <li><a href="{{ url_for('logout') }}">Salir</a></li>
+            </ul>
+        </div>
+    </nav>
+    {% endif %}
+
+    <div class="container">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="alert alert-{{ category }}">
+                        {{ message }}
+                    </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+
+        {% block content %}{% endblock %}
+    </div>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    {% block extra_js %}{% endblock %}
+</body>
+</html>

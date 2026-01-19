@@ -83,6 +83,16 @@ class Estudiante:
 
     @staticmethod
     def desde_diccionario(data):
+        # Convertir valores a booleanos correctamente
+        def to_bool(val):
+            if isinstance(val, bool):
+                return val
+            if isinstance(val, int):
+                return bool(val)
+            if isinstance(val, str):
+                return val.lower() in ('true', '1', 'yes', 'si')
+            return False
+        
         return Estudiante(
             id_postulante=data["id_postulante"],
             correo=data["correo"],
@@ -91,10 +101,10 @@ class Estudiante:
             apellidos=data["apellidos"],
             nota_postulacion=data["nota_postulacion"],
             opcion_1=data["opcion_1"],
-            politica_cuotas=data.get("politica_cuotas", False),
-            vulnerable=data.get("vulnerable", False),
-            cuadro_honor=data.get("cuadro_honor", False),
-            pueblo_nacionalidad=data.get("pueblo_nacionalidad", False),
-            titulo_superior=data.get("titulo_superior", False),
-            otro_merito=data.get("otro_merito", False)
+            politica_cuotas=to_bool(data.get("politica_cuotas", False)),
+            vulnerable=to_bool(data.get("vulnerable", False)),
+            cuadro_honor=to_bool(data.get("cuadro_honor", False)),
+            pueblo_nacionalidad=to_bool(data.get("pueblo_nacionalidad", False)),
+            titulo_superior=to_bool(data.get("titulo_superior", False)),
+            otro_merito=to_bool(data.get("otro_merito", False))
         )

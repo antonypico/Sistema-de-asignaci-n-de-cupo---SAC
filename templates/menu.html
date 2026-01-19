@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+
+{% block title %}Menú Principal - SAC{% endblock %}
+
+{% block content %}
+<div style="max-width: 900px; margin: 2rem auto;">
+    <div style="text-align: center; margin-bottom: 3rem;">
+        <h1 style="color: var(--dark); margin-bottom: 0.5rem;">Bienvenido al SAC</h1>
+        <p style="color: #718096; font-size: 1.1rem;">Sistema de Asignación de Cupos</p>
+    </div>
+
+    <div class="grid grid-3">
+        <!-- Períodos -->
+        <div class="card" style="text-align: center;">
+            <div style="font-size: 2.5rem; margin-bottom: 1rem;">📅</div>
+            <h3 style="color: var(--primary); margin-bottom: 0.5rem;">Períodos</h3>
+            <p style="color: #718096; margin-bottom: 1.5rem;">Gestiona los períodos académicos</p>
+            <a href="{{ url_for('listar_periodos') }}" class="btn btn-primary btn-small">Gestionar</a>
+        </div>
+
+        <!-- Carreras -->
+        <div class="card" style="text-align: center;">
+            <div style="font-size: 2.5rem; margin-bottom: 1rem;">🎓</div>
+            <h3 style="color: var(--primary); margin-bottom: 0.5rem;">Carreras</h3>
+            <p style="color: #718096; margin-bottom: 1.5rem;">Configura las carreras disponibles</p>
+            <a href="{{ url_for('configurar_carrera') }}" class="btn btn-primary btn-small">Gestionar</a>
+        </div>
+
+        <!-- Ofertas -->
+        <div class="card" style="text-align: center;">
+            <div style="font-size: 2.5rem; margin-bottom: 1rem;">📋</div>
+            <h3 style="color: var(--primary); margin-bottom: 0.5rem;">Ofertas</h3>
+            <p style="color: #718096; margin-bottom: 1.5rem;">Ver ofertas académicas disponibles</p>
+            <a href="{{ url_for('ver_ofertas') }}" class="btn btn-primary btn-small">Ver</a>
+        </div>
+
+        <!-- Postulantes -->
+        <div class="card" style="text-align: center;">
+            <div style="font-size: 2.5rem; margin-bottom: 1rem;">👥</div>
+            <h3 style="color: var(--primary); margin-bottom: 0.5rem;">Postulantes</h3>
+            <p style="color: #718096; margin-bottom: 1.5rem;">Carga y gestiona postulantes</p>
+            <a href="{{ url_for('cargar_postulantes') }}" class="btn btn-primary btn-small">Cargar</a>
+        </div>
+
+        <!-- Asignación -->
+        <div class="card" style="text-align: center;">
+            <div style="font-size: 2.5rem; margin-bottom: 1rem;">⚙️</div>
+            <h3 style="color: var(--primary); margin-bottom: 0.5rem;">Asignación</h3>
+            <p style="color: #718096; margin-bottom: 1.5rem;">Ejecuta el proceso de asignación</p>
+            <a href="{{ url_for('ejecutar_asignacion') }}" class="btn btn-primary btn-small">Ejecutar</a>
+        </div>
+
+        <!-- Resultados -->
+        <div class="card" style="text-align: center;">
+            <div style="font-size: 2.5rem; margin-bottom: 1rem;">📊</div>
+            <h3 style="color: var(--primary); margin-bottom: 0.5rem;">Resultados</h3>
+            <p style="color: #718096; margin-bottom: 1.5rem;">Visualiza y exporta resultados</p>
+            <a href="{{ url_for('ver_resultados') }}" class="btn btn-primary btn-small">Ver</a>
+        </div>
+
+        <!-- Estadísticas -->
+        <div class="card" style="text-align: center;">
+            <div style="font-size: 2.5rem; margin-bottom: 1rem;">📈</div>
+            <h3 style="color: var(--primary); margin-bottom: 0.5rem;">Estadísticas</h3>
+            <p style="color: #718096; margin-bottom: 1.5rem;">Analiza estadísticas del período</p>
+            <a href="{{ url_for('ver_estadisticas') }}" class="btn btn-primary btn-small">Analizar</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

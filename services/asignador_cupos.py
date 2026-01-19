@@ -32,11 +32,23 @@ class AsignadorCupos:
         Ejecuta todos los segmentos sobre la MISMA lista de estudiantes.
         Cada segmento asigna cupos solo a estudiantes NO asignados.
         """
-        for segmento in self.segmentos:
-            segmento.asignar(
-                self.estudiantes,
-                self.ofertas
-            )
+        try:
+            for segmento in self.segmentos:
+                try:
+                    segmento.asignar(
+                        self.estudiantes,
+                        self.ofertas
+                    )
+                except Exception as e:
+                    print(f"Error en segmento {segmento.__class__.__name__}: {str(e)}")
+                    import traceback
+                    traceback.print_exc()
+                    raise
+        except Exception as e:
+            print(f"Error fatal en asignación: {str(e)}")
+            import traceback
+            traceback.print_exc()
+            raise
 
         return self._generar_resultados()
 

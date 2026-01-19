@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+
+{% block title %}Ofertas Académicas - SAC{% endblock %}
+
+{% block content %}
+<div style="max-width: 1200px; margin: 0 auto;">
+    <h1 style="color: var(--dark); margin-bottom: 2rem;">Ofertas Académicas Disponibles</h1>
+
+    <div class="card">
+        <table>
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Carrera</th>
+                    <th>Institución</th>
+                    <th>Provincia</th>
+                    <th>Cantón</th>
+                    <th>Área</th>
+                    <th>Nivel</th>
+                    <th>Modalidad</th>
+                    <th>Jornada</th>
+                    <th>Tipo Cupo</th>
+                    <th>Cupos Totales</th>
+                    <th>Disponibles</th>
+                </tr>
+            </thead>
+            <tbody id="ofertas-body">
+                <tr>
+                    <td colspan="12" style="text-align: center; color: #718096;">Cargando ofertas...</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    function cargarOfertas() {
+        fetch('{{ url_for("api_get_ofertas") }}')
+            .then(response => response.json())
+            .then(data => {
+                const tbody = document.getElementById('ofertas-body');
+                tbody.innerHTML = '';
+                
+                if (data.length === 0) {
+                    tbody.innerHTML = '<tr><td colspan="12" style="text-align: center; color: #718096;">No hay ofertas registradas</td></tr>';
+                    return;
+                }
+                
+                data.forEach(oferta => {
+                    const row = `
+                        <tr>
+                            <td>${oferta.codigo}</td>
+                            <td><strong>${oferta.nombre}</strong></td>
+                            <td>${oferta.institucion}</td>
+                            <td>${oferta.provincia}</td>
+                            <td>${oferta.canton}</td>
+                            <td>${oferta.area}</td>
+                            <td>${oferta.nivel}</td>
+                            <td>${oferta.modalidad}</td>
+                            <td>${oferta.jornada}</td>
+                            <td>${oferta.tipo_cupo}</td>
+                            <td>${oferta.cupos_totales}</td>
+                            <td><span class="badge ${oferta.cupos_disponibles > 0 ? 'badge-success' : 'badge-danger'}">${oferta.cupos_disponibles}</span></td>
+                        </tr>
+                    `;
+                    tbody.innerHTML += row;
+                });
+            })
+            .catch(error => {
+                document.getElementById('ofertas-body').innerHTML = 
+                    '<tr><td colspan="12" style="text-align: center; color: #dc3545;">Error al cargar ofertas: ' + error + '</td></tr>';
+            });
+    }
+
+    // Cargar ofertas al abrir la página
+    document.addEventListener('DOMContentLoaded', cargarOfertas);
+</script>
+{% endblock %}

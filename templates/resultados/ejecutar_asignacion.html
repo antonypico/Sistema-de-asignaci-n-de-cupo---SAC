@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %}Ejecutar Asignación - SAC{% endblock %}
+
+{% block content %}
+<div style="max-width: 600px; margin: 0 auto;">
+    <h1 style="color: var(--dark); margin-bottom: 2rem;">Ejecutar Asignación de Cupos</h1>
+
+    {% if error %}
+        <div class="alert alert-danger">{{ error }}</div>
+    {% endif %}
+
+    <div class="card">
+        <h2 style="margin-bottom: 1.5rem;">Asignación Automática</h2>
+        
+        <div style="background: #f0fdf4; padding: 1rem; border-radius: 8px; margin: 1.5rem 0; border-left: 4px solid #22c55e;">
+            <p style="margin: 0; color: #166534;">
+                <strong>✓ Requisitos:</strong>
+            </p>
+            <ul style="margin: 0.5rem 0 0 0; padding-left: 1.5rem; color: #166534;">
+                <li>Período activo</li>
+                <li>Ofertas académicas cargadas</li>
+                <li>Postulantes cargados</li>
+            </ul>
+        </div>
+
+        <form method="POST">
+            <div style="background: #eff6ff; padding: 1rem; border-radius: 8px; margin: 1.5rem 0; border-left: 4px solid #4299e1;">
+                <p style="margin: 0; color: #1e40af;">
+                    <strong>⚠️ Advertencia:</strong> Este proceso ejecutará la asignación automática de cupos según las políticas de admisión.
+                </p>
+            </div>
+
+            <div style="display: flex; gap: 1rem;">
+                <button type="submit" class="btn btn-success" onclick="return confirm('¿Ejecutar la asignación? No se puede revertir.')">
+                    Ejecutar Asignación
+                </button>
+                <a href="{{ url_for('menu') }}" class="btn btn-secondary">Cancelar</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+{% endblock %}

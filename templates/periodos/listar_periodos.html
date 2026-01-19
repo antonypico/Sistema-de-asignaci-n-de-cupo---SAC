@@ -1,0 +1,135 @@
+{% extends "base.html" %}
+
+{% block title %}Períodos - SAC{% endblock %}
+
+{% block content %}
+<div style="max-width: 1000px; margin: 0 auto;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+        <h1 style="color: var(--dark);">Gestión de Períodos</h1>
+        <a href="{{ url_for('crear_periodo') }}" class="btn btn-success">+ Nuevo Período</a>
+    </div>
+
+    <div id="periodos-container" class="card">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Fecha Inicio</th>
+                    <th>Fecha Fin</th>
+                    <th>Estado</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="periodos-body">
+                <tr>
+                    <td colspan="5" style="text-align: center; color: #718096;">Cargando períodos...</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        cargarPeriodos();
+    });
+
+    function cargarPeriodos() {
+        fetch('{{ url_for("api_get_periodos") }}')
+            .then(response => response.json())
+            .then(data => {
+                const tbody = document.getElementById('periodos-body');
+                tbody.innerHTML = '';
+                
+                if (data.length === 0) {
+                    tbody.innerHTML = '<tr><td colspan="5" style="text-align: center; color: #718096;">No hay períodos registrados</td></tr>';
+                    return;
+                }
+
+                data.forEach(periodo => {
+                    const estado = periodo.activo ? '<span style="color: var(--success); font-weight: bold;">✓ Activo</span>' : '<span style="color: #718096;">Inactivo</span>';
+                    const acciones = periodo.activo 
+                        ? `<button class="btn btn-small btn-warning" onclick="finalizarPeriodo()">Finalizar</button>`
+                        : `<button class="btn btn-small btn-info" onclick="activarPeriodo('${periodo.nombre}')">Activar</button>
+                           <button class="btn btn-small btn-danger" onclick="eliminarPeriodo('${periodo.nombre}')">Eliminar</button>`;
+                    const row = `
+                        <tr>
+                            <td><strong>${periodo.nombre}</strong></td>
+                            <td>${periodo.fecha_inicio || '-'}</td>
+                            <td>${periodo.fecha_fin || '-'}</td>
+                            <td>${estado}</td>
+                            <td>
+                                ${acciones}
+                            </td>
+                        </tr>
+                    `;
+                    tbody.insertAdjacentHTML('beforeend', row);
+                });
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                document.getElementById('periodos-body').innerHTML = '<tr><td colspan="5" style="text-align: center; color: #f56565;">Error al cargar períodos</td></tr>';
+            });
+    }
+
+    function activarPeriodo(nombre) {
+        if (confirm(`¿Activar el período ${nombre}?`)) {
+            fetch(`{{ url_for("api_activar_periodo", nombre="PLACEHOLDER") }}`.replace('PLACEHOLDER', nombre), {
+                method: 'POST'
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.error) {
+                    alert('Error: ' + data.error);
+                } else {
+                    alert(data.mensaje);
+                    cargarPeriodos();
+                }
+            })
+            .catch(error => console.error('Error:', error));
+        }
+    }
+
+    function eliminarPeriodo(nombre) {
+        if (confirm(`¿Eliminar el período ${nombre}? Esta acción no se puede deshacer.`)) {
+            fetch(`{{ url_for("api_eliminar_periodo", nombre="PLACEHOLDER") }}`.replace('PLACEHOLDER', nombre), {
+                method: 'POST'
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.error) {
+                    alert('Error: ' + data.error);
+                } else {
+                    alert(data.mensaje);
+                    cargarPeriodos();
+                }
+            })
+            .catch(error => console.error('Error:', error));
+        }
+    }
+
+    function finalizarPeriodo() {
+        if (confirm('¿Finalizar el período activo? Después podrás activar otro período.')) {
+            fetch('{{ url_for("api_finalizar_periodo") }}', {
+                method: 'POST'
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.error) {
+                    alert('Error: ' + data.error);
+                } else {
+                    alert(data.mensaje);
+                    cargarPeriodos();
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Error al finalizar el período');
+            });
+        }
+    }
+</script>
+{% endblock %}

@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+
+{% block title %}Configurar Carreras - SAC{% endblock %}
+
+{% block content %}
+<div style="max-width: 1000px; margin: 0 auto;">
+    <h1 style="color: var(--dark); margin-bottom: 2rem;">Configuración de Carreras</h1>
+
+    {% if error %}
+        <div class="alert alert-danger">{{ error }}</div>
+    {% endif %}
+
+    <div class="card" style="background-color: #eff6ff; border-left: 4px solid #3b82f6;">
+        <h3 style="color: #1e40af;">ℹ️ Recomendación</h3>
+        <p>Se recomienda <strong>cargar las ofertas desde un archivo CSV o Excel</strong> para una mejor gestión. El archivo debe contener todas las columnas de la oferta académica.</p>
+    </div>
+
+    <div class="card">
+        <h2>Cargar Ofertas Académicas desde Archivo</h2>
+        <form method="POST" action="{{ url_for('cargar_ofertas') }}" enctype="multipart/form-data" style="margin-top: 1.5rem;">
+            <div class="form-group">
+                <label for="archivo">Selecciona archivo CSV o Excel</label>
+                <input type="file" id="archivo" name="archivo" accept=".csv,.xlsx,.xls" required>
+                <small style="color: #718096;">Formato esperado: codigo_carrera, institucion, provincia, canton, nombre_carrera, area, nivel, modalidad, jornada, tipo_cupo, total_cupos</small>
+            </div>
+            <button type="submit" class="btn btn-primary">Cargar Ofertas</button>
+        </form>
+    </div>
+
+    <div class="card">
+        <h2>Agregar Nueva Carrera Manualmente</h2>
+        <p style="color: #718096; margin-bottom: 1rem; font-size: 0.9rem;">Nota: Esta opción es para agregar carreras individuales. Se recomienda usar la carga por archivo.</p>
+        <form method="POST" style="margin-top: 1.5rem;">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                <div class="form-group">
+                    <label for="nombre">Nombre de la Carrera</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="sigla">Sigla</label>
+                    <input type="text" id="sigla" name="sigla" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="cupos">Número de Cupos</label>
+                    <input type="number" id="cupos" name="cupos" min="1" required>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-success">Guardar Carrera</button>
+        </form>
+    </div>
+
+    <div class="card mt-3">
+        <h2>Carreras Registradas</h2>
+        <table style="margin-top: 1.5rem;">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Sigla</th>
+                    <th>Cupos</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% if ofertas %}
+                    {% for oferta in ofertas %}
+                        <tr>
+                            <td>{{ oferta.nombre }}</td>
+                            <td><strong>{{ oferta.sigla }}</strong></td>
+                            <td>{{ oferta.cupos }}</td>
+                        </tr>
+                    {% endfor %}
+                {% else %}
+                    <tr>
+                        <td colspan="3" style="text-align: center; color: #718096;">No hay carreras registradas</td>
+                    </tr>
+                {% endif %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}
