@@ -3,33 +3,35 @@
 {% block title %}Ofertas Académicas - SAC{% endblock %}
 
 {% block content %}
-<div style="max-width: 1200px; margin: 0 auto;">
+<div style="max-width: 1200px; margin: 0 auto; width: 100%;">
     <h1 style="color: var(--dark); margin-bottom: 2rem;">Ofertas Académicas Disponibles</h1>
 
     <div class="card">
-        <table>
-            <thead>
-                <tr>
-                    <th>Código</th>
-                    <th>Carrera</th>
-                    <th>Institución</th>
-                    <th>Provincia</th>
-                    <th>Cantón</th>
-                    <th>Área</th>
-                    <th>Nivel</th>
-                    <th>Modalidad</th>
-                    <th>Jornada</th>
-                    <th>Tipo Cupo</th>
-                    <th>Cupos Totales</th>
-                    <th>Disponibles</th>
-                </tr>
-            </thead>
-            <tbody id="ofertas-body">
-                <tr>
-                    <td colspan="12" style="text-align: center; color: #718096;">Cargando ofertas...</td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="table-responsive">
+            <table class="ofertas-table">
+                <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>Carrera</th>
+                        <th>Institución</th>
+                        <th>Provincia</th>
+                        <th>Cantón</th>
+                        <th>Área</th>
+                        <th>Nivel</th>
+                        <th>Modalidad</th>
+                        <th>Jornada</th>
+                        <th>Tipo Cupo</th>
+                        <th>Totales</th>
+                        <th>Disponibles</th>
+                    </tr>
+                </thead>
+                <tbody id="ofertas-body">
+                    <tr>
+                        <td colspan="12" style="text-align: center; color: #718096;">Cargando ofertas...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
 </div>
 

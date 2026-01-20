@@ -16,7 +16,10 @@ from services.postulante_service import PostulanteService
 from services.asignacion_service import AsignacionService
 from services.estadisticas_service import EstadisticasService
 from services.exportar_resultados_service import ExportarResultadosService
+from services.exportar_pdf_service import ExportarPDFService
+from services.desempate_service import DesempateService
 from domain.oferta_academica import OfertaAcademica
+from api.desempate_api import desempate_bp, init_desempate_service
 
 app = Flask(__name__)
 app.secret_key = 'tu_clave_secreta_aqui_cambiar_en_produccion'
@@ -38,6 +41,11 @@ postulante_service = PostulanteService()
 asignacion_service = AsignacionService()
 estadisticas_service = EstadisticasService()
 exportar_service = ExportarResultadosService()
+desempate_service = DesempateService()
+
+# Registrar blueprint de desempates y inicializar servicio
+app.register_blueprint(desempate_bp)
+init_desempate_service(desempate_service)
 
 # ==================== AUTENTICACIÓN ====================
 
@@ -451,6 +459,16 @@ def exportar_resultados():
                     download_name='resultados_asignacion.xlsx'
                 )
             
+            elif formato == 'pdf':
+                # Crear PDF
+                output = ExportarPDFService.exportar_pdf(resultados)
+                return send_file(
+                    output,
+                    mimetype='application/pdf',
+                    as_attachment=True,
+                    download_name='resultados_asignacion.pdf'
+                )
+            
             else:
                 flash('Formato no soportado', 'error')
                 return redirect(url_for('ver_resultados'))
@@ -506,6 +524,14 @@ def api_get_estadisticas():
         })
     except Exception as e:
         return jsonify({'error': str(e)}), 500
+
+# ==================== DESEMPATES ====================
+
+@app.route('/desempates/gestionar', methods=['GET'])
+@verificar_autenticacion
+def gestionar_desempates():
+    """Página para gestionar criterios de desempate"""
+    return render_template('desempates/gestionar_desempates.html')
 
 # ==================== MANEJO DE ERRORES ====================
 

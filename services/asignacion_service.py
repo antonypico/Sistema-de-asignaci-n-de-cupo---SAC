@@ -29,6 +29,17 @@ class AsignacionService:
         if not ofertas:
             raise ValueError("No existe oferta académica cargada para el período activo")
 
+        # 👇 RESETEAR CUPOS ANTES DE ASIGNAR (IMPORTANTE)
+        self._resetear_cupos_ofertas(ofertas)
+        
+        # Calcular cupos totales disponibles
+        cupos_totales = sum(oferta.cupos_disponibles for oferta in ofertas)
+        postulantes_totales = len(postulantes)
+        
+        print(f"[ASIGNACIÓN] Cupos disponibles: {cupos_totales}")
+        print(f"[ASIGNACIÓN] Postulantes a asignar: {postulantes_totales}")
+        print(f"[ASIGNACIÓN] Ratio: {postulantes_totales}/{cupos_totales}")
+
         asignador = AsignadorCupos(postulantes, ofertas)
         resultados = asignador.ejecutar()
 
@@ -37,6 +48,20 @@ class AsignacionService:
 
         # Guardar resultados
         self._guardar_resultados(resultados)
+        
+        # Mostrar resumen
+        asignados = sum(1 for r in resultados if r.estudiante.oferta_asignada)
+        no_asignados = len(resultados) - asignados
+        print(f"[ASIGNACIÓN] Resultado: {asignados} asignados, {no_asignados} no asignados")
+    
+    def _resetear_cupos_ofertas(self, ofertas):
+        """
+        Resetea los cupos disponibles a sus valores originales.
+        Esto asegura que no haya cupos duplicados de asignaciones previas.
+        """
+        for oferta in ofertas:
+            oferta.cupos_disponibles = oferta.total_cupos
+            print(f"[RESETEAR] {oferta.nombre_carrera}: {oferta.total_cupos} cupos")
 
     # -------------------------------------------------
     # GUARDAR RESULTADOS (PERIODO ACTIVO)
@@ -58,15 +83,54 @@ class AsignacionService:
                 "apellidos": estudiante.apellidos,
                 "correo": estudiante.correo,
                 "nota_postulacion": estudiante.nota_postulacion,
+                "segmento": estudiante.obtener_segmento(),
                 "carrera": oferta.nombre_carrera if oferta else None,
                 "jornada": oferta.jornada if oferta else None,
                 "modalidad": oferta.modalidad if oferta else None,
-                "estado_asignacion": "ASIGNADO" if oferta else "NO ASIGNADO"
+                "estado_asignacion": "ASIGNADO" if oferta else "NO ASIGNADO",
+                "razon_no_asignacion": None if oferta else "No había cupos disponibles en sus opciones de carrera"
             })
 
         os.makedirs(ruta, exist_ok=True)
 
         with open(archivo, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=4, ensure_ascii=False)
+    
+    def diagnosticar_ofertas(self):
+        """
+        Diagnóstico de ofertas para detectar problemas de cupos
+        """
+        ofertas = self.oferta_service.leer_ofertas()
+        
+        print("\n=== DIAGNÓSTICO DE OFERTAS ===")
+        print(f"Total de carreras: {len(ofertas)}\n")
+        
+        cupos_totales = 0
+        cupos_disponibles_totales = 0
+        ofertas_sin_cupos = []
+        
+        for oferta in ofertas:
+            print(f"Carrera: {oferta.nombre_carrera}")
+            print(f"  Total cupos: {oferta.total_cupos}")
+            print(f"  Cupos disponibles: {oferta.cupos_disponibles}")
+            print(f"  Cupos consumidos: {oferta.total_cupos - oferta.cupos_disponibles}")
+            print()
+            
+            cupos_totales += oferta.total_cupos
+            cupos_disponibles_totales += oferta.cupos_disponibles
+            
+            if oferta.cupos_disponibles == 0:
+                ofertas_sin_cupos.append(oferta.nombre_carrera)
+        
+        print(f"TOTALES:")
+        print(f"  Total de cupos en el período: {cupos_totales}")
+        print(f"  Cupos disponibles: {cupos_disponibles_totales}")
+        print(f"  Cupos consumidos: {cupos_totales - cupos_disponibles_totales}")
+        print(f"  Carreras sin cupos: {len(ofertas_sin_cupos)}")
+        
+        if ofertas_sin_cupos:
+            print(f"  Listado: {', '.join(ofertas_sin_cupos)}")
+        
+        print("=" * 40 + "\n")
 
 

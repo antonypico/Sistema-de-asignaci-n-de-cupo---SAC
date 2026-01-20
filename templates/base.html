@@ -19,6 +19,7 @@
                 <li><a href="{{ url_for('ver_ofertas') }}" class="{% if request.endpoint == 'ver_ofertas' %}active{% endif %}">Ofertas</a></li>
                 <li><a href="{{ url_for('cargar_postulantes') }}" class="{% if request.endpoint == 'cargar_postulantes' %}active{% endif %}">Postulantes</a></li>
                 <li><a href="{{ url_for('ejecutar_asignacion') }}" class="{% if request.endpoint == 'ejecutar_asignacion' %}active{% endif %}">Asignación</a></li>
+                <li><a href="{{ url_for('gestionar_desempates') }}" class="{% if request.endpoint == 'gestionar_desempates' %}active{% endif %}">Desempates</a></li>
                 <li><a href="{{ url_for('ver_resultados') }}" class="{% if request.endpoint == 'ver_resultados' %}active{% endif %}">Resultados</a></li>
                 <li><a href="{{ url_for('ver_estadisticas') }}" class="{% if request.endpoint == 'ver_estadisticas' %}active{% endif %}">Estadísticas</a></li>
                 <li><a href="{{ url_for('logout') }}">Salir</a></li>

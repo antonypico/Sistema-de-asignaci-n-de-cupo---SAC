@@ -226,29 +226,55 @@ textarea {
 }
 
 /* Tablas */
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: -20px -20px 0 -20px;
+}
+
+.table-responsive table {
+    margin: 0;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 1rem;
+    min-width: 800px;
 }
 
 thead {
     background: var(--light);
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 th, td {
-    padding: 1rem;
+    padding: 0.75rem;
     text-align: left;
     border-bottom: 1px solid #e2e8f0;
+    white-space: nowrap;
 }
 
 th {
     font-weight: 600;
     color: var(--dark);
+    font-size: 0.9rem;
+}
+
+td {
+    font-size: 0.9rem;
 }
 
 tbody tr:hover {
     background: #f9fafb;
+}
+
+.ofertas-table th:nth-child(2),
+.ofertas-table td:nth-child(2) {
+    white-space: normal;
+    min-width: 180px;
 }
 
 /* Alerts */

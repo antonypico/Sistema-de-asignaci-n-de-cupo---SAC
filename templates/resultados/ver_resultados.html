@@ -3,28 +3,60 @@
 {% block title %}Ver Resultados - SAC{% endblock %}
 
 {% block content %}
-<div style="max-width: 1000px; margin: 0 auto;">
+<div style="max-width: 1200px; margin: 0 auto; width: 100%;">
     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
         <h1 style="color: var(--dark);">Resultados de Asignación</h1>
         <a href="{{ url_for('exportar_resultados') }}" class="btn btn-info">📥 Exportar</a>
     </div>
 
+    <!-- Controles de paginación superior -->
+    <div class="card" style="margin-bottom: 1rem;">
+        <div style="display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;">
+            <div>
+                <label for="items-por-pagina" style="margin-right: 0.5rem;">Filas por página:</label>
+                <select id="items-por-pagina" class="form-select" style="width: 100px; display: inline-block;">
+                    <option value="10">10</option>
+                    <option value="25" selected>25</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                </select>
+            </div>
+            <div style="margin-left: auto;">
+                <span id="info-paginacion" style="color: #718096;">Cargando...</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tabla con scroll -->
     <div class="card">
-        <table>
-            <thead>
-                <tr>
-                    <th>ID Postulante</th>
-                    <th>Estudiante</th>
-                    <th>Carrera Asignada</th>
-                    <th>Estado</th>
-                </tr>
-            </thead>
-            <tbody id="resultados-body">
-                <tr>
-                    <td colspan="4" style="text-align: center; color: #718096;">Cargando resultados...</td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="table-responsive">
+            <table class="resultados-table">
+                <thead>
+                    <tr>
+                        <th>ID Postulante</th>
+                        <th>Estudiante</th>
+                        <th>Segmento</th>
+                        <th>Carrera Asignada</th>
+                        <th>Jornada</th>
+                        <th>Modalidad</th>
+                        <th>Estado</th>
+                        <th>Observaciones</th>
+                    </tr>
+                </thead>
+                <tbody id="resultados-body">
+                    <tr>
+                        <td colspan="8" style="text-align: center; color: #718096;">Cargando resultados...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Paginación inferior -->
+    <div class="card" style="margin-top: 1rem; padding: 1rem;">
+        <div style="display: flex; gap: 0.5rem; justify-content: center; flex-wrap: wrap;" id="paginacion-controles">
+            <!-- Se generará dinámicamente -->
+        </div>
     </div>
 </div>
 
@@ -32,42 +64,169 @@
 
 {% block extra_js %}
 <script>
+    // Variables globales para paginación
+    let todosLosResultados = [];
+    let paginaActual = 1;
+    let itemsPorPagina = 25;
+
     document.addEventListener('DOMContentLoaded', function() {
         cargarResultados();
+        
+        // Evento para cambiar items por página
+        document.getElementById('items-por-pagina').addEventListener('change', function(e) {
+            itemsPorPagina = parseInt(e.target.value);
+            paginaActual = 1;
+            mostrarPagina(paginaActual);
+        });
     });
 
     function cargarResultados() {
         fetch('{{ url_for("api_get_resultados") }}')
             .then(response => response.json())
             .then(data => {
-                const tbody = document.getElementById('resultados-body');
-                tbody.innerHTML = '';
-                
-                if (data.length === 0) {
-                    tbody.innerHTML = '<tr><td colspan="4" style="text-align: center; color: #718096;">No hay resultados disponibles. Ejecuta una asignación primero.</td></tr>';
+                if (!Array.isArray(data) || data.length === 0) {
+                    document.getElementById('resultados-body').innerHTML = 
+                        '<tr><td colspan="8" style="text-align: center; color: #718096;">No hay resultados disponibles. Ejecuta una asignación primero.</td></tr>';
                     return;
                 }
 
-                data.forEach(resultado => {
-                    const estado = resultado.estado_asignacion === 'ASIGNADO' ? 
-                        '<span style="color: var(--success); font-weight: bold;">✓ Asignado</span>' : 
-                        '<span style="color: var(--warning);">⚠ No asignado</span>';
-                    const carrera = resultado.carrera || '-';
-                    const nombreCompleto = `${resultado.nombres} ${resultado.apellidos}`;
-                    const row = `
-                        <tr>
-                            <td>${resultado.id_estudiante}</td>
-                            <td>${nombreCompleto}</td>
-                            <td><strong>${carrera}</strong></td>
-                            <td>${estado}</td>
-                        </tr>
-                    `;
-                    tbody.insertAdjacentHTML('beforeend', row);
-                });
+                todosLosResultados = data;
+                paginaActual = 1;
+                mostrarPagina(1);
             })
             .catch(error => {
                 console.error('Error:', error);
-                document.getElementById('resultados-body').innerHTML = '<tr><td colspan="4" style="text-align: center; color: #f56565;">Error al cargar resultados</td></tr>';
+                document.getElementById('resultados-body').innerHTML = 
+                    '<tr><td colspan="8" style="text-align: center; color: #f56565;">Error al cargar resultados</td></tr>';
+            });
+    }
+
+    function mostrarPagina(numeroPagina) {
+        const inicio = (numeroPagina - 1) * itemsPorPagina;
+        const fin = inicio + itemsPorPagina;
+        const datosPagina = todosLosResultados.slice(inicio, fin);
+
+        const tbody = document.getElementById('resultados-body');
+        tbody.innerHTML = '';
+
+        datosPagina.forEach(resultado => {
+            const estado = resultado.estado_asignacion === 'ASIGNADO' ? 
+                '<span style="color: var(--success); font-weight: bold;">✓ Asignado</span>' : 
+                '<span style="color: var(--warning);">⚠ No asignado</span>';
+            
+            const carrera = resultado.carrera || '-';
+            const segmento = resultado.segmento || 'No disponible';
+            const jornada = resultado.jornada || '-';
+            const modalidad = resultado.modalidad || '-';
+            const observaciones = resultado.razon_no_asignacion || 'Asignación exitosa';
+            const nombreCompleto = `${resultado.nombres} ${resultado.apellidos}`;
+            
+            const row = `
+                <tr>
+                    <td>${resultado.id_estudiante}</td>
+                    <td>${nombreCompleto}</td>
+                    <td><span class="badge bg-info">${segmento}</span></td>
+                    <td><strong>${carrera}</strong></td>
+                    <td>${jornada}</td>
+                    <td>${modalidad}</td>
+                    <td>${estado}</td>
+                    <td title="${observaciones}" style="max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
+                        ${observaciones}
+                    </td>
+                </tr>
+            `;
+            tbody.insertAdjacentHTML('beforeend', row);
+        });
+
+        // Actualizar información de paginación
+        const totalPaginas = Math.ceil(todosLosResultados.length / itemsPorPagina);
+        const desde = inicio + 1;
+        const hasta = Math.min(fin, todosLosResultados.length);
+        document.getElementById('info-paginacion').textContent = 
+            `Mostrando ${desde} a ${hasta} de ${todosLosResultados.length} resultados (Página ${numeroPagina}/${totalPaginas})`;
+
+        // Generar botones de paginación
+        generarBotonesPaginacion(totalPaginas, numeroPagina);
+    }
+
+    function generarBotonesPaginacion(totalPaginas, paginaActual) {
+        const contenedor = document.getElementById('paginacion-controles');
+        contenedor.innerHTML = '';
+
+        if (totalPaginas <= 1) return;
+
+        // Botón anterior
+        const btnAnterior = document.createElement('button');
+        btnAnterior.className = 'btn btn-sm btn-secondary';
+        btnAnterior.textContent = '← Anterior';
+        btnAnterior.disabled = paginaActual === 1;
+        btnAnterior.onclick = () => {
+            if (paginaActual > 1) {
+                mostrarPagina(paginaActual - 1);
+            }
+        };
+        contenedor.appendChild(btnAnterior);
+
+        // Botones de página
+        const maxBotones = 5;
+        let paginaInicio = Math.max(1, paginaActual - Math.floor(maxBotones / 2));
+        let paginaFin = Math.min(totalPaginas, paginaInicio + maxBotones - 1);
+
+        if (paginaFin - paginaInicio < maxBotones - 1) {
+            paginaInicio = Math.max(1, paginaFin - maxBotones + 1);
+        }
+
+        if (paginaInicio > 1) {
+            const btn = document.createElement('button');
+            btn.className = 'btn btn-sm btn-outline-secondary';
+            btn.textContent = '1';
+            btn.onclick = () => mostrarPagina(1);
+            contenedor.appendChild(btn);
+
+            if (paginaInicio > 2) {
+                const puntos = document.createElement('span');
+                puntos.style.padding = '0.5rem';
+                puntos.textContent = '...';
+                contenedor.appendChild(puntos);
+            }
+        }
+
+        for (let i = paginaInicio; i <= paginaFin; i++) {
+            const btn = document.createElement('button');
+            btn.className = i === paginaActual ? 'btn btn-sm btn-primary' : 'btn btn-sm btn-outline-secondary';
+            btn.textContent = i;
+            btn.onclick = () => mostrarPagina(i);
+            contenedor.appendChild(btn);
+        }
+
+        if (paginaFin < totalPaginas) {
+            if (paginaFin < totalPaginas - 1) {
+                const puntos = document.createElement('span');
+                puntos.style.padding = '0.5rem';
+                puntos.textContent = '...';
+                contenedor.appendChild(puntos);
+            }
+
+            const btn = document.createElement('button');
+            btn.className = 'btn btn-sm btn-outline-secondary';
+            btn.textContent = totalPaginas;
+            btn.onclick = () => mostrarPagina(totalPaginas);
+            contenedor.appendChild(btn);
+        }
+
+        // Botón siguiente
+        const btnSiguiente = document.createElement('button');
+        btnSiguiente.className = 'btn btn-sm btn-secondary';
+        btnSiguiente.textContent = 'Siguiente →';
+        btnSiguiente.disabled = paginaActual === totalPaginas;
+        btnSiguiente.onclick = () => {
+            if (paginaActual < totalPaginas) {
+                mostrarPagina(paginaActual + 1);
+            }
+        };
+        contenedor.appendChild(btnSiguiente);
+    }
+</script>
             });
     }
 </script>

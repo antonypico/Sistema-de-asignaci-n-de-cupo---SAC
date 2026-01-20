@@ -90,10 +90,12 @@ class ExportarResultadosService:
                 "Apellidos",
                 "Correo",
                 "Nota Postulación",
+                "Segmento",
                 "Carrera",
                 "Jornada",
                 "Modalidad",
-                "Estado Asignación"
+                "Estado Asignación",
+                "Observaciones"
             ])
 
             # Datos (usar .get para evitar KeyError)
@@ -104,8 +106,10 @@ class ExportarResultadosService:
                     r.get("apellidos", ""),
                     r.get("correo", ""),
                     r.get("nota_postulacion", ""),
+                    r.get("segmento", ""),
                     r.get("carrera", ""),
                     r.get("jornada", ""),
                     r.get("modalidad", ""),
-                    r.get("estado_asignacion", "")
+                    r.get("estado_asignacion", ""),
+                    r.get("razon_no_asignacion", "")
                 ])

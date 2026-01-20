@@ -20,6 +20,9 @@ class SegmentoMeritoAcademico(SegmentoAsignacionStrategy):
         ]
 
         merito.sort(key=lambda e: e.nota_postulacion, reverse=True)
+        
+        # Aplicar desempate a estudiantes con la misma nota
+        merito = self._aplicar_desempate(merito)
 
         for estudiante in merito:
             for opcion in estudiante.opciones_carrera:
