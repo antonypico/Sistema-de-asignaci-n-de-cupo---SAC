@@ -17,13 +17,17 @@ class SegmentoPoblacionGeneral(SegmentoAsignacionStrategy):
         # Todos los estudiantes que aún no han sido asignados
         postulantes = [
             e for e in estudiantes
-            if not e.esta_asignado()
+            if not e.esta_asignado() and not e.perdio_desempate
         ]
 
         # Orden por nota (meritocracia)
         postulantes.sort(key=lambda e: e.nota_postulacion, reverse=True)
-
-        for estudiante in postulantes:
+        
+        # Aplicar desempate a estudiantes con la misma nota
+        ganadores, perdedores = self._aplicar_desempate(postulantes)
+        
+        # Los perdedores del desempate NO se asignan
+        for estudiante in ganadores:
             for opcion in estudiante.opciones_carrera:
                 oferta = self._buscar_oferta(opcion, ofertas)
                 if oferta:
@@ -33,6 +37,9 @@ class SegmentoPoblacionGeneral(SegmentoAsignacionStrategy):
                     break
             else:
                 no_asignados.append(estudiante)
+        
+        # Los perdedores del desempate van a no_asignados (sin marcar como asignados)
+        no_asignados.extend(perdedores)
 
         print(f"Estrategia ejecutada: {self.nombre_segmento}")
 

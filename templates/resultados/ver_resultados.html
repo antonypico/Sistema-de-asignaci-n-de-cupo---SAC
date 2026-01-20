@@ -118,7 +118,8 @@
             const segmento = resultado.segmento || 'No disponible';
             const jornada = resultado.jornada || '-';
             const modalidad = resultado.modalidad || '-';
-            const observaciones = resultado.razon_no_asignacion || 'Asignación exitosa';
+            // Usar observaciones si existen, si no usar razon_no_asignacion
+            const observaciones = resultado.observaciones || resultado.razon_no_asignacion || 'Asignación exitosa';
             const nombreCompleto = `${resultado.nombres} ${resultado.apellidos}`;
             
             const row = `
