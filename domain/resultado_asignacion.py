@@ -15,12 +15,16 @@ class ResultadoAsignacion:
             self.jornada = estudiante.oferta_asignada.jornada
             self.modalidad = estudiante.oferta_asignada.modalidad
             self.razon_no_asignacion = None
+            self.gano_desempate = False  # Se actualiza si fue desempatado
+            self.perdio_desempate = False  # Se marca si perdió desempate
         else:
             self.carrera_asignada = "NO ASIGNADO"
             self.resultado = "NO ASIGNADO"
             self.jornada = "-"
             self.modalidad = "-"
             self.razon_no_asignacion = self._determinar_razon_no_asignacion(estudiante)
+            self.gano_desempate = False
+            self.perdio_desempate = False
 
     def _determinar_razon_no_asignacion(self, estudiante):
         """Determina por qué no se asignó el estudiante"""

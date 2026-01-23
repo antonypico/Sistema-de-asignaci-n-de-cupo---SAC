@@ -77,6 +77,21 @@ class AsignacionService:
             estudiante = r.estudiante
             oferta = estudiante.oferta_asignada
 
+            # Determinar la razón/observación
+            observacion = None
+            if oferta:
+                # Si fue asignado
+                if hasattr(estudiante, 'gano_desempate') and estudiante.gano_desempate:
+                    observacion = "Ganó en el desempate"
+                else:
+                    observacion = "Asignación exitosa"
+            else:
+                # Si no fue asignado
+                if hasattr(estudiante, 'perdio_desempate') and estudiante.perdio_desempate:
+                    observacion = "Perdió en el desempate"
+                else:
+                    observacion = "No había cupos disponibles"
+            
             data.append({
                 "id_estudiante": estudiante.id_postulante,
                 "nombres": estudiante.nombres,
@@ -88,7 +103,7 @@ class AsignacionService:
                 "jornada": oferta.jornada if oferta else None,
                 "modalidad": oferta.modalidad if oferta else None,
                 "estado_asignacion": "ASIGNADO" if oferta else "NO ASIGNADO",
-                "razon_no_asignacion": None if oferta else "No había cupos disponibles en sus opciones de carrera"
+                "razon_no_asignacion": observacion
             })
 
         os.makedirs(ruta, exist_ok=True)

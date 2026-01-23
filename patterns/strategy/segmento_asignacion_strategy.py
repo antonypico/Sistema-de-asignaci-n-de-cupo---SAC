@@ -51,6 +51,13 @@ class SegmentoAsignacionStrategy:
                     self.nombre_segmento,
                     grupo_list
                 )
+                # Marcar ganadores y perdedores de desempate
+                if grupo_desempatado and len(grupo_desempatado) > 0:
+                    grupo_desempatado[0].gano_desempate = True
+                    # Marcar al resto como que perdieron desempate
+                    for estudiante in grupo_desempatado[1:]:
+                        estudiante.gano_desempate = False
+                        estudiante.perdio_desempate = True
                 resultado.extend(grupo_desempatado)
             else:
                 resultado.extend(grupo_list)

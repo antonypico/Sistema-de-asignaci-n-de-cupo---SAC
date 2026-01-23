@@ -22,6 +22,11 @@ class SegmentoVulnerabilidad(SegmentoAsignacionStrategy):
         vulnerables.sort(key=lambda e: e.nota_postulacion, reverse=True)
 
         for estudiante in vulnerables:
+            # Si perdió desempate, no intentar asignarlo
+            if hasattr(estudiante, 'perdio_desempate') and estudiante.perdio_desempate:
+                no_asignados.append(estudiante)
+                continue
+            
             for opcion in estudiante.opciones_carrera:
                 oferta = self._buscar_oferta(opcion, ofertas)
                 if oferta:

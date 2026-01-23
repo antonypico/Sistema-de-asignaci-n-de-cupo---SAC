@@ -25,6 +25,11 @@ class SegmentoMeritoAcademico(SegmentoAsignacionStrategy):
         merito = self._aplicar_desempate(merito)
 
         for estudiante in merito:
+            # Si perdió desempate, no intentar asignarlo
+            if hasattr(estudiante, 'perdio_desempate') and estudiante.perdio_desempate:
+                no_asignados.append(estudiante)
+                continue
+            
             for opcion in estudiante.opciones_carrera:
                 oferta = self._buscar_oferta(opcion, ofertas)
                 if oferta:

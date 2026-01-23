@@ -64,14 +64,17 @@ class CriterioDesempate:
         
         elif self.tipo_desempate == TipoDesempate.MAYOR_EDAD:
             # Requiere fecha_nacimiento en el estudiante
-            return sorted(estudiantes, key=lambda e: getattr(e, 'fecha_nacimiento', datetime.now()), reverse=False)
+            # Si no tiene fecha, usa la fecha actual (lo coloca al final)
+            return sorted(estudiantes, key=lambda e: getattr(e, 'fecha_nacimiento', None) or datetime.now(), reverse=False)
         
         elif self.tipo_desempate == TipoDesempate.MENOR_EDAD:
-            return sorted(estudiantes, key=lambda e: getattr(e, 'fecha_nacimiento', datetime.now()), reverse=True)
+            # Si no tiene fecha, usa la fecha actual (lo coloca al final)
+            return sorted(estudiantes, key=lambda e: getattr(e, 'fecha_nacimiento', None) or datetime.now(), reverse=True)
         
         elif self.tipo_desempate == TipoDesempate.FECHA_INSCRIPCION:
             # Requiere fecha_inscripcion en el estudiante
-            return sorted(estudiantes, key=lambda e: getattr(e, 'fecha_inscripcion', datetime.now()))
+            # Si no tiene fecha, usa la fecha actual
+            return sorted(estudiantes, key=lambda e: getattr(e, 'fecha_inscripcion', None) or datetime.now())
         
         else:
             # Por defecto, ordenar alfabéticamente por apellido

@@ -1,0 +1,44 @@
+{
+    "Política de Cuotas": {
+        "segmento_nombre": "Política de Cuotas",
+        "tipo_desempate": "alfabetico_apellido",
+        "ordenamiento_manual": {},
+        "fecha_actualizacion": "2026-01-23T01:04:22.547711"
+    },
+    "Vulnerabilidad": {
+        "segmento_nombre": "Vulnerabilidad",
+        "tipo_desempate": "alfabetico_apellido",
+        "ordenamiento_manual": {},
+        "fecha_actualizacion": "2026-01-23T01:04:22.547718"
+    },
+    "Mérito Académico": {
+        "segmento_nombre": "Mérito Académico",
+        "tipo_desempate": "menor_edad",
+        "ordenamiento_manual": {},
+        "fecha_actualizacion": "2026-01-23T01:06:28.943461"
+    },
+    "Otros Méritos": {
+        "segmento_nombre": "Otros Méritos",
+        "tipo_desempate": "mayor_edad",
+        "ordenamiento_manual": {},
+        "fecha_actualizacion": "2026-01-23T01:06:30.849543"
+    },
+    "Bachilleres Pueblos Nacionalidades": {
+        "segmento_nombre": "Bachilleres Pueblos Nacionalidades",
+        "tipo_desempate": "alfabetico_nombre",
+        "ordenamiento_manual": {},
+        "fecha_actualizacion": "2026-01-23T01:06:26.166700"
+    },
+    "Bachilleres Generales": {
+        "segmento_nombre": "Bachilleres Generales",
+        "tipo_desempate": "alfabetico_apellido",
+        "ordenamiento_manual": {},
+        "fecha_actualizacion": "2026-01-23T01:06:24.033188"
+    },
+    "Población General": {
+        "segmento_nombre": "Población General",
+        "tipo_desempate": "alfabetico_apellido",
+        "ordenamiento_manual": {},
+        "fecha_actualizacion": "2026-01-23T01:04:22.547729"
+    }
+}

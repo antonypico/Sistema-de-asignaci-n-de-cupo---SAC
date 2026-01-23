@@ -118,7 +118,7 @@
             const segmento = resultado.segmento || 'No disponible';
             const jornada = resultado.jornada || '-';
             const modalidad = resultado.modalidad || '-';
-            const observaciones = resultado.razon_no_asignacion || 'Asignación exitosa';
+            const observaciones = resultado.razon_no_asignacion || (resultado.estado_asignacion === 'ASIGNADO' ? 'Asignación exitosa' : 'No hay información');
             const nombreCompleto = `${resultado.nombres} ${resultado.apellidos}`;
             
             const row = `
