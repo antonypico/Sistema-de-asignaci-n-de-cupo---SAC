@@ -22,114 +22,25 @@
             </div>
             {% endif %}
             
-            <!-- Tabs para navegación -->
-            <ul class="nav nav-tabs" id="desempateTab" role="tablist">
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="automatico-tab" data-bs-toggle="tab" 
-                            data-bs-target="#automatico" type="button" role="tab">
-                        Criterios Automáticos
-                    </button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="manual-tab" data-bs-toggle="tab" 
-                            data-bs-target="#manual" type="button" role="tab">
-                        Cambios Manuales
-                    </button>
-                </li>
-            </ul>
             
-            <div class="tab-content" id="desempateTabContent">
-                <!-- TAB: Criterios Automáticos -->
-                <div class="tab-pane fade show active" id="automatico" role="tabpanel">
-                    <div class="card mt-3">
-                        <div class="card-header">
-                            <h5 class="card-title">Criterios de Desempate Automáticos por Segmento</h5>
-                        </div>
-                        <div class="card-body">
-                            <div class="table-responsive">
-                                <table class="table table-hover">
-                                    <thead class="table-light">
-                                        <tr>
-                                            <th>Segmento</th>
-                                            <th>Criterio Actual</th>
-                                            <th>Cambiar a</th>
-                                            <th>Acción</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody id="criterios-tbody">
-                                        <!-- Se cargará dinámicamente -->
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Explicación de opciones -->
-                    <div class="card mt-4">
-                        <div class="card-header">
-                            <h6 class="card-title">Opciones de Desempate Disponibles</h6>
-                        </div>
-                        <div class="card-body">
-                            <div id="opciones-container"></div>
-                        </div>
-                    </div>
+            <div class="card mt-3">
+                <div class="card-header">
+                    <h5 class="card-title">Criterios de Desempate por Segmento</h5>
                 </div>
-                
-                <!-- TAB: Cambios Manuales -->
-                <div class="tab-pane fade" id="manual" role="tabpanel">
-                    <div class="card mt-3">
-                        <div class="card-header">
-                            <h5 class="card-title">Ordenamiento Manual de Postulantes</h5>
-                        </div>
-                        <div class="card-body">
-                            <div class="row mb-3">
-                                <div class="col-md-6">
-                                    <label for="segmento-select" class="form-label">Seleccionar Segmento:</label>
-                                    <select class="form-select" id="segmento-select">
-                                        <option value="">-- Seleccione un segmento --</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="pt-4">
-                                        <button class="btn btn-danger" id="resetear-btn" onclick="resetearOrdenamiento()">
-                                            Resetear Cambios Manuales
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div id="cambios-manuales-container" style="display:none;">
-                                <div class="alert alert-info">
-                                    <h6>Cambios Manuales Actuales:</h6>
-                                    <div id="cambios-lista"></div>
-                                </div>
-                                
-                                <hr>
-                                
-                                <div>
-                                    <h6>Agregar Nuevo Cambio Manual:</h6>
-                                    <form id="form-cambio-manual">
-                                        <div class="row">
-                                            <div class="col-md-4">
-                                                <label for="postulante-id-input" class="form-label">ID Postulante:</label>
-                                                <input type="text" class="form-control" id="postulante-id-input" required>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <label for="posicion-input" class="form-label">Posición (0 = primero):</label>
-                                                <input type="number" class="form-control" id="posicion-input" min="0" required>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <div class="pt-4">
-                                                    <button type="submit" class="btn btn-primary w-100">
-                                                        Agregar Cambio
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>Segmento</th>
+                                    <th>Criterio Actual</th>
+                                    <th>Cambiar a</th>
+                                </tr>
+                            </thead>
+                            <tbody id="criterios-tbody">
+                                <!-- Se cargará dinámicamente -->
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
@@ -145,7 +56,6 @@
     document.addEventListener('DOMContentLoaded', function() {
         cargarCriterios();
         cargarOpciones();
-        cargarSegmentosSelect();
     });
     
     // Cargar todos los criterios
@@ -184,11 +94,6 @@
                         <option value="fecha_inscripcion">Fecha Inscripción</option>
                     </select>
                 </td>
-                <td>
-                    <button class="btn btn-sm btn-info" onclick="verDetalles('${encodeURIComponent(segmento)}')">
-                        Ver Cambios Manuales
-                    </button>
-                </td>
             `;
             tbody.appendChild(row);
         }
@@ -223,35 +128,6 @@
         });
     }
     
-    // Cargar segmentos en el select
-    async function cargarSegmentosSelect() {
-        try {
-            const response = await fetch('/api/desempate/criterios');
-            const data = await response.json();
-            
-            if (data.success) {
-                const select = document.getElementById('segmento-select');
-                for (const segmento of Object.keys(data.criterios)) {
-                    const option = document.createElement('option');
-                    option.value = segmento;
-                    option.textContent = segmento;
-                    select.appendChild(option);
-                }
-                
-                // Agregar evento change
-                select.addEventListener('change', function() {
-                    if (this.value) {
-                        cargarCambiosManuales(this.value);
-                    } else {
-                        document.getElementById('cambios-manuales-container').style.display = 'none';
-                    }
-                });
-            }
-        } catch (error) {
-            console.error('Error al cargar segmentos:', error);
-        }
-    }
-    
     // Cambiar criterio de desempate
     async function cambiarCriterio(segmento, tipo) {
         if (!tipo) return;
@@ -277,152 +153,6 @@
             console.error('Error:', error);
             alert('Error al actualizar criterio');
         }
-    }
-    
-    // Cargar cambios manuales
-    async function cargarCambiosManuales(segmento) {
-        try {
-            const response = await fetch(`/api/desempate/criterio/${segmento}`);
-            const data = await response.json();
-            
-            if (data.success) {
-                mostrarCambiosManuales(data.criterio.cambios_manuales);
-                document.getElementById('cambios-manuales-container').style.display = 'block';
-            }
-        } catch (error) {
-            console.error('Error al cargar cambios manuales:', error);
-        }
-    }
-    
-    // Mostrar cambios manuales
-    function mostrarCambiosManuales(cambios) {
-        const lista = document.getElementById('cambios-lista');
-        
-        if (Object.keys(cambios).length === 0) {
-            lista.innerHTML = '<p class="text-muted">No hay cambios manuales configurados</p>';
-        } else {
-            lista.innerHTML = '<ul>';
-            for (const [postulante, posicion] of Object.entries(cambios)) {
-                lista.innerHTML += `
-                    <li>
-                        Postulante ${postulante} → Posición ${posicion}
-                        <button class="btn btn-sm btn-danger" onclick="removerCambioManual('${postulante}')">
-                            Remover
-                        </button>
-                    </li>
-                `;
-            }
-            lista.innerHTML += '</ul>';
-        }
-    }
-    
-    // Agregar cambio manual
-    document.getElementById('form-cambio-manual')?.addEventListener('submit', async function(e) {
-        e.preventDefault();
-        
-        const segmento = document.getElementById('segmento-select').value;
-        const postulanteId = document.getElementById('postulante-id-input').value;
-        const posicion = parseInt(document.getElementById('posicion-input').value);
-        
-        try {
-            const response = await fetch(`/api/desempate/cambio-manual/${segmento}`, {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({
-                    postulante_id: postulanteId,
-                    posicion: posicion
-                })
-            });
-            
-            const data = await response.json();
-            
-            if (data.success) {
-                alert('Cambio manual agregado exitosamente');
-                document.getElementById('form-cambio-manual').reset();
-                cargarCambiosManuales(segmento);
-            } else {
-                alert('Error: ' + data.error);
-            }
-        } catch (error) {
-            console.error('Error:', error);
-            alert('Error al agregar cambio manual');
-        }
-    });
-    
-    // Remover cambio manual
-    async function removerCambioManual(postulanteId) {
-        const segmento = document.getElementById('segmento-select').value;
-        
-        try {
-            const response = await fetch(`/api/desempate/cambio-manual/${segmento}/${postulanteId}`, {
-                method: 'DELETE'
-            });
-            
-            const data = await response.json();
-            
-            if (data.success) {
-                alert('Cambio manual removido');
-                cargarCambiosManuales(segmento);
-            } else {
-                alert('Error: ' + data.error);
-            }
-        } catch (error) {
-            console.error('Error:', error);
-            alert('Error al remover cambio manual');
-        }
-    }
-    
-    // Resetear ordenamiento
-    async function resetearOrdenamiento() {
-        const segmento = document.getElementById('segmento-select').value;
-        
-        if (!segmento) {
-            alert('Seleccione un segmento primero');
-            return;
-        }
-        
-        if (!confirm('¿Está seguro de que desea resetear todos los cambios manuales para este segmento?')) {
-            return;
-        }
-        
-        try {
-            const response = await fetch(`/api/desempate/resetear/${segmento}`, {
-                method: 'POST'
-            });
-            
-            const data = await response.json();
-            
-            if (data.success) {
-                alert('Cambios manuales reseteados');
-                cargarCambiosManuales(segmento);
-            } else {
-                alert('Error: ' + data.error);
-            }
-        } catch (error) {
-            console.error('Error:', error);
-            alert('Error al resetear');
-        }
-    }
-    
-    // Ver detalles
-    function verDetalles(segmento) {
-        // Decodificar el segmento por si viene codificado
-        try {
-            segmento = decodeURIComponent(segmento);
-        } catch (e) {
-            console.log("No fue necesario decodificar");
-        }
-        
-        const select = document.getElementById('segmento-select');
-        select.value = segmento;
-        
-        // Forzar el evento change para actualizar los cambios manuales
-        select.dispatchEvent(new Event('change'));
-        
-        // Cambiar a la tab de cambios manuales
-        document.getElementById('manual-tab').click();
     }
 </script>
 

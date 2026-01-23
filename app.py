@@ -165,58 +165,10 @@ def api_eliminar_periodo(nombre):
 
 # ==================== CARRERAS ====================
 
-@app.route('/carreras', methods=['GET', 'POST'])
+@app.route('/carreras', methods=['GET'])
 @verificar_autenticacion
 def configurar_carrera():
-    if request.method == 'POST':
-        try:
-            nombre = request.form.get('nombre')
-            sigla = request.form.get('sigla')
-            cupos = int(request.form.get('cupos', 0))
-            
-            if not nombre or not sigla or cupos <= 0:
-                return render_template('carreras/configurar_carrera.html', error='Todos los campos son requeridos')
-            
-            # Obtener período activo
-            periodo = periodo_service.obtener_periodo_activo()
-            if not periodo:
-                return render_template('carreras/configurar_carrera.html', error='Debes activar un período antes de registrar carreras')
-            
-            # Obtener ofertas actuales
-            try:
-                ofertas = oferta_service.leer_ofertas()
-            except:
-                ofertas = []
-            
-            # Crear nueva oferta con todos los parámetros requeridos
-            nueva_oferta = OfertaAcademica(
-                codigo_carrera=f"CARR-{len(ofertas)+1:03d}",
-                institucion="Instituto Estatal",
-                provincia="San José",
-                canton="San José",
-                nombre_carrera=nombre,
-                area="Educación",
-                nivel="Licenciatura",
-                modalidad="Presencial",
-                jornada="Diurna",
-                tipo_cupo="General",
-                total_cupos=cupos,
-                periodo=periodo.nombre
-            )
-            ofertas.append(nueva_oferta)
-            
-            oferta_service.guardar_ofertas(ofertas)
-            flash(f'Carrera {nombre} registrada exitosamente', 'success')
-            return redirect(url_for('configurar_carrera'))
-        except Exception as e:
-            return render_template('carreras/configurar_carrera.html', error=f'Error: {str(e)}')
-    
-    try:
-        ofertas = oferta_service.leer_ofertas()
-    except:
-        ofertas = []
-    
-    return render_template('carreras/configurar_carrera.html', ofertas=ofertas)
+    return render_template('carreras/configurar_carrera.html')
 
 @app.route('/carreras/cargar', methods=['GET', 'POST'])
 @verificar_autenticacion
