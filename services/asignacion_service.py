@@ -88,8 +88,7 @@ class AsignacionService:
                 "jornada": oferta.jornada if oferta else None,
                 "modalidad": oferta.modalidad if oferta else None,
                 "estado_asignacion": "ASIGNADO" if oferta else "NO ASIGNADO",
-                "razon_no_asignacion": None if oferta else "No había cupos disponibles en sus opciones de carrera",
-                "observaciones": estudiante.observaciones
+                "razon_no_asignacion": None if oferta else "No había cupos disponibles en sus opciones de carrera"
             })
 
         os.makedirs(ruta, exist_ok=True)

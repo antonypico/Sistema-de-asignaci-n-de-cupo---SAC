@@ -21,9 +21,6 @@ class ResultadoAsignacion:
             self.jornada = "-"
             self.modalidad = "-"
             self.razon_no_asignacion = self._determinar_razon_no_asignacion(estudiante)
-        
-        # Observaciones
-        self.observaciones = estudiante.observaciones
 
     def _determinar_razon_no_asignacion(self, estudiante):
         """Determina por qué no se asignó el estudiante"""

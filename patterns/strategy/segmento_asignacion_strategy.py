@@ -32,16 +32,12 @@ class SegmentoAsignacionStrategy:
             estudiantes: Lista de estudiantes ya ordenados por nota (descendente)
             
         Returns:
-            Tupla: (ganadores_desempate, perdedores_desempate)
-            - ganadores: estudiantes que ganaron el desempate (1 por grupo)
-            - perdedores: estudiantes que perdieron el desempate
+            Lista de estudiantes con desempate aplicado
         """
         if not self.desempate_service:
-            # Si no hay servicio de desempate, todos son "ganadores"
-            return estudiantes, []
+            return estudiantes
         
-        ganadores = []
-        perdedores = []
+        resultado = []
         
         # Agrupar por nota
         estudiantes_ordenados = sorted(estudiantes, key=lambda e: e.nota_postulacion, reverse=True)
@@ -55,20 +51,11 @@ class SegmentoAsignacionStrategy:
                     self.nombre_segmento,
                     grupo_list
                 )
-                
-                # El primero es el ganador, los demás pierden el desempate
-                ganador = grupo_desempatado[0]
-                ganador.observaciones = f"Se asignó el cupo al ganar el desempate en {self.nombre_segmento}"
-                ganadores.append(ganador)
-                
-                for idx, estudiante in enumerate(grupo_desempatado[1:], 1):
-                    estudiante.observaciones = f"No se asignó cupo porque perdió el desempate en {self.nombre_segmento}"
-                    estudiante.perdio_desempate = True  # Marca como perdedor del desempate
-                    perdedores.append(estudiante)
+                resultado.extend(grupo_desempatado)
             else:
-                ganadores.extend(grupo_list)
+                resultado.extend(grupo_list)
         
-        return ganadores, perdedores
+        return resultado
     
     def establecer_desempate_service(self, desempate_service):
         """Inyecta el servicio de desempate"""
