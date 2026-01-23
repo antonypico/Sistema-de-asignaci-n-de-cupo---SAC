@@ -44,8 +44,6 @@ class Estudiante:
 
         # RESULTADO DE ASIGNACIÓN
         self.oferta_asignada = None
-        self.observaciones = None  # Para guardar observaciones (ej: perdió desempate)
-        self.perdio_desempate = False  # Marca si el estudiante perdió un desempate
 
     # -------------------------
     # ESTADO DE ASIGNACIÓN

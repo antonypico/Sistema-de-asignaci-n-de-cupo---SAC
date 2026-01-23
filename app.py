@@ -16,6 +16,7 @@ from services.postulante_service import PostulanteService
 from services.asignacion_service import AsignacionService
 from services.estadisticas_service import EstadisticasService
 from services.exportar_resultados_service import ExportarResultadosService
+from services.exportar_pdf_service import ExportarPDFService
 from services.desempate_service import DesempateService
 from domain.oferta_academica import OfertaAcademica
 from api.desempate_api import desempate_bp, init_desempate_service
@@ -456,6 +457,16 @@ def exportar_resultados():
                     mimetype='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
                     as_attachment=True,
                     download_name='resultados_asignacion.xlsx'
+                )
+            
+            elif formato == 'pdf':
+                # Crear PDF
+                output = ExportarPDFService.exportar_pdf(resultados)
+                return send_file(
+                    output,
+                    mimetype='application/pdf',
+                    as_attachment=True,
+                    download_name='resultados_asignacion.pdf'
                 )
             
             else:
